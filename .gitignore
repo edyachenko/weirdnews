@@ -1,0 +1,22 @@
+# vendored tool (recreated by scripts/setup.sh)
+MoneyPrinterTurbo/
+
+# renders, intermediates, caches
+out/
+work*/
+**/clips/
+**/raw/
+**/subs/
+**/incoming_from_assembler/
+brand/rendered/
+
+# secrets
+.env
+
+# superseded experiments / intermediate renders, kept locally only (not docs/archive/)
+/archive/
+
+.DS_Store
+__pycache__/
+*.pyc
+.playwright-mcp/
