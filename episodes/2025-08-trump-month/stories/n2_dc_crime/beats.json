@@ -1,0 +1,72 @@
+{
+  "id": "n2_dc_crime",
+  "number": 2,
+  "headline": "Trump sends troops over fake crime wave",
+  "sources": [
+    {"outlet": "PolitiFact", "url": "https://www.politifact.com/article/2025/aug/11/trump-washington-dc-crime-rate-homicide/"},
+    {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/news/2025/8/12/fact-checking-trumps-claim-that-crime-in-washington-is-out-of-control"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2025/aug/27/donald-trump/dc-homicide-week-national-guard-crime/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "DC's own police had crime at a thirty-year low. Trump saw a war zone anyway.",
+      "visuals": ["n2_visual_patrol", "n2_sot_lawlessness"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_lawlessness",
+      "caption": "It's becoming a situation of complete and total lawlessness.",
+      "label": "via NBC News"
+    },
+    {
+      "type": "narr",
+      "text": "Bold claim for a thirty-year low. He topped it anyway.",
+      "visuals": ["n2_visual_patrol"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_squalor",
+      "caption": "...rescue our nation's capital from crime, bloodshed, bedlam, and squalor.",
+      "label": "via AP Archive"
+    },
+    {
+      "type": "narr",
+      "text": "Bloodshed, bedlam, and squalor. Not a crime stat, a horror movie trailer.",
+      "visuals": ["n2_sot_liberation", "n2_visual_patrol"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_liberation",
+      "caption": "This is Liberation Day in DC, and we're going to take our capital back.",
+      "label": "via NBC News"
+    },
+    {
+      "type": "narr",
+      "text": "Liberation Day, same branding as his tariffs. Even his prosecutor couldn't sell it straight-faced.",
+      "visuals": ["n2_sot_gonedown", "n2_sot_autonomy"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_gonedown",
+      "caption": "...this Nambi Bambi response that oh, crime is down. No, it isn't down.",
+      "label": "via NBC News"
+    },
+    {
+      "type": "narr",
+      "text": "Nambi Bambi. A federal prosecutor, on camera, about crime data. The mayor kept it simpler.",
+      "visuals": ["n2_visual_patrol", "n2_sot_autonomy"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_autonomy",
+      "caption": "I don't want to minimize the intrusion on our autonomy.",
+      "label": "via NBC News"
+    },
+    {
+      "type": "narr",
+      "text": "Eight hundred troops, for a crime wave that mostly lived in a podium.",
+      "visuals": ["n2_visual_patrol"]
+    }
+  ]
+}

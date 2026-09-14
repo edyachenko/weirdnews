@@ -1,0 +1,61 @@
+{
+  "id": "n5_smithsonian",
+  "number": 5,
+  "headline": "Trump Wants More 'Brightness'",
+  "sources": [
+    {"outlet": "ABC News", "url": "https://abcnews.com/Politics/trump-smithsonian-portray-americas-brightness-bad-slavery/story?id=124788598"},
+    {"outlet": "CNN", "url": "https://www.cnn.com/2025/08/19/politics/trump-slavery-museum-smithsonian"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2025/aug/20/donald-trump/smithsonian-museums-success-brightness-slavery/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Trump wants the Smithsonian to talk less about slavery and more about, quote, 'Brightness.'",
+      "visuals": ["n5_vis_gma_open", "n5_vis_institution"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_brightness",
+      "caption": "America's brightness and not, quote, how bad slavery was.",
+      "label": "via WHAS11"
+    },
+    {
+      "type": "narr",
+      "text": "That's barely half of it. He says the whole place is basically out of control.",
+      "visuals": ["n5_vis_museum_interior", "n5_sot_brightness"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_ooc",
+      "caption": "targeted the Smithsonian museums, saying they are, quote, out of control",
+      "label": "via Good Morning America"
+    },
+    {
+      "type": "narr",
+      "text": "Historians were not exactly clapping. One MSNBC analyst did not hold back.",
+      "visuals": ["n5_vis_institution", "n5_vis_gma_open"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_obscene",
+      "caption": "And frankly, it would be obscene. It would be an obscenity.",
+      "label": "via MSNBC"
+    },
+    {
+      "type": "narr",
+      "text": "Funny thing: back in twenty seventeen, Trump toured that very African American history museum himself.",
+      "visuals": ["n5_vis_gma_open", "n5_vis_museum_interior"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_love",
+      "caption": "He called it a quote truly great museum done with love.",
+      "label": "via Good Morning America"
+    },
+    {
+      "type": "narr",
+      "text": "PolitiFact checked his 'nothing about Success' line and rated it Pants Fire. So brightness, apparently, starts with him.",
+      "visuals": ["n5_vis_institution", "n5_sot_ooc"]
+    }
+  ]
+}

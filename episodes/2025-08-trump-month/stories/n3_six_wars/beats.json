@@ -1,0 +1,20 @@
+{
+  "id": "n3_six_wars",
+  "number": 3,
+  "headline": "Trump Claims He 'Solved Six Wars'",
+  "sources": [
+    {"outlet": "Axios", "url": "https://www.axios.com/2025/08/19/trump-ended-wars-stop-ukraine-israel-iran"},
+    {"outlet": "Deccan Herald", "url": "https://www.deccanherald.com/world/trump-repeats-claim-he-settled-wars-including-between-india-and-pakistan-with-trade-3663755"}
+  ],
+  "beats": [
+    {"type": "narr", "text": "Sitting next to Zelenskyy and half of Europe, Trump dropped his favorite stat: six wars, solved, personally, by him.", "visuals": ["n3_visual_1"]},
+    {"type": "sot", "clip": "n3_sot_1", "caption": "You know, I've done six wars. I've ended six wars.", "label": "via ANI News"},
+    {"type": "narr", "text": "Six wars in six months. No peace prize yet, but he's applied.", "visuals": ["n3_sot_1"]},
+    {"type": "sot", "clip": "n3_sot_2", "caption": "Look, India, Pakistan, we're talking about big places.", "label": "via ANI News"},
+    {"type": "narr", "text": "One catch: India says he didn't broker anything -- credit goes to its own military, not him.", "visuals": ["n3_sot_4"]},
+    {"type": "sot", "clip": "n3_sot_3", "caption": "President Trump claimed once again that he has ended six wars since taking office.", "label": "via WION"},
+    {"type": "narr", "text": "Claim number nine, and fact-checkers who reviewed his own list found some of those wars weren't even raging when he says he ended them.", "visuals": ["n3_visual_1"]},
+    {"type": "sot", "clip": "n3_sot_4", "caption": "India has repeatedly rejected the idea that Trump negotiated the ceasefire.", "label": "via WION"},
+    {"type": "narr", "text": "Six wars claimed. Zero independently confirmed.", "visuals": ["n3_visual_1"]}
+  ]
+}

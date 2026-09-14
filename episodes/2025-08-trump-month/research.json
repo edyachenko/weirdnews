@@ -1,0 +1,259 @@
+{
+  "window": "2025-08-01 to 2025-08-31",
+  "candidates": [
+    {
+      "id": "alaska_summit",
+      "date": "2025-08-11/15",
+      "what_happened": "Trump twice told reporters ahead of time he was flying to meet Putin 'in Russia'; then rolled out a literal red carpet, clapped, and shook hands as Putin landed in Alaska for a summit that produced no Ukraine deal.",
+      "quotes": [
+        {"text": "going to Russia", "speaker": "Donald Trump (pre-summit gaggle)"},
+        {"text": "For years they have been talking about the isolation of Russia, and today they saw the red carpet that greeted the Russian president.", "speaker": "Maria Zakharova, Russian foreign ministry spokeswoman"}
+      ],
+      "sources": [
+        "https://www.washingtonpost.com/politics/2025/08/15/trump-putin-summit-sober-mood/",
+        "https://www.cnn.com/politics/live-news/trump-putin-meeting-news-08-15-25"
+      ],
+      "video_candidates": [
+        "ABH2d5kOdwA|Forbes Breaking News|VIRAL GAFFE: Trump Mistakenly Says He's Going To Russia, When Meeting With Putin Is In Alaska",
+        "WcghV74xmas|NBC News|Trump and Putin arrive in Alaska, shake hands on tarmac",
+        "6UwIRPl-vqM|MS NOW|Trump and Putin meet on red carpet ahead of summit in Alaska"
+      ],
+      "picked": true,
+      "reason": "Strongest visual + verbal absurdity combo of the month: an on-camera geography gaffe followed by an actual red-carpet hero's welcome for Putin. Real-outlet video confirmed for both halves."
+    },
+    {
+      "id": "dc_crime",
+      "date": "2025-08-11/27",
+      "what_happened": "Trump declared DC 'complete and total lawlessness,' federalized MPD and sent ~800 National Guard troops, while repeatedly citing false crime statistics (a fabricated 'No. 1 in the world' homicide rate and a 'murder a week' claim).",
+      "quotes": [
+        {"text": "No. 1 that we can find anywhere in the world.", "speaker": "Donald Trump, on DC's homicide rate"},
+        {"text": "We always have a murder a week.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.politifact.com/article/2025/aug/11/trump-washington-dc-crime-rate-homicide/",
+        "https://www.aljazeera.com/news/2025/8/12/fact-checking-trumps-claim-that-crime-in-washington-is-out-of-control",
+        "https://politifact.com/factchecks/2025/aug/27/donald-trump/dc-homicide-week-national-guard-crime/",
+        "https://politifact.com/factchecks/2025/aug/12/donald-trump/washington-dc-homicide-rate-international/"
+      ],
+      "video_candidates": [
+        "585IJcaKMTM|AP Archive|FACT FOCUS: Trump exaggerates, misstates facts on Washington crime",
+        "uGzBrzs8nbc|CNN|CNN fact-checks Trump's claims about crime in DC",
+        "qPBu5p2_sU4|CBS News|Police data shows crime declining in Washington, D.C., contradicting Trump's claims"
+      ],
+      "picked": true,
+      "reason": "The month's flagship overreach story: real troops deployed on the strength of two separately fact-checked false statistics. Multiple real-outlet fact-check videos of the actual claims exist."
+    },
+    {
+      "id": "six_wars",
+      "date": "2025-08-18",
+      "what_happened": "During the Oval Office meeting with Zelenskyy and European leaders, Trump again claimed to have 'solved six wars in six months,' including taking credit for the India-Pakistan ceasefire, which India's government disputes.",
+      "quotes": [
+        {"text": "I've solved six wars in six months.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.axios.com/2025/08/19/trump-ended-wars-stop-ukraine-israel-iran",
+        "https://www.deccanherald.com/world/trump-repeats-claim-he-settled-wars-including-between-india-and-pakistan-with-trade-3663755"
+      ],
+      "video_candidates": [
+        "E-VxBskRUfY|ANI News|'Stopped 6 wars...' It's never enough for Trump; Claims credit for India-Pakistan truce for nth time",
+        "lynrPl33kiQ|WION|Which 6 Wars Did Trump Claim To Have 'Ended' In The Last Six Months?"
+      ],
+      "picked": true,
+      "reason": "A recurring, escalating false claim with a specific, checkable list, caught on camera at a major Oval Office event; strong 'fan fiction' comedic framing available."
+    },
+    {
+      "id": "lisa_cook",
+      "date": "2025-08-20/25",
+      "what_happened": "Trump tried to fire Fed Governor Lisa Cook 'for cause' over an unproven mortgage-fraud accusation with no charges filed; Cook refused, calling it an illegal power grab against a governor who serves a 14-year term.",
+      "quotes": [
+        {"text": "Cook must resign, now!!!", "speaker": "Donald Trump (social media post)"},
+        {"text": "Federal Reserve official Lisa Cook says she won't be 'bullied' by Trump into resigning.", "speaker": "AP Archive headline"}
+      ],
+      "sources": [
+        "https://www.npr.org/2025/08/25/nx-s1-5517335/trump-federal-reserve-governor-lisa-cook",
+        "https://www.cnn.com/2025/08/25/business/trump-fire-fed-governor",
+        "https://politifact.com/article/2025/aug/26/lisa-cook-donald-trump-fire-federal-reserve-legal/"
+      ],
+      "video_candidates": [
+        "JvizXxgtyjs|AP Archive|Federal Reserve official Lisa Cook says she won't be 'bullied' by Trump into resigning",
+        "AY3Gc19gNhs|The National Desk|Trump has 'no authority' to fire me, says Fed Governor Cook; but is that true?",
+        "QM15UgoHZFw|Yahoo Finance|Trump calls on Fed governor Lisa Cook to resign over alleged mortgage fraud"
+      ],
+      "picked": true,
+      "reason": "Genuinely bizarre power grab -- an all-caps demand to resign over an unfiled accusation -- with clean real-outlet video of both the threat and Cook's on-camera refusal."
+    },
+    {
+      "id": "smithsonian",
+      "date": "2025-08-19",
+      "what_happened": "Trump posted that the Smithsonian was 'OUT OF CONTROL' for focusing on 'how bad Slavery was' instead of 'Brightness,' triggering a White House-linked review of museum content.",
+      "quotes": [
+        {"text": "nothing about Success, nothing about Brightness, nothing about the Future", "speaker": "Donald Trump (Truth Social post)"}
+      ],
+      "sources": [
+        "https://abcnews.com/Politics/trump-smithsonian-portray-americas-brightness-bad-slavery/story?id=124788598",
+        "https://www.cnn.com/2025/08/19/politics/trump-slavery-museum-smithsonian",
+        "https://politifact.com/factchecks/2025/aug/20/donald-trump/smithsonian-museums-success-brightness-slavery/"
+      ],
+      "video_candidates": [
+        "2Kz97OLxMaA|Good Morning America|Trump: Smithsonian too focused on 'how bad slavery was'",
+        "88pF54pIR6E|MS NOW|'He's trying to rewrite history': Trump claims Smithsonian focuses too much on 'how bad slavery was'"
+      ],
+      "picked": true,
+      "reason": "PolitiFact's own #1-ranked pearl for the month; the word 'Brightness' as a rebuke of a slavery exhibit is a self-contained absurd quote with wide real-outlet pickup."
+    },
+    {
+      "id": "bls_rigged",
+      "date": "2025-08-01/05",
+      "what_happened": "After a weak July jobs report with large downward revisions, Trump fired BLS Commissioner Erika McEntarfer -- the first such firing in the bureau's history -- and claimed the data was 'RIGGED,' later inflating the revision figure.",
+      "quotes": [
+        {"text": "RIGGED", "speaker": "Donald Trump (social media post on the jobs report)"},
+        {"text": "down by almost 900,000 jobs", "speaker": "Donald Trump, on the BLS revision"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2025/aug/05/donald-trump/bls-firing-jobs-revision-election/",
+        "https://www.youtube.com/watch?v=y_pYLzj9WOU"
+      ],
+      "video_candidates": [
+        "y_pYLzj9WOU|CBS News|Trump calls jobs report 'rigged' after firing labor statistics chief",
+        "yN_v-y441Pg|Forbes Breaking News|BREAKING NEWS: Ex-Trump BLS Commissioner Says 'There's No Way' For Jobs Report To Be 'Rigged'",
+        "h0k0Ki6ZS_c|MS NOW|Trump claims jobs report was 'RIGGED' but gives no supporting facts"
+      ],
+      "picked": true,
+      "reason": "A pants-fire PolitiFact pearl with a clean cause-and-effect: bad numbers, an unprecedented firing, an inflated conspiracy claim, and a Trump-appointed predecessor rebutting it on camera."
+    },
+    {
+      "id": "mail_in_voting",
+      "date": "2025-08-18",
+      "what_happened": "Trump pushed an executive order to end mail-in voting, claiming the US is 'the only country in the world' that uses it -- false, since many democracies use mail ballots.",
+      "quotes": [
+        {"text": "We are now the only country in the world that uses mail-in voting.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2025/aug/18/donald-trump/mail-voting-elections-trump-russia-ukraine/",
+        "https://www.youtube.com/watch?v=gd6x6-634F4"
+      ],
+      "video_candidates": [
+        "gd6x6-634F4|NBC News|Trump says he'll sign an executive order to get rid of mail-in voting",
+        "ybCiJwYFpUo|KHOU 11|President Trump says he'll sign executive order on voter ID, vows to end mail-in voting"
+      ],
+      "picked": false,
+      "reason": "Solid False-rated pearl but a dry policy claim with less visual/comedic punch than the six picks; cut to keep the episode's topics from clustering on 'false statistic' stories (already covered by dc_crime, bls_rigged, six_wars, smithsonian)."
+    },
+    {
+      "id": "aberbaijan_gaffe",
+      "date": "2025-08",
+      "what_happened": "During an interview on the Mark Levin Show, Trump used the made-up word 'Aberbaijan' when discussing Azerbaijan.",
+      "quotes": [
+        {"text": "Aberbaijan", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.wionews.com/world/yearender-2025-trump-and-his-tangled-tongue-a-year-of-verbal-slip-ups-and-the-list-that-keeps-growing-1767084641531"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "No usable video: yt-dlp search returned no upload of the actual radio moment, and Mark Levin's show is audio-first. Cut for failing the video-of-the-moment requirement, and only one usable source found."
+    },
+    {
+      "id": "brazil_tariffs",
+      "date": "2025-08-01",
+      "what_happened": "Trump's 50% tariff on Brazilian imports (imposed to pressure Brazil over the Bolsonaro prosecution) took effect August 1, hitting coffee and beef.",
+      "quotes": [
+        {"text": "unacceptable blackmail", "speaker": "Luiz Inacio Lula da Silva, on the tariff threat"}
+      ],
+      "sources": [
+        "https://www.nbcnews.com/politics/trump-administration/trump-brazilian-products-tariffs-bolsonaro-rcna222534",
+        "https://www.cnn.com/2025/07/09/economy/tariff-letters-trump"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "The viral announcement and quotable moments happened July 9-18; only the effective date fell in August, with no distinct new on-camera moment in-window. Cut for weak August-specific footage."
+    },
+    {
+      "id": "obama_ai_video",
+      "date": "2025-07-20",
+      "what_happened": "Trump posted an AI-generated video on Truth Social showing Obama arrested in the Oval Office by FBI agents.",
+      "quotes": [
+        {"text": "No one, no matter who they are, is above the law.", "speaker": "White House statement on the video"}
+      ],
+      "sources": [
+        "https://www.snopes.com/fact-check/trump-ai-video-obama/",
+        "https://thehill.com/homenews/administration/5411827-trump-ai-generated-video-obama/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "Confirmed posted July 20, 2025 -- outside the August 1-31 window."
+    },
+    {
+      "id": "rosie_odonnell",
+      "date": "2025-07-12",
+      "what_happened": "Trump threatened to revoke Rosie O'Donnell's US citizenship, which legal scholars note a president cannot do to someone born in the US.",
+      "quotes": [
+        {"text": "Because of the fact that Rosie O'Donnell is not in the best interests of our Great Country, I am giving serious consideration to taking away her Citizenship.", "speaker": "Donald Trump (Truth Social post)"}
+      ],
+      "sources": [
+        "https://www.cnn.com/2025/07/12/politics/rosie-odonnell-donald-trump",
+        "https://deadline.com/2025/07/trump-rosiedonnell-citizenship-1236455899/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "Threat posted July 12, 2025 -- outside the August window; O'Donnell's on-camera response also dates to September."
+    },
+    {
+      "id": "coca_cola_sugar",
+      "date": "2025-07-16",
+      "what_happened": "Trump claimed he personally convinced Coca-Cola to switch to cane sugar in US Coke.",
+      "quotes": [
+        {"text": "It's just better!", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.aljazeera.com/economy/2025/7/17/its-just-better-trump-says-hes-convinced-coca-cola-to-use-cane-sugar",
+        "https://www.npr.org/2025/07/22/nx-s1-5476161/coca-cola-cane-sugar-coke-trump-recipe"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "Announced July 16-17, 2025 -- outside the August window."
+    },
+    {
+      "id": "windmills_whales",
+      "date": "2025-07",
+      "what_happened": "Trump ranted that offshore windmills are 'driving the whales crazy,' a claim with no supporting evidence from NOAA.",
+      "quotes": [
+        {"text": "It's driving them loco, it's driving them crazy.", "speaker": "Donald Trump, on whales near windmills"}
+      ],
+      "sources": [
+        "https://www.thedailybeast.com/bizarre-moment-donald-trump-declares-windmills-are-killing-us/",
+        "https://www.boston.com/news/local-news/2025/01/12/are-wind-farms-are-driving-the-whales-crazy/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "Dated late July 2025 by the reporting found -- outside the August window."
+    },
+    {
+      "id": "fall_rumor",
+      "date": "2025-08",
+      "what_happened": "A viral rumor claimed a photographer caught Trump falling; fact-checkers found no such event and traced it to an AI-fabricated image.",
+      "quotes": [],
+      "sources": [
+        "https://www.yahoo.com/news/articles/fact-check-no-trump-didnt-224700297.html"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "The underlying event never happened -- it's a debunked AI fake, so no real footage of a real moment exists. Cut: fails the format's real-footage requirement outright."
+    },
+    {
+      "id": "hand_bruise_health",
+      "date": "2025-08",
+      "what_happened": "Recurring speculation about a bruise on Trump's hand and his health/cognitive status, which the White House attributed to handshaking and aspirin use.",
+      "quotes": [
+        {"text": "I've taken now three cognitive tests. I've aced every single one of them.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.nbcnews.com/politics/donald-trump/trump-rebuffs-health-speculation-golf-hand-bruise-biden-clinton-rcna228542",
+        "https://www.nbcnews.com/politics/donald-trump/white-house-says-large-bruise-trumps-hand-shaking-hands-day-every-day-rcna193652"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "The clearest reporting clusters in July (bruise first widely noted) and September 2 (Labor Day rumor response); no single well-dated August on-camera moment stands out, so it risks mis-dated footage. Weaker standalone story than the six picked."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "n4_lisa_cook",
+  "number": 4,
+  "headline": "Trump tries to fire a Fed governor",
+  "sources": [
+    {"outlet": "NPR", "url": "https://www.npr.org/2025/08/25/nx-s1-5517335/trump-federal-reserve-governor-lisa-cook"},
+    {"outlet": "CNN", "url": "https://www.cnn.com/2025/08/25/business/trump-fire-fed-governor"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/article/2025/aug/26/lisa-cook-donald-trump-fire-federal-reserve-legal/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "On August twentieth, Trump's handpicked housing regulator accused Fed Governor Lisa Cook of mortgage fraud. No charges. No indictment. Just a post.",
+      "visuals": ["n4_vis_fed_shakeup", "n4_vis_cook_speaking", "n4_vis_cook_powell"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_reporter_q",
+      "caption": "You going to fire Lisa Cook, the Fed governor, over her mortgage? / I don't know if she doesn't resign.",
+      "label": "via CNBC"
+    },
+    {
+      "type": "narr",
+      "text": "Three days later he sent her a termination letter anyway. Problem: Fed governors serve fourteen-year terms and can't be fired by a Truth Social post.",
+      "visuals": ["n4_vis_cook_powell", "n4_vis_fed_shakeup", "n4_vis_cook_speaking"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_trump_fire",
+      "caption": "So, I'll fire her if she doesn't resign.",
+      "label": "via CNBC"
+    },
+    {
+      "type": "narr",
+      "text": "Cook wasn't having it — she hired a lawyer to fight the letter instead.",
+      "visuals": ["n4_vis_cook_speaking", "n4_vis_cook_powell"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_cook_not_resign",
+      "caption": "I will not resign. I will continue to carry out my duties.",
+      "label": "via NewsNation"
+    },
+    {
+      "type": "narr",
+      "text": "Under the Federal Reserve Act, a governor can only be fired for actual cause — proven, not just declared in a letter.",
+      "visuals": ["n4_vis_fed_shakeup", "n4_vis_cook_powell", "n4_vis_cook_speaking"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_cook_authority",
+      "caption": "The president doesn't have the authority to sack her.",
+      "label": "via FRANCE 24"
+    },
+    {
+      "type": "narr",
+      "text": "Cook sued. The fight over who runs the Fed outlasted the entire month.",
+      "visuals": ["n4_vis_cook_speaking", "n4_vis_fed_shakeup"]
+    }
+  ]
+}

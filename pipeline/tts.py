@@ -87,7 +87,17 @@ def main():
     ap.add_argument("--no-loudnorm", action="store_true")
     args = ap.parse_args()
 
-    words = asyncio.run(synth(args.text, args.voice, args.out, rate=args.rate, pitch=args.pitch))
+    # edge-tts intermittently returns NoAudioReceived under parallel load; retry with backoff
+    import time
+    for attempt in range(4):
+        try:
+            words = asyncio.run(synth(args.text, args.voice, args.out, rate=args.rate, pitch=args.pitch))
+            break
+        except Exception as e:  # noqa: BLE001
+            if attempt == 3:
+                raise
+            print(f"edge-tts attempt {attempt + 1} failed ({type(e).__name__}); retrying", file=sys.stderr)
+            time.sleep(3 * (attempt + 1))
     if not words:
         raise SystemExit(f"edge-tts returned no word boundaries for text: {args.text!r}")
 

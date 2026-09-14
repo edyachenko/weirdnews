@@ -64,5 +64,22 @@ uv run --project ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo python pipeline/
 - **Pexels/urllib needs an explicit User-Agent** (Cloudflare 403). Keys live in `.env` (see `.env.example`), never print them.
 - **Frozen frames** come from narr beats with too little footage. `verify.py` fails any freeze >1 s outside SOTs.
 - Concatenating independently encoded shots with `-c copy` creates stalled frames. Re-encode at concat.
-- The final concat file is huge (~700 MB). Upload the `*_youtube.mp4` re-encode (crf 20, faststart) instead.
-- Disk is tight on the Mac (~35 GB free). Delete full-length downloads and old `work*/` dirs.
+- The final concat file used to be huge (~700 MB) from a per-shot noise dither added to defeat freezedetect;
+  that dither is removed and `verify.py`'s freeze threshold tightened instead — a passing render is now ~100–150 MB.
+  If it balloons again, check for a reintroduced dither before touching concat settings.
+- Disk is tight (SSD sits at ~14 GB free most of the time). Delete `work/<slug>/` after a render passes verify;
+  each episode's `stories/*/clips/` (git-ignored, reproducible from `clips.json`) can also be deleted once the episode ships.
+- **`edge-tts` intermittently raises `NoAudioReceived` under parallel load.** `tts.py` retries 4x with backoff; if
+  a render still fails on TTS, just rerun `run_all.py --resume` — it skips beats already rendered.
+- **A story-footage agent may refuse to download**, reading even an explicit human instruction relayed through a
+  planner or a `.claude/agents/*.md` file as not-real user consent, and demand the user say so directly in chat.
+  This is a permission-boundary rule the agent won't waive for itself — coach it in a fresh subagent turn instead of
+  retrying the same one, or the user/orchestrator does that one story's footage by hand (see episode 2's n1 story).
+- **Blocking `until pgrep -f "run_all.py" ...; do sleep 20; done` loops can self-match.** If the loop's own command
+  line contains the literal string being grepped for, `pgrep -f` matches the loop itself and it never exits. Prefer
+  waiting on a PID (`while kill -0 $PID 2>/dev/null; do sleep 20; done`) or a marker file over grepping for a
+  process-name substring that appears in your own command.
+- **Episode status:** `2026-09-trump-month` and `2025-08-trump-month` are both rendered, verified, and delivered
+  to the user (see `docs/retrospective-2026-09-14.md` for the full story). No episode is in progress right now —
+  the next step is picking month 3 from `research/trump_months_ranking.md` (or a Gemini-grounded month digest)
+  and running the `new-episode` skill.

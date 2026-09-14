@@ -1,0 +1,176 @@
+{
+ "slug": "2025-08-trump-month",
+ "title": "Trump's Month: August 2025",
+ "period": "2025-08-01..2025-08-31",
+ "voice": {
+  "voice": "en-US-BrianMultilingualNeural",
+  "rate": "-8%",
+  "pitch": "-2Hz"
+ },
+ "stories": [
+  {
+   "id": "n6_bls_rigged",
+   "number": 6,
+   "brief": "Trump fires the BLS chief over a weak jobs report and calls the data 'RIGGED.'",
+   "date": "2025-08-01",
+   "facts": "On August 1, 2025, hours after the Bureau of Labor Statistics released a weak July jobs report with steep downward revisions to May and June, Trump fired BLS Commissioner Erika McEntarfer and posted that the numbers were RIGGED to make him look bad -- the first firing of a sitting BLS commissioner in the bureau's history. He escalated the claim on August 5, saying the agency had revised employment down by almost nine hundred thousand jobs specifically after the 2024 election; PolitiFact rated that claim Pants Fire, noting the annual revision process is routine and nonpartisan. A former Trump-appointed BLS commissioner told Forbes Breaking News on camera there was no way for the data to have been rigged. The firing drew criticism from economists across the political spectrum for politicizing a historically independent statistical agency.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2025/aug/05/donald-trump/bls-firing-jobs-revision-election/"
+    },
+    {
+     "outlet": "CBS News (YouTube)",
+     "url": "https://www.youtube.com/watch?v=y_pYLzj9WOU"
+    },
+    {
+     "outlet": "Forbes Breaking News (YouTube)",
+     "url": "https://www.youtube.com/watch?v=yN_v-y441Pg"
+    }
+   ],
+   "footage_ideas": "Search CBS News, The Hill, EWTN News Nightly and Forbes Breaking News uploads dated Aug 1-5, 2025 for Trump's Oval Office or press-gaggle remarks announcing the firing and calling the data rigged; grep subs for 'rigged', 'almost 900,000', 'fire'. Visuals: Trump at the Resolute Desk or a press gaggle, a jobs-report/BLS graphic, a chyron with McEntarfer's name, and the Forbes Breaking News clip of the former BLS commissioner rebutting the rigging claim on camera."
+  },
+  {
+   "id": "n5_smithsonian",
+   "number": 5,
+   "brief": "Trump says the Smithsonian needs more 'Brightness' and less slavery history.",
+   "date": "2025-08-19",
+   "facts": "On August 19, 2025, Trump wrote on Truth Social that the Smithsonian Institution was OUT OF CONTROL, with exhibits covering how horrible our Country is, how bad Slavery was, and nothing about Success, nothing about Brightness, nothing about the Future. PolitiFact rated the content claim Pants Fire, and the National Museum of African American History and Culture pointed to its own description of its Slavery and Freedom gallery, which frames Black Americans as having constantly created new visions of freedom that benefited all Americans. The post followed a White House-linked review of Smithsonian museums tied to next year's 250th-anniversary planning. CNN and MS NOW both covered the fallout, with commentator Eugene Robinson calling any museum alignment with Trump's framing obscene.",
+   "sources": [
+    {
+     "outlet": "ABC News",
+     "url": "https://abcnews.com/Politics/trump-smithsonian-portray-americas-brightness-bad-slavery/story?id=124788598"
+    },
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2025/08/19/politics/trump-slavery-museum-smithsonian"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2025/aug/20/donald-trump/smithsonian-museums-success-brightness-slavery/"
+    }
+   ],
+   "footage_ideas": "Search Good Morning America and MS NOW uploads from Aug 19-20, 2025; since the core quote is a Truth Social post, use anchors reading/discussing it plus any press-gaggle follow-up from Trump. Grep subs for 'brightness', 'how bad slavery was', 'nothing about success'. Visuals: Smithsonian / National Museum of African American History and Culture exterior, a chyron quoting the post, anchor reaction shots."
+  },
+  {
+   "id": "n4_lisa_cook",
+   "number": 4,
+   "brief": "Trump tries to fire a Fed governor over an unproven mortgage-fraud accusation.",
+   "date": "2025-08-20/25",
+   "facts": "On August 20, 2025, the Federal Housing Finance Agency director accused Fed Governor Lisa Cook of mortgage fraud, and Trump immediately posted Cook must resign, now!!! on social media without any charges having been filed. Three days later, on August 23, he sent Cook a letter purporting to fire her for cause, even though Fed governors serve fourteen-year terms and can only be removed for cause established through actual proceedings, not a president's letter. Cook refused, telling reporters Trump had no authority to fire her and that she would not be bullied into resigning. The standoff opened a legal fight over the Federal Reserve's independence that outlasted the month.",
+   "sources": [
+    {
+     "outlet": "NPR",
+     "url": "https://www.npr.org/2025/08/25/nx-s1-5517335/trump-federal-reserve-governor-lisa-cook"
+    },
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2025/08/25/business/trump-fire-fed-governor"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/article/2025/aug/26/lisa-cook-donald-trump-fire-federal-reserve-legal/"
+    }
+   ],
+   "footage_ideas": "Search AP Archive, The National Desk and Yahoo Finance uploads from Aug 20-26, 2025; grep subs for 'must resign', 'fire her', 'mortgage fraud', 'bullied', 'no authority'. Visuals: Federal Reserve building exterior, Cook's on-camera 'won't be bullied' statement (AP Archive), a graphic of the Truth Social post, White House press-gaggle reaction shots."
+  },
+  {
+   "id": "n3_six_wars",
+   "number": 3,
+   "facts": "During the August 18, 2025 Oval Office meeting with Ukrainian President Volodymyr Zelenskyy and European leaders, Trump again claimed I've solved six wars in six months. ANI News captured him repeating credit for ending the India-Pakistan conflict through trade leverage, a claim India's government has publicly disputed. Fact-checkers who reviewed the White House's own list of seven claimed conflicts found several that were not actively raging when Trump says he ended them, plus disputes such as Serbia-Kosovo and Egypt-Ethiopia where the countries involved say his role was minimal or nonexistent. One outlet summarized the running tally as Trump writing fan fiction about wars he solved.",
+   "date": "2025-08-18",
+   "sources": [
+    {
+     "outlet": "Axios",
+     "url": "https://www.axios.com/2025/08/19/trump-ended-wars-stop-ukraine-israel-iran"
+    },
+    {
+     "outlet": "Deccan Herald",
+     "url": "https://www.deccanherald.com/world/trump-repeats-claim-he-settled-wars-including-between-india-and-pakistan-with-trade-3663755"
+    }
+   ],
+   "footage_ideas": "Search ANI News, WION and AP Archive uploads of the Aug 18, 2025 Oval Office meeting with Zelenskyy and European leaders; grep subs for 'six wars', 'solved', 'six months', 'India and Pakistan'. Visuals: Oval Office wide shot with Zelenskyy and the European leaders present, Trump gesturing while listing wars, a fact-check graphic naming the disputed conflicts.",
+   "brief": "Trump tells Zelenskyy and European leaders he's 'solved six wars in six months.'"
+  },
+  {
+   "id": "n2_dc_crime",
+   "number": 2,
+   "brief": "Trump deploys the National Guard to DC over invented crime statistics.",
+   "date": "2025-08-11/27",
+   "facts": "On August 11, 2025, Trump declared Washington, D.C. was becoming a situation of complete and total lawlessness, federalized the Metropolitan Police Department and deployed roughly eight hundred National Guard troops, despite MPD's own statistics showing violent crime at a thirty-year low in 2024. He claimed the city's homicide rate was 41 per 100,000 people, No. 1 that we can find anywhere in the world -- PolitiFact rated it False, since multiple US cities and countries worldwide have higher rates. Later in the month he said the city always has a murder a week, when D.C. had already logged a sixteen-day murder-free stretch earlier in 2025 and posted a twelve-day streak during the takeover itself. CNN, Al Jazeera and PolitiFact all published fact-checks documenting the pattern.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://www.politifact.com/article/2025/aug/11/trump-washington-dc-crime-rate-homicide/"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2025/8/12/fact-checking-trumps-claim-that-crime-in-washington-is-out-of-control"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2025/aug/27/donald-trump/dc-homicide-week-national-guard-crime/"
+    }
+   ],
+   "footage_ideas": "Search CNN, ABC News, France 24, AP Archive and CBS News uploads from Aug 11-27, 2025; grep subs for 'complete and total lawlessness', 'murder a week', 'number one', 'no crime at all'. Visuals: National Guard troops patrolling DC streets/Union Station, the White House/DOJ press conference announcing the takeover, split-screen crime-stat fact-check graphics from CNN and CBS."
+  },
+  {
+   "id": "n1_alaska_summit",
+   "number": 1,
+   "brief": "Trump says he's meeting Putin 'in Russia,' then rolls out a red carpet for him in Alaska.",
+   "date": "2025-08-11/15",
+   "facts": "In the run-up to the August 15, 2025 summit, Trump twice told reporters he was flying to meet Vladimir Putin in Russia rather than Alaska, a mix-up clipped and mocked by outlets including Forbes Breaking News and Times Now as a viral gaffe. When Putin actually landed at Joint Base Elmendorf-Richardson, Trump had a literal red carpet rolled out, clapped as Putin approached, and the two shook hands, laughed and rode together in Trump's limousine -- the first time Putin had set foot on US soil in years. Russian foreign ministry spokeswoman Maria Zakharova said the reception proved that for years they have been talking about the isolation of Russia, and today they saw the red carpet that greeted the Russian president. The summit produced no concrete deal on ending the war in Ukraine, ending, per the Washington Post, in a sober mood.",
+   "sources": [
+    {
+     "outlet": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2025/08/15/trump-putin-summit-sober-mood/"
+    },
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/politics/live-news/trump-putin-meeting-news-08-15-25"
+    },
+    {
+     "outlet": "Forbes Breaking News (YouTube)",
+     "url": "https://www.youtube.com/watch?v=ABH2d5kOdwA"
+    }
+   ],
+   "footage_ideas": "Search Forbes Breaking News, Times Now, WION and NBC News uploads from Aug 11-15, 2025; grep subs for 'going to Russia', 'meeting in Russia', 'red carpet', 'historic'. Visuals: the press-gaggle clip where Trump says Russia instead of Alaska (Forbes Breaking News), then the tarmac red-carpet arrival, handshake and military flyover at Joint Base Elmendorf-Richardson (NBC News/CNN footage)."
+  }
+ ],
+ "story_order": [
+  "n6_bls_rigged",
+  "n5_smithsonian",
+  "n4_lisa_cook",
+  "n3_six_wars",
+  "n2_dc_crime",
+  "n1_alaska_summit"
+ ],
+ "cold_open_order": [
+  "n1_alaska_summit",
+  "n2_dc_crime",
+  "n6_bls_rigged",
+  "n3_six_wars",
+  "n4_lisa_cook",
+  "n5_smithsonian"
+ ],
+ "intro": {
+  "text": "August twenty twenty-five. The President fired the people who count jobs, rewrote history at the Smithsonian, and rolled out a red carpet for Vladimir Putin. We are counting down the six dumbest moments of the month. Buckle up.",
+  "visuals": [
+   "stories/n1_alaska_summit/clips/n1_visual_handshake.mp4",
+   "stories/n2_dc_crime/clips/n2_visual_patrol.mp4",
+   "stories/n5_smithsonian/clips/n5_vis_institution.mp4",
+   "stories/n6_bls_rigged/clips/n6_vis_trump_broll.mp4"
+  ]
+ },
+ "outro": {
+  "text": "So that was August. A fired statistician, a museum that needs more brightness, a Fed governor on the chopping block, six wars ended by announcement, troops for a crime wave that wasn't there, and a red carpet in Alaska, which he thought was Russia. If you want the next month, hit subscribe. See you then.",
+  "visuals": [
+   "stories/n6_bls_rigged/clips/n6_vis_exco_broll.mp4",
+   "stories/n5_smithsonian/clips/n5_vis_museum_interior.mp4",
+   "stories/n4_lisa_cook/clips/n4_vis_cook_powell.mp4",
+   "stories/n3_six_wars/clips/n3_visual_1.mp4",
+   "stories/n2_dc_crime/clips/n2_visual_patrol.mp4",
+   "stories/n1_alaska_summit/clips/n1_visual_jets.mp4"
+  ]
+ }
+}

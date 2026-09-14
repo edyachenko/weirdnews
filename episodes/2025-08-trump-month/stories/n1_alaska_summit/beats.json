@@ -1,0 +1,90 @@
+{
+  "id": "n1_alaska_summit",
+  "number": 1,
+  "headline": "Trump rolls out red carpet for Putin",
+  "sources": [
+    {
+      "outlet": "Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2025/08/15/trump-putin-summit-sober-mood/"
+    },
+    {
+      "outlet": "CNN",
+      "url": "https://www.cnn.com/politics/live-news/trump-putin-meeting-news-08-15-25"
+    },
+    {
+      "outlet": "Forbes Breaking News",
+      "url": "https://www.youtube.com/watch?v=ABH2d5kOdwA"
+    },
+    {
+      "outlet": "NBC News",
+      "url": "https://www.youtube.com/watch?v=WcghV74xmas"
+    }
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Number one. Four days before his summit with Vladimir Putin, the President told reporters exactly where he was headed.",
+      "visuals": [
+        "n1_visual_gaggle",
+        "n1_sot_rely"
+      ]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_russia",
+      "caption": "It's going to be a big thing. We're going to Russia. That's going to be a big deal.",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "The summit was in Alaska. Which America bought from Russia in eighteen sixty-seven. Close enough, apparently.",
+      "visuals": [
+        "n1_visual_putin_plane",
+        "n1_visual_walk"
+      ]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_rely",
+      "caption": "A lot of European leaders, but they rely on me, very much rely on me.",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "And what happens to the war without him?",
+      "visuals": [
+        "n1_visual_gaggle"
+      ]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_dead",
+      "caption": "If it wasn't for me, this thing would never get solved until the last person breathing is dead.",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "Then Putin landed, and Trump rolled out a literal red carpet, clapping as he walked in. Military jets flew overhead, just for the photo.",
+      "visuals": [
+        "n1_visual_approach",
+        "n1_visual_handshake",
+        "n1_visual_jets"
+      ]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_ceasefire",
+      "caption": "President Putin, will you agree to a ceasefire? Mr. President, what's your message to Vladimir Putin?",
+      "label": "via NBC News"
+    },
+    {
+      "type": "narr",
+      "text": "Russia's foreign ministry said the red carpet showed Russia was no longer isolated. The summit ended with no deal on Ukraine. But the carpet looked great.",
+      "visuals": [
+        "n1_visual_walk",
+        "n1_visual_handshake",
+        "n1_visual_approach"
+      ]
+    }
+  ]
+}

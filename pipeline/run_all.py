@@ -48,6 +48,8 @@ def main():
     ap.add_argument("--pitch", default=None, help="default: episode.json's voice.pitch")
     ap.add_argument("--out", required=True)
     ap.add_argument("--max-parallel", type=int, default=4)
+    ap.add_argument("--resume", action="store_true",
+                    help="keep beats already rendered in work/<slug>/render (only safe with the same voice/text)")
     args = ap.parse_args()
 
     ep = load_episode(args.episode)
@@ -102,6 +104,8 @@ def main():
         assemble_cmd += [f"--rate={rate}"]
     if pitch:
         assemble_cmd += [f"--pitch={pitch}"]
+    if args.resume:
+        assemble_cmd += ["--skip-existing"]
     asm = run(assemble_cmd)
     assemble_report = {}
     try:

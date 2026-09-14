@@ -1,0 +1,61 @@
+{
+  "id": "n6_bls_rigged",
+  "number": 6,
+  "headline": "Trump Fires Jobs Chief, Cries Rigged",
+  "sources": [
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2025/aug/05/donald-trump/bls-firing-jobs-revision-election/"},
+    {"outlet": "CBS News (YouTube)", "url": "https://www.youtube.com/watch?v=y_pYLzj9WOU"},
+    {"outlet": "Forbes Breaking News (YouTube)", "url": "https://www.youtube.com/watch?v=yN_v-y441Pg"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "On August 1st, a weak jobs report landed. Hours later, Trump didn't blame the economy -- he fired the woman whose job was just to count it.",
+      "visuals": ["n6_vis_graphic", "n6_vis_trump_broll"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_trump",
+      "caption": "We had no confidence. I mean, the numbers were ridiculous what she announced.",
+      "label": "via CBS News"
+    },
+    {
+      "type": "narr",
+      "text": "Never happened before. Not once in the Bureau's history had a sitting commissioner been fired.",
+      "visuals": ["n6_vis_trump_broll", "n6_vis_graphic"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_exco_noway",
+      "caption": "There's no way for that to happen.",
+      "label": "via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "That's Trump's own former BLS chief talking. The guy he appointed. Even he isn't buying the conspiracy.",
+      "visuals": ["n6_vis_exco_broll", "n6_vis_graphic"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_exco_locked",
+      "caption": "I was commissioner, and I was sometimes locked out of the process.",
+      "label": "via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "For the rigging theory, Trump's team had one witness: his own economic adviser, pointing at revisions everybody already knew about.",
+      "visuals": ["n6_vis_graphic", "n6_vis_exco_broll"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_hassett",
+      "caption": "The evidence is that there have been a bunch of revisions that could appear to partisans.",
+      "label": "via NBC"
+    },
+    {
+      "type": "narr",
+      "text": "Translation: no evidence, just vibes. PolitiFact rated the whole rigged claim Pants Fire.",
+      "visuals": ["n6_vis_graphic", "n6_vis_trump_broll"]
+    }
+  ]
+}
