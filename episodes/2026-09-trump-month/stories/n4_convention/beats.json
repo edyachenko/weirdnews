@@ -1,0 +1,49 @@
+{
+  "id": "n4_convention",
+  "number": 4,
+  "headline": "GOP Convention Fact-Check: 0 for 3",
+  "sources": [
+    {"outlet": "CNN", "url": "https://edition.cnn.com/2026/09/09/politics/fact-check-republican-midterm-convention-night-1"},
+    {"outlet": "CNN", "url": "https://www.cnn.com/2026/09/10/politics/fact-check-republican-midterm-convention-night-2"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Number four. At the Republican midterm convention in Dallas, Trump stood in a packed arena and said the one thing every camera in the room could disprove.",
+      "visuals": ["n4_v_open", "n4_v_arrival"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_seats",
+      "caption": "No empty seats. The fake news.",
+      "label": "via FOX 26 Houston"
+    },
+    {
+      "type": "narr",
+      "text": "CNN counted the gaps in the bleachers row by row. Two nights later, same venue, he moved on from seats to receipts.",
+      "visuals": ["n4_v_crowd", "n4_v_open"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_cheaper",
+      "caption": "prices and almost every other item are rapidly going down.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "Grocery bills across the country disagreed, but nobody hands a receipt to a man mid-applause.",
+      "visuals": ["n4_v_arrival"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_promise",
+      "caption": "Every single promise I've made to you as a candidate, I've delivered on.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "Three claims, three fact-checks, zero accuracy. At some point, lying about how full a room is stops being spin and starts being performance art.",
+      "visuals": ["n4_v_crowd"]
+    }
+  ]
+}

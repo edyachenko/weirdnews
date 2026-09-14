@@ -1,0 +1,28 @@
+{
+  "slug": "2026-09-trump-month",
+  "title": "Trump's Month: The Greatest Hits",
+  "period": "2026-08-14..2026-09-14",
+  "story_order": ["n6_fed", "n5_carlson", "n4_convention", "n3_doonbeg", "n2_coin", "n1_pentagon"],
+  "cold_open_order": ["n1_pentagon", "n4_convention", "n5_carlson", "n2_coin", "n3_doonbeg", "n6_fed"],
+  "voice": {"voice": "en-US-BrianMultilingualNeural", "rate": "-8%", "pitch": "-2Hz"},
+  "intro": {
+    "text": "Another month, another festival of chaos. From now until the end of this video, we are counting down the six dumbest, weirdest, most face palm worthy things Donald Trump did or said between August fourteenth and September fourteenth. Buckle up.",
+    "visuals": [
+      "stories/n4_convention/clips/n4_v_open.mp4",
+      "stories/n1_pentagon/clips/n1_visual_cnn_bystander.mp4",
+      "stories/n3_doonbeg/clips/n3_visual_teebox_arrival.mp4",
+      "stories/n6_fed/clips/n6_visual_open.mp4"
+    ]
+  },
+  "outro": {
+    "text": "So that is the month. A coin, a feud, a golf course he didn't build, a fake full arena, a trade threat over interest rates, and a president who needed three seconds to remember what year nine eleven happened. It writes itself, honestly. If you like watching a superpower run like a reality show, hit subscribe, because next month there will absolutely be more of this. See you then.",
+    "visuals": [
+      "stories/n2_coin/clips/n2_visual_obverse.mp4",
+      "stories/n5_carlson/clips/n5_visual_carlson_intro.mp4",
+      "stories/n3_doonbeg/clips/n3_visual_doonbeg_ocean.mp4",
+      "stories/n4_convention/clips/n4_v_crowd.mp4",
+      "stories/n6_fed/clips/n6_visual_patriots.mp4",
+      "stories/n1_pentagon/clips/n1_visual_podium.mp4"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "n2_coin",
+  "number": 2,
+  "headline": "Trump's Face Goes on the Dollar",
+  "sources": [
+    {"outlet": "WION", "url": "https://www.youtube.com/watch?v=BQzoMasQkdw"},
+    {"outlet": "New York Post", "url": "https://www.youtube.com/watch?v=MlPS540U6WY"},
+    {"outlet": "TIME", "url": "https://time.com/article/2026/09/02/trump-1-gold-coins-go-on-sale/"},
+    {"outlet": "news.meaww.com", "url": "https://news.meaww.com/explained-the-legal-loophole-that-put-trumps-face-on-a-1-coin-while-hes-alive"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "The US Mint just put Trump's face on a new dollar coin for America's two-hundred-fiftieth birthday.",
+      "visuals": ["n2_visual_mint", "n2_visual_press"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_release",
+      "caption": "a new golden colored $1 coin",
+      "label": "via WION"
+    },
+    {
+      "type": "narr",
+      "text": "First sitting president in a century on US currency.",
+      "visuals": ["n2_visual_obverse"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_nogold",
+      "caption": "there is no actual gold in the coin",
+      "label": "via WION"
+    },
+    {
+      "type": "narr",
+      "text": "Fitting — it broke a real rule too. Federal law generally keeps living people off US money.",
+      "visuals": ["n2_visual_mint", "n2_visual_press"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_law",
+      "caption": "US law generally prohibits portraits of living people on coins",
+      "label": "via WION"
+    },
+    {
+      "type": "narr",
+      "text": "A separate law bars living presidents from this series. So how'd he get on it? A loophole.",
+      "visuals": ["n2_visual_reverse"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_loophole",
+      "caption": "has cited a 2020 law as the legal basis for this design",
+      "label": "via WION"
+    },
+    {
+      "type": "narr",
+      "text": "That 2020 law bans living faces off the back of these coins, never the front — right where his is. Columnist Catherine Rampell joked it marks liberty's birth in seventeen seventy-six, its death in twenty twenty-six.",
+      "visuals": ["n2_visual_obverse", "n2_visual_reverse"]
+    }
+  ]
+}

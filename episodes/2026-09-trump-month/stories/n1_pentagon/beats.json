@@ -1,0 +1,56 @@
+{
+  "id": "n1_pentagon",
+  "number": 1,
+  "headline": "Trump glitches on the date at 9/11 speech",
+  "sources": [
+    {"outlet": "The Daily Beast", "url": "https://www.thedailybeast.com/trump-makes-weird-glitch-in-911-pentagon-speech/"},
+    {"outlet": "The White House (official video)", "url": "https://www.youtube.com/watch?v=wmRa6CGygzc"},
+    {"outlet": "CNN, The Source", "url": "https://www.youtube.com/watch?v=y-03pMpkqDs"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Speaking at the Pentagon on the twenty-fifth anniversary of September eleventh, Trump paid tribute to the victims -- while New York's own Ground Zero memorial has banned speeches at its ceremony since 2012.",
+      "visuals": ["n1_visual_podium"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_open",
+      "caption": "...remember the victims and the families of September 11th,",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Then came a pause that stretched on.",
+      "visuals": ["n1_visual_podium"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_2001",
+      "caption": "...2001.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "So how'd he stick the landing?",
+      "visuals": ["n1_visual_podium2"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_famous",
+      "caption": "Very famous date, unfortunately.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "That wasn't his only 9/11 story. Earlier that week he claimed firefighters carried him to safety near the Twin Towers -- a claim the White House dismissed as the Daily Beast 'grasping at straws.'",
+      "visuals": ["n1_visual_cnn_anchor", "n1_visual_cnn_bystander"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_firefighter",
+      "caption": "\"Grabbed me under the arm, said, 'Got to get out of here.' And they literally lifted me up.\"",
+      "label": "Trump, via CNN"
+    }
+  ]
+}

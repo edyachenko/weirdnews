@@ -1,0 +1,56 @@
+{
+  "id": "n3_doonbeg",
+  "number": 3,
+  "headline": "Trump Claims He 'Built' Doonbeg",
+  "sources": [
+    {"outlet": "Irish Star", "url": "https://www.irishstar.com/sport/golf/donald-trump-irish-open-doonbeg-37655458"},
+    {"outlet": "Irish Times", "url": "https://www.irishtimes.com/sport/golf/2026/09/09/donald-trumps-presence-at-doonbeg-can-only-be-good-for-irish-open-says-rory-mcilroy/"},
+    {"outlet": "The White House", "url": "https://www.whitehouse.gov/videos/president-trump-participates-in-a-bilateral-meeting-with-the-taoiseach-of-ireland/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Number three: Trump's trip to Ireland orbited one thing — the Irish Open at his own Doonbeg resort.",
+      "visuals": ["n3_visual_teebox_arrival", "n3_visual_doonbeg_ocean"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_built_it",
+      "caption": "I built it about 22 years, right on the ocean.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "He didn't build it. Trump bought the resort around 2014 — the course was designed by Greg Norman and opened back in 2002.",
+      "visuals": ["n3_visual_doonbeg_cart", "n3_visual_forbes_balcony", "n3_visual_teebox_arrival"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_teebox_hotel",
+      "caption": "He's having a good time. Great course. Nice hotel.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Rory McIlroy, who actually plays the place, was asked how he felt about Trump's visit.",
+      "visuals": ["n3_visual_mcilroy_presser", "n3_visual_doonbeg_ocean"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_mcilroy_good_thing",
+      "caption": "That brings more attention and eyeballs to the Irish Open, and I think that can only be a good thing.",
+      "label": "via The FOREcast Golf"
+    },
+    {
+      "type": "narr",
+      "text": "Diplomatic. Almost as diplomatic as Trump grading his own weekend, on the way out of the country.",
+      "visuals": ["n3_visual_shannon_tarmac", "n3_visual_rte_protest"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_record_attendance",
+      "caption": "The tournament was record setting. The attendance was number one.",
+      "label": "via The White House"
+    }
+  ]
+}

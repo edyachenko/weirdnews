@@ -1,0 +1,72 @@
+{
+  "id": "n5_carlson",
+  "number": 5,
+  "headline": "Carlson predicts a GOP wipeout; Vance won't disown him",
+  "sources": [
+    {"outlet": "Tucker Carlson (official channel)", "url": "https://www.youtube.com/watch?v=mEPMm6ZZOe8"},
+    {"outlet": "USA TODAY", "url": "https://www.youtube.com/watch?v=eK4KoZXlbYM"},
+    {"outlet": "Washington Times", "url": "https://www.washingtontimes.com/news/2026/sep/3/jd-vance-says-tucker-carlson-friend-wont-throw-friends-bus/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Number five. The Trump-Tucker Carlson feud, simmering since twenty twenty-five over foreign policy, kept boiling into September.",
+      "visuals": ["n5_visual_carlson_intro", "n5_visual_vance_intro"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_carlson_house",
+      "caption": "Republicans are definitely going to lose the House of Representatives.",
+      "label": "via Tucker Carlson, Sep 9 livestream"
+    },
+    {
+      "type": "narr",
+      "text": "In a video titled 'Trump Betrayed His Voters,' Carlson explained exactly why.",
+      "visuals": ["n5_visual_carlson_broll2", "n5_visual_carlson_broll3"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_carlson_foreign",
+      "caption": "...because he followed not their wishes, but the wishes of a foreign government.",
+      "label": "via Tucker Carlson, Sep 9 livestream"
+    },
+    {
+      "type": "narr",
+      "text": "Six days earlier, a reporter had put Vance on the spot.",
+      "visuals": ["n5_visual_vance_broll2", "n5_visual_vance_broll3"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_reporter_q",
+      "caption": "Mr. Vice President, Tucker Carlson has called for the president's impeachment.",
+      "label": "via USA TODAY, Sep 3"
+    },
+    {
+      "type": "narr",
+      "text": "His answer:",
+      "visuals": ["n5_visual_vance_intro"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_vance_friend",
+      "caption": "Tucker is a friend of mine. Tucker is a friend despite the fact that we disagree on a number of things.",
+      "label": "via PBS NewsHour, Sep 3"
+    },
+    {
+      "type": "narr",
+      "text": "And then, the real point.",
+      "visuals": ["n5_visual_carlson_intro"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_vance_bus",
+      "caption": "And I'm not going to play the game where I throw friends under the bus.",
+      "label": "via USA TODAY, Sep 3"
+    },
+    {
+      "type": "narr",
+      "text": "So the second most powerful Republican in the country won't throw his buddy under the bus, even as that buddy predicts his own party is about to lose the midterms.",
+      "visuals": ["n5_visual_vance_broll2", "n5_visual_carlson_broll2", "n5_visual_carlson_broll3", "n5_visual_vance_broll3"]
+    }
+  ]
+}
