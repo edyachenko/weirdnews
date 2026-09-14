@@ -15,7 +15,7 @@ Fill in `.env` (`PEXELS_API_KEY`, `GEMINI_API_KEY`) — see `.env.example`. Neve
 ## Render an episode
 
 ```bash
-uv run --project MoneyPrinterTurbo python pipeline/run_all.py \
+uv run --project ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo python pipeline/run_all.py \
   --episode episodes/2026-09-trump-month \
   --voice en-US-BrianMultilingualNeural --rate=-8% --pitch=-2Hz \
   --out out/2026-09-trump-month.mp4

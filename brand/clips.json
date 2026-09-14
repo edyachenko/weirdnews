@@ -1,17 +1,17 @@
 [
   {
     "id": "ymca_open",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/ymca_open.mp4",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/ymca_open.mp4",
     "kind": "bumper",
-    "duration": 2.966667,
-    "source": "ymca_2.mp4",
+    "duration": 2.266667,
+    "source": "ymca_1.mp4",
     "channel": "",
     "title": "",
     "source_url": ""
   },
   {
     "id": "ymca_gap1",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/ymca_gap1.mp4",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/ymca_gap1.mp4",
     "kind": "bumper",
     "duration": 1.5,
     "source": "ymca_3.mp4",
@@ -21,7 +21,37 @@
   },
   {
     "id": "ymca_gap2",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/ymca_gap2.mp4",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/ymca_gap2.mp4",
+    "kind": "bumper",
+    "duration": 2.133333,
+    "source": "ymca_4.mp4",
+    "channel": "",
+    "title": "",
+    "source_url": ""
+  },
+  {
+    "id": "ymca_gap3",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/ymca_gap3.mp4",
+    "kind": "bumper",
+    "duration": 1.5,
+    "source": "ymca_3.mp4",
+    "channel": "",
+    "title": "",
+    "source_url": ""
+  },
+  {
+    "id": "ymca_gap4",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/ymca_gap4.mp4",
+    "kind": "bumper",
+    "duration": 2.133333,
+    "source": "ymca_4.mp4",
+    "channel": "",
+    "title": "",
+    "source_url": ""
+  },
+  {
+    "id": "ymca_gap5",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/ymca_gap5.mp4",
     "kind": "bumper",
     "duration": 2.966667,
     "source": "ymca_2.mp4",
@@ -30,48 +60,18 @@
     "source_url": ""
   },
   {
-    "id": "ymca_gap3",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/ymca_gap3.mp4",
-    "kind": "bumper",
-    "duration": 2.133333,
-    "source": "ymca_4.mp4",
-    "channel": "",
-    "title": "",
-    "source_url": ""
-  },
-  {
-    "id": "ymca_gap4",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/ymca_gap4.mp4",
-    "kind": "bumper",
-    "duration": 1.5,
-    "source": "ymca_3.mp4",
-    "channel": "",
-    "title": "",
-    "source_url": ""
-  },
-  {
-    "id": "ymca_gap5",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/ymca_gap5.mp4",
-    "kind": "bumper",
-    "duration": 2.133333,
-    "source": "ymca_4.mp4",
-    "channel": "",
-    "title": "",
-    "source_url": ""
-  },
-  {
     "id": "ymca_close",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/ymca_close.mp4",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/ymca_close.mp4",
     "kind": "bumper",
-    "duration": 1.5,
-    "source": "ymca_3.mp4",
+    "duration": 2.266667,
+    "source": "ymca_1.mp4",
     "channel": "",
     "title": "",
     "source_url": ""
   },
   {
     "id": "biden_end",
-    "file": "/Users/user/pet-projects/weirdnews/brand/rendered/biden_end.mp4",
+    "file": "/Volumes/Extreme SSD/\u044e\u0442\u0443\u0431/\u043f\u043e\u043b\u0456\u0442\u0438\u043a\u0438/weirdnews/brand/rendered/biden_end.mp4",
     "kind": "bumper",
     "duration": 5.1,
     "source": "biden_end.mp4",

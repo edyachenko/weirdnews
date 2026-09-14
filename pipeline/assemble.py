@@ -23,7 +23,7 @@ from common import run, ffprobe_duration, load_episode, bumper_slot_names, ROOT 
 import plates  # noqa: E402
 
 PIPELINE_DIR = os.path.dirname(__file__)
-MPT_PROJECT = os.path.join(ROOT, "MoneyPrinterTurbo")
+from common import MPT_DIR as MPT_PROJECT  # noqa: E402
 
 
 def uv_python(*args):

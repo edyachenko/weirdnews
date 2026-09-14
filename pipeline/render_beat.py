@@ -38,7 +38,7 @@ from common import (  # noqa: E402
 import plates  # noqa: E402
 
 PIPELINE_DIR = os.path.dirname(__file__)
-MPT_PROJECT = os.path.join(ROOT, "MoneyPrinterTurbo")
+from common import MPT_DIR as MPT_PROJECT  # noqa: E402
 DEFAULT_VOICE = "en-US-AndrewNeural"
 
 # Per-process cache: source path -> usable duration before any trailing freeze.

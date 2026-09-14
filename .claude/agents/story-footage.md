@@ -50,7 +50,7 @@ Read `docs/format.md` once.
    then trim precisely with ffmpeg. Look at a frame of each clip to fill `shows` and `banner`, and trim frozen tails.
 4. Run one yt-dlp process at a time (several agents share one IP). If blocked, retry once with `--extractor-args "youtube:player_client=web_safari"`,
    then write `MANUAL_DOWNLOADS.md` (URL + exact ranges), finish with what you have, and create `DONE`.
-5. Python with Pillow/edge-tts: `uv run --project MoneyPrinterTurbo python`. Pexels key: `PEXELS_API_KEY` in `.env`, never print it.
+5. Python with Pillow/edge-tts: `uv run --project ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo python`. Pexels key: `PEXELS_API_KEY` in `.env`, never print it.
 6. Pages WebFetch can't read (CNN returns 451): use the Playwright MCP browser, decline non-essential cookies, never log in.
 
 ## Never

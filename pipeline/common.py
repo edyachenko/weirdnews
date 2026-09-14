@@ -10,7 +10,13 @@ import textwrap
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 W, H, FPS = 1920, 1080, 30
-FONT = os.path.join(ROOT, "MoneyPrinterTurbo/resource/fonts/BeVietnamPro-Bold.ttf")
+# MoneyPrinterTurbo (its uv venv + fonts) lives outside the repo: the repo sits on an exFAT SSD, which
+# can't hold a venv's symlinks. Override with WEIRDNEWS_MPT_DIR.
+MPT_DIR = os.environ.get("WEIRDNEWS_MPT_DIR") or next(
+    (p for p in (os.path.expanduser("~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo"),
+                 os.path.join(ROOT, "MoneyPrinterTurbo")) if os.path.isdir(p)),
+    os.path.expanduser("~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo"))
+FONT = os.path.join(MPT_DIR, "resource/fonts/BeVietnamPro-Bold.ttf")
 
 
 def load_episode(episode_dir):
@@ -51,7 +57,7 @@ def get_pexels_key():
                 v = line.split("=", 1)[1].strip()
                 if v:
                     return v
-    cfg_path = os.path.join(ROOT, "MoneyPrinterTurbo", "config.toml")
+    cfg_path = os.path.join(MPT_DIR, "config.toml")
     if os.path.exists(cfg_path):
         m = re.search(r'pexels_api_keys\s*=\s*\[\s*"([^"]+)"', open(cfg_path).read())
         if m:

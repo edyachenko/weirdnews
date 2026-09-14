@@ -20,3 +20,6 @@ brand/rendered/
 __pycache__/
 *.pyc
 .playwright-mcp/
+
+# exFAT AppleDouble files
+._*

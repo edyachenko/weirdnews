@@ -21,7 +21,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from common import run, load_episode, ROOT  # noqa: E402
 
-MPT_PROJECT = os.path.join(ROOT, "MoneyPrinterTurbo")
+from common import MPT_DIR as MPT_PROJECT  # noqa: E402
 PIPELINE_DIR = os.path.dirname(__file__)
 BUMPERS_JSON = os.path.join(ROOT, "brand/clips.json")
 TTS_CACHE_DIR = os.path.join(ROOT, "work", "tts_cache")  # shared across episodes/voices; keyed by hash

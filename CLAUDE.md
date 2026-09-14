@@ -1,5 +1,7 @@
 # weirdnews: Weird News USA
 
+Repo location: `/Volumes/Extreme SSD/ютуб/політики/weirdnews` (exFAT SSD). Git uses `core.fileMode false`, and `._*` files are ignored.
+
 Automated English news-commentary YouTube episodes built from **real footage**: short excerpts of news and
 official videos, a sarcastic TTS host, and the channel's own brand transitions. The first episode ("Trump's Month",
 Aug 14 – Sep 14 2026) was built on 2026-09-14. The plan is a series where each video covers one month of Trump's 2nd term.
@@ -35,7 +37,7 @@ pipeline/                render code: tts, render_beat, plates, assemble, verify
 episodes/<slug>/         one episode: episode.json, research.json, stories/<id>/{beats.json,clips.json,notes.md}
   stories/<id>/clips/    downloaded excerpts (git-ignored, reproducible from clips.json)
 research/                month ranking and research scripts
-MoneyPrinterTurbo/       vendored clone, used only for its uv venv (edge-tts, Pillow) and fonts (git-ignored)
+(outside repo) ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo: uv venv (edge-tts, Pillow) + fonts. The repo lives on the exFAT SSD, which can't hold a venv; override with WEIRDNEWS_MPT_DIR
 out/, work*/             renders and intermediates (git-ignored)
 ```
 
@@ -43,8 +45,8 @@ out/, work*/             renders and intermediates (git-ignored)
 
 ```bash
 scripts/setup.sh                                   # clone MPT + uv sync, brew yt-dlp/ffmpeg
-uv run --project MoneyPrinterTurbo python pipeline/build_brand_bumpers.py      # re-roll transition order
-uv run --project MoneyPrinterTurbo python pipeline/run_all.py \
+uv run --project ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo python pipeline/build_brand_bumpers.py      # re-roll transition order
+uv run --project ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo python pipeline/run_all.py \
   --episode episodes/2026-09-trump-month \
   --voice en-US-BrianMultilingualNeural --rate=-8% --pitch=-2Hz \
   --out out/2026-09-trump-month.mp4                # TTS (cached) → beats → assemble → phone copy → credits → verify

@@ -15,7 +15,7 @@ Episode dir `episodes/<slug>/`, containing `episode.json` and `stories/<id>/{bea
    `clips.json` and on disk with duration ≤5.0 s; every story has ≥3 sot beats. Report and skip a broken story rather than downloading anything.
 2. Run the single pipeline command (voice from `episode.json`, default `en-US-BrianMultilingualNeural --rate=-8% --pitch=-2Hz`):
    ```bash
-   uv run --project MoneyPrinterTurbo python pipeline/run_all.py --episode episodes/<slug> \
+   uv run --project ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo python pipeline/run_all.py --episode episodes/<slug> \
      --voice <voice> --rate=<rate> --pitch=<pitch> --out out/<slug>.mp4
    ```
    It builds the intro/outro (cold open from `cold_open_candidate` SOTs), renders beats, splices the brand transitions from
