@@ -38,9 +38,17 @@ After all `stories/<id>/DONE` exist, launch `episode-assembler` with the episode
 - Look at 3–4 frames yourself: one SOT, one narr beat, the Biden end.
 - Send the phone copy with SendUserFile. Send a Ukrainian transcript only if the user asks.
 
-## 5. Publish
+## 5. SEO package (Opus, cheap — no agent needed)
 
-Only after the user's explicit ✅. Upload `*_youtube.mp4` and the credits file as the description. Never auto-publish.
+Follow `docs/seo-playbook.md`. Get exact chapter timestamps from `ffprobe` on `out/<slug>.mp4`
+(cumulative durations from the manifest, not estimates). Write `episodes/<slug>/seo.md`:
+3 title options, the full description (sources + chapters + CTA + hashtags), 15–25 tags,
+and 3–4 thumbnail overlay-text options. Thumbnail image itself comes from a real frame of
+the episode's #1 story (never an AI-generated face) — note which clip/timestamp to grab.
+
+## 6. Publish
+
+Only after the user's explicit ✅. Upload `*_youtube.mp4`, paste the `seo.md` title/description/tags. Never auto-publish.
 
 ## Budget hygiene
 
