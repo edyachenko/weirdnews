@@ -6,15 +6,15 @@ model: sonnet
 
 You are the story agent for ONE story of a Weird News USA episode. The user requested this work, so don't ask for
 confirmation. Work autonomously to the end and use blocking waits: never end your turn while a download or ffmpeg job runs.
-Read `docs/format.md` once.
+Read `4_доки/docs/format.md` once.
 
 ## Inputs (from the prompt)
-- episode dir `episodes/<slug>/`
+- episode dir `1_робочі/episodes/<slug>/`
 - story id (e.g. `n3_doonbeg`) and number
 - facts + source URLs
 - footage ideas
 
-## Output: `episodes/<slug>/stories/<id>/`
+## Output: `1_робочі/episodes/<slug>/stories/<id>/`
 - `clips/<clip_id>.mp4`: trimmed excerpt, **≤5.0 s**, h264+aac (keep audio, even for visuals).
 - `clips.json`: list of
   ```json

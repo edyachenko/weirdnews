@@ -4,7 +4,7 @@ Ported 2026-09-15 from `~/pet-projects/suno-music-gen/.claude/rules/channel-logo
 (originally distilled from OpenAI's gpt-image-2.5 image-prompting guide). Grammar for
 generating a channel's **logo asset** — a clean wordmark and/or icon on a fully
 transparent background — distinct from the round social avatar (filled circle) and the
-in-video watermark bug (`pipeline/plates.py`'s `bug()`, already locked).
+in-video watermark bug (`2_пайплайн/pipeline/plates.py`'s `bug()`, already locked).
 
 ## Why gpt-image-2.5 for logos specifically
 
@@ -24,7 +24,7 @@ and verify the alpha actually came back (see gate below).
   it out verbatim in quotes, and close with `no extra text, no watermarks, no extra
   glyphs` — that forbids *stray* text, not the wordmark itself.
 - **Wordmark verbatim, in quotes.** For this channel: `"WEIRD NEWS"` / `"USA"` exactly
-  as locked in `channel/branding.md`.
+  as locked in `4_доки/channel/branding.md`.
 - **`rendered exactly once, no doubled or ghosted text`** — a logo with a ghosted
   second copy is dead.
 - **Transparent background, stated explicitly**: `fully transparent background, clean
@@ -34,9 +34,9 @@ and verify the alpha actually came back (see gate below).
   strokes, no gradients unless essential`. Must survive 24px (favicon/avatar-adjacent)
   and read at banner size.
 - **Match the locked palette**: near-black #0B0B0D, accent red #D6202A, white #F5F5F5
-  (from `channel/branding.md`).
+  (from `4_доки/channel/branding.md`).
 - **No real politician's face on the logo/icon/avatar** — those are for real-clip
-  thumbnails only (see `docs/seo-playbook.md` §4). The brand mark itself stays
+  thumbnails only (see `4_доки/docs/seo-playbook.md` §4). The brand mark itself stays
   generic (magnifying glass, starburst, mic — never a likeness).
 
 ## Prompt structure
@@ -64,7 +64,7 @@ Keep to `quality: high` (or `xhigh` only if small text comes back soft). Ask for
 - **Horizontal lockmark** — icon left, wordmark right, wide (end-card, lower-third).
 - **Wordmark only** — no icon, for tight overlays.
 - **Icon only, mono white** — the pure mark for a watermark (already exists as the
-  avatar silhouette spec in `channel/branding.md` — reuse it).
+  avatar silhouette spec in `4_доки/channel/branding.md` — reuse it).
 
 ## Ship gate
 
@@ -74,7 +74,7 @@ Keep to `quality: high` (or `xhigh` only if small text comes back soft). Ask for
 2. **Text is verbatim and single.** Every letter matches exactly, wordmark appears
    once. A dropped word or a ghosted second copy = reject and restate.
 3. **24px survival** for the icon/stacked mark — shrink and look, same gate as the
-   avatar in `channel/branding.md`.
+   avatar in `4_доки/channel/branding.md`.
 
-Store the approved kit under `channel/logo/` in this repo, and note in
-`channel/branding.md` which variant is canonical.
+Store the approved kit under `4_доки/channel/logo/` in this repo, and note in
+`4_доки/channel/branding.md` which variant is canonical.

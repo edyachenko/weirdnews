@@ -1,14 +1,18 @@
-# vendored tool (recreated by scripts/setup.sh)
-MoneyPrinterTurbo/
+# vendored tool (recreated by scripts/setup.sh) — lives outside the repo (see WEIRDNEWS_MPT_DIR
+# in 2_пайплайн/pipeline/common.py), but ignore it here too in case anyone ever vendors it in-repo
+**/MoneyPrinterTurbo/
 
-# renders, intermediates, caches
-out/
+# renders, intermediates, caches (1_робочі/render_cache/, and old work*/ from before the reorg)
+1_робочі/render_cache/
 work*/
 **/clips/
 **/raw/
 **/subs/
 **/incoming_from_assembler/
-brand/rendered/
+**/brand/rendered/
+
+# the only large binary that ships — thumbnail.jpg/seo.md/credits.txt next to it stay tracked
+3_продакшн/*/video.mp4
 
 # secrets
 .env
