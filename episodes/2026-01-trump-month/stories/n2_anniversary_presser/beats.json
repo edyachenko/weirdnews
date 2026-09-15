@@ -1,0 +1,68 @@
+{
+  "id": "n2_anniversary_presser",
+  "number": 2,
+  "headline": "The 104-Minute Anniversary Ramble",
+  "sources": [
+    {"outlet": "PolitiFact", "url": "https://www.politifact.com/article/2026/jan/20/trump-press-briefing-year-anniversary/"},
+    {"outlet": "PBS NewsHour", "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-marathon-press-briefing-at-one-year-mark-of-his-second-term"},
+    {"outlet": "Raw Story", "url": "https://www.rawstory.com/donald-trump-press-conference/"},
+    {"outlet": "The Daily Beast", "url": "https://www.thedailybeast.com/trump-79-marks-first-year-in-power-with-weird-80-minute-ramble/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "On the anniversary of his second inauguration, Trump gave a hundred-and-four-minute White House briefing that opened with a slideshow of ICE mugshots from the Minneapolis raids.",
+      "visuals": ["n2_visual_podium_wide", "n2_visual_mugshot_reveal"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_book_reveal",
+      "caption": "Here's the book. These are all things we have.",
+      "label": "via India Today"
+    },
+    {
+      "type": "narr",
+      "text": "He held up a thick binder of what he called three hundred sixty-five wins.",
+      "visuals": ["n2_visual_podium_wide"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_page_after_page",
+      "caption": "All the page, after page, after page, individual things.",
+      "label": "via KARE 11"
+    },
+    {
+      "type": "narr",
+      "text": "According to PolitiFact's review of the briefing, the marathon speech was long on boasts and short on precision.",
+      "visuals": ["n2_visual_mugshot_reveal"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_read_for_week",
+      "caption": "I could stand here and read it for a week, and we wouldn't be finished.",
+      "label": "via KARE 11"
+    },
+    {
+      "type": "narr",
+      "text": "CNN cut away mid-broadcast; anchor Brianna Keilar called it winding even by Trumpian standards.",
+      "visuals": ["n2_visual_podium_wide"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_finger_joke1",
+      "caption": "Oh, I'm glad my finger wasn't in. That's so good.",
+      "label": "via KARE 11"
+    },
+    {
+      "type": "narr",
+      "text": "Somewhere in there, the binder itself took a swing at the president.",
+      "visuals": ["n2_visual_mugshot_reveal"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_finger_joke2",
+      "caption": "That could have done some damage, but you know what? I wouldn't have shown the pain.",
+      "label": "via KARE 11"
+    }
+  ]
+}

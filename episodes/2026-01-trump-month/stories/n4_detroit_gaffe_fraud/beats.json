@@ -1,0 +1,50 @@
+{
+  "id": "n4_detroit_gaffe_fraud",
+  "number": 4,
+  "headline": "Detroit Demon Noises",
+  "sources": [
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2026/jan/13/donald-trump/fraud-budget-deficit-detroit-minnesota/"},
+    {"outlet": "Atlanta Black Star", "url": "https://atlantablackstar.com/2026/01/14/trump-complains-whines-then-moans-in-bizarre-moment/"},
+    {"outlet": "Bridge Michigan", "url": "https://bridgemi.com/michigan-government/fact-check-donald-trump-touts-economy-downplays-costs-in-michigan-speech/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Trump spent sixty-four minutes wowing Detroit's business elite, and at some point a demon tried to escape through his mouth.",
+      "visuals": ["n4_visual_venue", "n4_sot_economic_boom"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_moan",
+      "caption": "[wordless moaning noises]",
+      "label": "via RSBN"
+    },
+    {
+      "type": "narr",
+      "text": "Cable news couldn't stop replaying it. Undeterred, the President barreled on, insisting the economy had never looked better.",
+      "visuals": ["n4_visual_venue", "n4_sot_fraud_budget"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_economic_boom",
+      "caption": "And the results are in and the Trump economic boom is officially begun.",
+      "label": "via CNBC"
+    },
+    {
+      "type": "narr",
+      "text": "That boom talk didn't stop him from blaming the entire deficit on a single, extremely convenient villain: fraud.",
+      "visuals": ["n4_visual_venue", "n4_sot_moan"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_fraud_budget",
+      "caption": "If we stop this fraud, this massive fraud, we're going to have a balanced budget.",
+      "label": "via CNBC"
+    },
+    {
+      "type": "narr",
+      "text": "PolitiFact rated the fraud math false, it wouldn't dent the deficit. Outside, roughly two hundred protesters gathered, unconvinced by any of it.",
+      "visuals": ["n4_visual_protest", "n4_visual_venue"]
+    }
+  ]
+}

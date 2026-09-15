@@ -1,0 +1,50 @@
+{
+  "id": "n3_davos_speech",
+  "number": 3,
+  "headline": "Davos: AI Brag, Greenland, Fake Law",
+  "sources": [
+    {"outlet": "PolitiFact", "url": "https://www.politifact.com/factchecks/2026/jan/29/donald-trump/trump-says-the-us-leads-china-by-a-lot-in-ai-exper/"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2026/jan/12/donald-trump/trump-credit-card-interest-rate-10-percent-law/"},
+    {"outlet": "Axios", "url": "https://www.axios.com/2026/01/21/davos-2026-ai-trump-canada-greenland-nato-crisis"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "At the World Economic Forum in Davos, Trump boasted about AI, promised not to invade Greenland, and invented a law that doesn't exist.",
+      "visuals": ["n3_v_open", "n3_v_podium1"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_ai",
+      "caption": "We're leading China by a lot.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "PolitiFact only rated that Half True -- the real US lead over China's AI is more like a few months, not \"a lot.\" Rounding up is very on-brand.",
+      "visuals": ["n3_v_podium2", "n3_v_podium1", "n3_v_open"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_force",
+      "caption": "I don't have to use force. I don't want to use force. I won't use force.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "He says he won't use force to take Greenland, just that America needs it to protect the continent -- which is generally how invasions get their opening statement.",
+      "visuals": ["n3_v_podium1", "n3_v_open", "n3_v_podium2"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_creditcard",
+      "caption": "Cap credit card interest rates at 10% for 1 year.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "PolitiFact says he'd already claimed on Truth Social that card companies were breaking the law by not doing this -- a law that doesn't exist.",
+      "visuals": ["n3_v_open", "n3_v_podium2", "n3_v_podium1"]
+    }
+  ]
+}

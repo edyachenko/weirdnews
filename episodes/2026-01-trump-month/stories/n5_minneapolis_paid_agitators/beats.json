@@ -1,0 +1,50 @@
+{
+  "id": "n5_minneapolis_paid_agitators",
+  "number": 5,
+  "headline": "Paid Agitators, Says Trump",
+  "sources": [
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2026/jan/26/donald-trump/Trump-paid-protesters-ICE-Minnesota-Minneapolis/"},
+    {"outlet": "NPR", "url": "https://www.npr.org/2026/01/23/nx-s1-5686733/minnesotans-day-of-ice-protests"},
+    {"outlet": "GPB", "url": "https://www.gpb.org/news/2026/01/23/minnesotans-turn-out-in-the-frigid-cold-protest-trumps-immigration-crackdown"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "As ICE Out protests spread across Minnesota against expanded ICE raids, NPR reported thousands marching downtown in subzero cold. Trump had a different theory.",
+      "visuals": ["n5_v_march1", "n5_v_march2", "n5_v_cold1"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_paidagitators",
+      "caption": "they're they're paid agitators and insurrectionists.",
+      "label": "via Fox News"
+    },
+    {
+      "type": "narr",
+      "text": "Bold theory for a day when, per GPB, hundreds of Minnesota businesses closed just to let their staff march.",
+      "visuals": ["n5_v_cold2"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_professional",
+      "caption": "These are professional agitators and professional people",
+      "label": "via Fox News"
+    },
+    {
+      "type": "narr",
+      "text": "He'd said it two days earlier too, in the same Truth Social breath as insurrectionists and anarchists.",
+      "visuals": ["n5_v_march2"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_troublemakers",
+      "caption": "met with paid agitators and insurrectionists, troublemakers.",
+      "label": "via Fox News"
+    },
+    {
+      "type": "narr",
+      "text": "PolitiFact checked, found no evidence of organized payment, and rated the claim false. Turns out subzero Minnesotans just really hate ICE raids.",
+      "visuals": ["n5_v_cold1", "n5_v_march1"]
+    }
+  ]
+}

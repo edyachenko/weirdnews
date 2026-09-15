@@ -1,0 +1,210 @@
+{
+  "window": "2026-01-01 to 2026-01-31",
+  "candidates": [
+    {
+      "id": "venezuela_run_it",
+      "date": "2026-01-03",
+      "what_happened": "The US carried out airstrikes on Caracas and announced the capture of Venezuelan President Nicolas Maduro and his wife Cilia Flores, who face US cocaine-trafficking charges under newly unsealed indictments. At a press conference hours later, Trump said the US would temporarily take control of the Venezuelan government and sell its seized oil, and repeated a false claim that Maduro was 'flooding America with deadly fentanyl.'",
+      "quotes": [
+        {"text": "We're going to run it, essentially.", "speaker": "Donald Trump, on governing Venezuela"},
+        {"text": "flooding America with deadly fentanyl", "speaker": "Donald Trump, on Maduro (rated False by PolitiFact)"}
+      ],
+      "sources": [
+        "https://www.npr.org/2026/01/03/g-s1-104346/trump-venezuela-maduro-press-conference",
+        "https://www.aljazeera.com/news/2026/1/4/fact-checking-trump-following-us-capture-of-venezuelas-maduro",
+        "https://politifact.com/factchecks/2026/jan/07/donald-trump/maduro-fentanyl-venezuela-mexico-trump/"
+      ],
+      "video_candidates": [
+        "_VMddyKM7fE|USA TODAY|Full Trump press conference on Maduro capture mission, attack on Caracas and vision for Venezuela",
+        "plX1rO-CzuY|Reuters|LIVE: Trump speaks after US strikes on Venezuela, Maduro capture",
+        "cQdRlS4uf0E|Guardian News|Trump holds press conference after US strikes on Venezuela and Maduro 'capture'",
+        "qXYsJtMPAq4|Fox News|Trump addresses capture of Venezuela's Nicolas Maduro",
+        "nEU01Pvvwh4|Sky News|Trump news conference after capturing Venezuelan President Nicolas Maduro"
+      ],
+      "picked": true,
+      "reason": "Single biggest, most surreal claim of the month -- a sitting president announcing the US will literally 'run' a captured foreign country -- with a false fentanyl claim baked into the same press conference, and abundant real-outlet full-press-conference video from every major network. Strongest #1 pick."
+    },
+    {
+      "id": "anniversary_presser",
+      "date": "2026-01-20",
+      "what_happened": "On the one-year anniversary of his second inauguration, Trump held a 104-minute White House briefing built around a thick bound book of 'accomplishments' he displayed and then tossed aside, and an opening slideshow of ICE arrest photos from the Minneapolis raids. Raw Story likened the rambling delivery to 'listening to an old drunk,' and CNN cut away mid-broadcast, with anchor Brianna Keilar calling it 'pretty winding even by Trumpian standards.'",
+      "quotes": [
+        {"text": "page after page after page, individual things", "speaker": "Donald Trump, describing the accomplishments book"}
+      ],
+      "sources": [
+        "https://www.politifact.com/article/2026/jan/20/trump-press-briefing-year-anniversary/",
+        "https://www.pbs.org/newshour/politics/fact-checking-trumps-marathon-press-briefing-at-one-year-mark-of-his-second-term",
+        "https://www.thedailybeast.com/trump-79-marks-first-year-in-power-with-weird-80-minute-ramble/",
+        "https://www.rawstory.com/donald-trump-press-conference/"
+      ],
+      "video_candidates": [
+        "-4d9podEQD8|The Independent|IN FULL: Low-energy Trump reels off 'accomplishments' in rambling one-year anniversary address",
+        "RooB56TkGl0|India Today|'Here's The Book': Trump Shows Off Book Of His 'Accomplishments' Before Throwing It On The Ground",
+        "YXVuxNoIhME|KARE 11|Trump holds up 'Minnesota worst of the worst' arrests at White House briefing | Jan. 20, 2026",
+        "dN_Gp0Qt2DQ|10 News|Trump Rants About ICE Raids And 'Book Of Accomplishments'"
+      ],
+      "picked": true,
+      "reason": "A marathon self-congratulatory ramble with a genuinely absurd visual prop (the thrown book) plus an ICE mugshot slideshow, confirmed on multiple full-length real-outlet videos of the exact briefing."
+    },
+    {
+      "id": "davos_speech",
+      "date": "2026-01-21",
+      "what_happened": "Addressing the World Economic Forum in Davos, Trump claimed the US is 'leading China by a lot' in AI (rated Half True by PolitiFact -- experts put the real lead at a few months), renewed his demand for US control of Greenland while claiming he 'won't use force,' and asked Congress to cap credit card interest at 10% -- days after falsely claiming on Truth Social that companies would be 'in violation of the law' if they didn't cap rates themselves by January 20.",
+      "quotes": [
+        {"text": "We're leading the world in AI by a lot. We're leading China by a lot.", "speaker": "Donald Trump"},
+        {"text": "in violation of the law", "speaker": "Donald Trump, on credit card companies not capping rates (no such law exists)"}
+      ],
+      "sources": [
+        "https://www.politifact.com/factchecks/2026/jan/29/donald-trump/trump-says-the-us-leads-china-by-a-lot-in-ai-exper/",
+        "https://politifact.com/factchecks/2026/jan/12/donald-trump/trump-credit-card-interest-rate-10-percent-law/",
+        "https://www.axios.com/2026/01/21/davos-2026-ai-trump-canada-greenland-nato-crisis",
+        "https://www.weforum.org/stories/forum-institutional/davos-2026-special-address-donald-trump-president-united-states-america/"
+      ],
+      "video_candidates": [
+        "qo2-q4AFh_g|Associated Press|LIVE: Trump speaks at World Economic Forum 2026 in Davos (full speech)",
+        "MSEycl66RFk|The Wall Street Journal|Watch: Trump's Full Speech at World Economic Forum in Davos",
+        "ZayFDPUdVSE|Times Now World|TRUMP DAVOS 2026 FULL SPEECH: NATO, Greenland, Ukraine",
+        "3yMYgQA_eco|Times Now|LIVE | Trump Davos Speech | Trump's Ultimatum to NATO at Davos 2026"
+      ],
+      "picked": true,
+      "reason": "A world-stage speech stacking a Half-True AI boast, a Greenland land grab restated as peaceful, and a fabricated legal threat from days earlier -- all with AP/WSJ full-speech video."
+    },
+    {
+      "id": "detroit_gaffe_fraud",
+      "date": "2026-01-13",
+      "what_happened": "Speaking for 64 minutes to the Detroit Economic Club at the MotorCity Casino, Trump made extended guttural noises and throat-clearing mid-speech that went viral, compared online to 'a demon trying to escape his body.' In the same address he claimed 'If we stop this fraud, this massive fraud, we're going to have a balanced budget' -- rated False by PolitiFact.",
+      "quotes": [
+        {"text": "If we stop this fraud, this massive fraud, we're going to have a balanced budget.", "speaker": "Donald Trump"},
+        {"text": "The results are in, and the Trump economic boom is officially begun.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2026/jan/13/donald-trump/fraud-budget-deficit-detroit-minnesota/",
+        "https://atlantablackstar.com/2026/01/14/trump-complains-whines-then-moans-in-bizarre-moment/",
+        "https://bridgemi.com/michigan-government/fact-check-donald-trump-touts-economy-downplays-costs-in-michigan-speech/"
+      ],
+      "video_candidates": [
+        "3SQ1HzLHq_k|CNBC Television|President Donald Trump speaks at the Detroit Economic Club in Michigan — 1/13/2026",
+        "aogTkMueO5Y|Right Side Broadcasting Network|FULL REPLAY: President Trump Delivers Remarks to the Detroit Economic Club - 01/13/26",
+        "lxHFFOjBq2I|PBS NewsHour|WATCH LIVE: Trump addresses Detroit Economic Club",
+        "PTxFh3Z9BIw|FOX 2 Detroit|LIVE I President Donald Trump speaks in Detroit to economic club"
+      ],
+      "picked": true,
+      "reason": "A genuinely bizarre unscripted physical moment (the moaning/throat-clearing) paired with a PolitiFact False claim from the same speech, backed by several full-replay real-outlet videos."
+    },
+    {
+      "id": "minneapolis_paid_agitators",
+      "date": "2026-01-18/23",
+      "what_happened": "As 'ICE Out' protests spread across Minnesota against expanded immigration enforcement -- including a January 23 statewide day of action with thousands marching in subzero cold and hundreds of businesses closed -- Trump repeatedly claimed the demonstrators were paid, writing on Truth Social that they were 'highly paid professional agitators and anarchists' and telling reporters they were 'paid agitators and insurrectionists.' PolitiFact rated the claim False.",
+      "quotes": [
+        {"text": "The thugs that are protesting include many highly paid professional agitators and anarchists.", "speaker": "Donald Trump (Truth Social post, Jan. 18)"},
+        {"text": "They're paid agitators and insurrectionists.", "speaker": "Donald Trump, Jan. 20 press conference"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2026/jan/26/donald-trump/Trump-paid-protesters-ICE-Minnesota-Minneapolis/",
+        "https://www.npr.org/2026/01/23/nx-s1-5686733/minnesotans-day-of-ice-protests",
+        "https://www.gpb.org/news/2026/01/23/minnesotans-turn-out-in-the-frigid-cold-protest-trumps-immigration-crackdown"
+      ],
+      "video_candidates": [
+        "exxvdHHqZng|India Today|Trump LIVE: Minnesota Protesters 'Paid Agitators,' Says Trump | US News",
+        "YoeeizyNP9k|News24|Trump accuses Tim Walz and Ilhan Omar of distracting from Minnesota fraud debacle"
+      ],
+      "picked": true,
+      "reason": "A false 'paid protesters' claim against a genuinely large grassroots demonstration in freezing weather -- real-outlet video of Trump's soundbite exists, and it diversifies the episode into immigration-enforcement territory none of the prior episodes centered on."
+    },
+    {
+      "id": "mtg_resignation",
+      "date": "2026-01-05",
+      "what_happened": "After Trump publicly called Rep. Marjorie Taylor Greene a 'traitor' and a 'disgrace' to the Republican Party over her criticism of the administration's handling of the Epstein files, Greene resigned from Congress effective January 5, 2026, saying Trump's attacks over her advocacy for Epstein survivors were unwarranted. Trump responded by calling her resignation 'great news for the country.'",
+      "quotes": [
+        {"text": "Standing up for American women who were raped at 14, trafficked and used by rich powerful men, should not result in me being called a traitor and threatened by the President of the United States, whom I fought for.", "speaker": "Marjorie Taylor Greene"},
+        {"text": "great news for the country", "speaker": "Donald Trump, on Greene's resignation"}
+      ],
+      "sources": [
+        "https://time.com/7336228/marjorie-taylore-greene-resignation-letter-trump/",
+        "https://rollcall.com/2026/01/05/marjorie-taylor-greene-resign-congress-trump/",
+        "https://abcnews.com/Politics/rep-marjorie-taylor-greene-resign-congress-january/story?id=127771912"
+      ],
+      "video_candidates": [
+        "ab3MsZjh7hQ|News24|'No chance of winning': Trump claims Marjorie Taylor Greene's resignation is 'great news'",
+        "jJXAS3QuPd0|ABC News|Marjorie Taylor Greene makes new allegations in fallout with Trump",
+        "zQ4dwl80glU|BBC News|US lawmaker Marjorie Taylor Greene to resign"
+      ],
+      "picked": true,
+      "reason": "A sitting president driving his own former top loyalist out of Congress over the Epstein files with petty personal insults, then gloating about it -- diversifies the episode into an intra-GOP feud, with real-outlet video of Trump's reaction."
+    },
+    {
+      "id": "walz_hortman_conspiracy",
+      "date": "2026-01-03",
+      "what_happened": "Trump reposted a Truth Social video amplifying a baseless conspiracy theory that Minnesota Gov. Tim Walz was involved in the killing of former state House Speaker Melissa Hortman; police had already charged Vance Boelter in the case as a politically motivated attack unrelated to Walz. Hortman's children and Walz condemned the post.",
+      "quotes": [
+        {"text": "dangerous, depraved behavior from the sitting president of the United States", "speaker": "Gov. Tim Walz, on Trump's post"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2026/jan/06/donald-trump/trump-amplifies-conspiracy-theory-that-gov-tim-wal/",
+        "https://www.washingtonpost.com/politics/2026/01/04/trump-conspiracies-walz/"
+      ],
+      "video_candidates": [
+        "qwNyecXT8tM|FOX 9 Minneapolis-St. Paul|Hortman family, lawmakers react to Pres. Trump sharing conspiracy video"
+      ],
+      "picked": false,
+      "reason": "PolitiFact's own top pearl for the month, but Trump's action was a silent social-media repost with no video of him saying or doing anything -- only a thin local reaction clip exists, failing the video-of-the-moment bar (same reason the 2025-09 Epstein birthday note was cut). Also darker/heavier than the show's clown-not-tragedy tone (a real murder victim's family)."
+    },
+    {
+      "id": "vaccine_72_injections",
+      "date": "2026-01-05",
+      "what_happened": "Trump posted a White House graphic on Truth Social and Instagram claiming the former US childhood vaccine schedule called for '72 injections' versus '11' in a comparison European country -- rated False by PolitiFact, since the 72 figure covers 18 years of doses, many combined or oral, not 72 needle-sticks in infancy.",
+      "quotes": [
+        {"text": "European Country: 11 injections. United States: 72 injections.", "speaker": "White House graphic posted by Donald Trump"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2026/jan/15/donald-trump/childhood-vaccine-schedule-injections-CDC-shots/",
+        "https://www.poynter.org/fact-checking/2026/cdc-childrens-vaccine-schedule-72-shots/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "No video of Trump saying or presenting this exists -- it's a static graphic post, and searches returned only general CDC-policy news coverage, not the actual claim being made on camera. Cut for failing the video-of-the-moment requirement."
+    },
+    {
+      "id": "factories_record",
+      "date": "2026-01-27",
+      "what_happened": "Trump claimed 'we right now have more factories and plants being built in our country than we've ever had before' -- rated Half True by PolitiFact, which found construction spending on manufacturing facilities was elevated but not a clean all-time record by every measure.",
+      "quotes": [],
+      "sources": [
+        "https://politifact.com/factchecks/2026/feb/09/donald-trump/factory-manufacturing-construction-record-high/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "Half True rather than clearly false or absurd, no standout quote or visual moment, and yt-dlp search returned no relevant real-outlet video of the actual statement. Weakest comedic hook of the pool; cut."
+    },
+    {
+      "id": "drugs_down_97",
+      "date": "2026-01-29",
+      "what_happened": "After a string of US military strikes on suspected drug vessels in the Caribbean and Pacific, Trump claimed drugs entering the country by sea are 'down 97%' -- rated False by PolitiFact against actual seizure and trafficking data.",
+      "quotes": [],
+      "sources": [
+        "https://politifact.com/factchecks/2026/feb/23/donald-trump/drug-water-down-97-percent-cocaine-seizures-sea/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "A false statistic but a dry one with no built-in punchline, and yt-dlp searches for the claim returned no relevant real-outlet video of Trump making it. Cut for weak video and weak comedic hook."
+    },
+    {
+      "id": "credit_card_violation_of_law",
+      "date": "2026-01-09/12",
+      "what_happened": "Trump posted on Truth Social that credit card companies would be 'in violation of the law' if they didn't voluntarily cap interest rates at 10% by January 20 -- PolitiFact found no such law exists; Trump only later, at Davos on January 21, asked Congress to actually pass one.",
+      "quotes": [
+        {"text": "in violation of the law", "speaker": "Donald Trump (Truth Social post)"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2026/jan/12/donald-trump/trump-credit-card-interest-rate-10-percent-law/",
+        "https://www.washingtonpost.com/politics/2026/01/10/trump-credit-card-interest-cap/"
+      ],
+      "video_candidates": [
+        "lYiq2JfEXbA|NTD|Trump Calls for Temporary 10 Percent Cap on Credit Card Interest Rates",
+        "esTtlWwcbEA|FOX 10 Phoenix|Trump calls for 10% limit on credit card rates to ease consumer debt"
+      ],
+      "picked": false,
+      "reason": "The 'in violation of the law' line itself was a silent Truth Social post with no video of the moment; folded instead into the picked davos_speech story, which covers the same underlying credit-card claim via Trump's actual on-camera Jan. 21 remarks. Not picked as its own story to avoid a duplicate topic."
+    }
+  ]
+}

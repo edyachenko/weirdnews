@@ -1,0 +1,183 @@
+{
+ "slug": "2026-01-trump-month",
+ "title": "Trump's Month: January 2026",
+ "period": "2026-01-01..2026-01-31",
+ "voice": {
+  "voice": "en-US-BrianMultilingualNeural",
+  "rate": "-8%",
+  "pitch": "-2Hz"
+ },
+ "stories": [
+  {
+   "id": "n6_mtg_resignation",
+   "number": 6,
+   "brief": "Trump calls his own top loyalist Marjorie Taylor Greene a 'traitor' over the Epstein files, drives her out of Congress, then calls it 'great news.'",
+   "date": "2026-01-05",
+   "facts": "After Trump publicly branded Rep. Marjorie Taylor Greene a traitor and a disgrace to the Republican Party over her criticism of the administration's handling of the Jeffrey Epstein files, Greene resigned from Congress effective January 5, 2026. In her resignation statement she said standing up for American women who were raped at 14, trafficked and used by rich, powerful men should not result in her being called a traitor and threatened by the President of the United States, whom she had fought for. Trump responded by calling her resignation great news for the country. Greene, once one of Trump's most loyal defenders in Congress, had spent months breaking with the administration over its refusal to fully release Epstein-related files.",
+   "sources": [
+    {
+     "outlet": "Time",
+     "url": "https://time.com/7336228/marjorie-taylore-greene-resignation-letter-trump/"
+    },
+    {
+     "outlet": "Roll Call",
+     "url": "https://rollcall.com/2026/01/05/marjorie-taylor-greene-resign-congress-trump/"
+    },
+    {
+     "outlet": "ABC News",
+     "url": "https://abcnews.com/Politics/rep-marjorie-taylor-greene-resign-congress-january/story?id=127771912"
+    }
+   ],
+   "footage_ideas": "Search News24's 'Trump claims Marjorie Taylor Greene's resignation is great news', ABC News's Greene fallout coverage, and BBC News's 'US lawmaker Marjorie Taylor Greene to resign', uploads early January 2026; grep subs for 'traitor', 'disgrace', 'great news', 'raped at 14'. Visuals: Greene delivering her resignation remarks to camera, Trump's soundbite reacting, a graphic timeline of the feud (once-loyalist to critic)."
+  },
+  {
+   "id": "n5_minneapolis_paid_agitators",
+   "number": 5,
+   "brief": "Thousands march against ICE raids in subzero Minnesota cold; Trump insists they're all paid actors.",
+   "date": "2026-01-18/23",
+   "facts": "As ICE Out protests spread across Minnesota against expanded federal immigration enforcement, Trump repeatedly claimed the demonstrators were being paid. On January 18 he wrote on Truth Social that the thugs protesting include many highly paid professional agitators and anarchists, and at a January 20 press conference he called protesters paid agitators and insurrectionists. On January 23, a statewide day of action drew thousands of Minnesotans marching in subzero temperatures, with hundreds of businesses closing in solidarity. PolitiFact rated Trump's paid-protester claim False, finding no evidence of organized payment and reporting that the large turnout reflected genuine grassroots opposition to the raids.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/jan/26/donald-trump/Trump-paid-protesters-ICE-Minnesota-Minneapolis/"
+    },
+    {
+     "outlet": "NPR",
+     "url": "https://www.npr.org/2026/01/23/nx-s1-5686733/minnesotans-day-of-ice-protests"
+    },
+    {
+     "outlet": "GPB",
+     "url": "https://www.gpb.org/news/2026/01/23/minnesotans-turn-out-in-the-frigid-cold-protest-trumps-immigration-crackdown"
+    }
+   ],
+   "footage_ideas": "Search India Today's 'Trump LIVE: Minnesota Protesters Paid Agitators, Says Trump' and local Minnesota outlet uploads (KARE 11, FOX 9 Minneapolis) from Jan 20-23, 2026; grep subs for 'paid agitators', 'insurrectionists', 'professional agitators', 'anarchists'. Visuals: crowds marching in the cold with ICE Out signs, Trump's press-conference soundbite, a chyron reading 'PolitiFact: False'."
+  },
+  {
+   "id": "n4_detroit_gaffe_fraud",
+   "number": 4,
+   "brief": "Trump makes bizarre moaning noises mid-speech in Detroit, then claims stopping 'fraud' alone will balance the federal budget.",
+   "date": "2026-01-13",
+   "facts": "Speaking for 64 minutes to the Detroit Economic Club at the MotorCity Casino on January 13, 2026, Trump made a series of odd guttural noises and extended throat-clearing sounds mid-speech that went viral online, with commentators comparing it to a demon trying to escape his body. In the same address he declared, if we stop this fraud, this massive fraud, we're going to have a balanced budget, a claim PolitiFact rated False, since the specific fraud he described would not come close to closing the actual federal deficit. He also told the crowd the results are in, and the Trump economic boom is officially begun, while roughly 200 protesters gathered outside the venue.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/jan/13/donald-trump/fraud-budget-deficit-detroit-minnesota/"
+    },
+    {
+     "outlet": "Atlanta Black Star",
+     "url": "https://atlantablackstar.com/2026/01/14/trump-complains-whines-then-moans-in-bizarre-moment/"
+    },
+    {
+     "outlet": "Bridge Michigan",
+     "url": "https://bridgemi.com/michigan-government/fact-check-donald-trump-touts-economy-downplays-costs-in-michigan-speech/"
+    }
+   ],
+   "footage_ideas": "Search CNBC Television's and PBS NewsHour's full Detroit Economic Club coverage, and Right Side Broadcasting Network's full replay, from Jan 13, 2026; grep subs for 'fraud', 'balanced budget', 'economic boom', and locate the throat-clearing/moaning segment by ear. Visuals: wide shot of the Sound Board Theater stage, close-up during the odd noises, protester footage outside MotorCity Casino."
+  },
+  {
+   "id": "n3_davos_speech",
+   "number": 3,
+   "brief": "At Davos, Trump claims a huge AI lead over China, wants Greenland 'without force,' and invents a law on credit card rates.",
+   "date": "2026-01-21",
+   "facts": "Addressing the World Economic Forum in Davos on January 21, 2026, Trump declared, we're leading the world in AI by a lot, we're leading China by a lot -- a claim PolitiFact rated Half True, since experts said the real US lead over China's models and chip production was closer to a few months than a decisive gap. In the same speech he renewed his demand for US control of Greenland, saying the US won't use force but needs the territory to protect the security of the North American continent, and he asked Congress to pass legislation capping credit card interest rates at 10% for a year. That request came days after he had falsely claimed on Truth Social that credit card companies would be in violation of the law if they didn't cap rates themselves by January 20 -- PolitiFact found no such law existed.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://www.politifact.com/factchecks/2026/jan/29/donald-trump/trump-says-the-us-leads-china-by-a-lot-in-ai-exper/"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/jan/12/donald-trump/trump-credit-card-interest-rate-10-percent-law/"
+    },
+    {
+     "outlet": "Axios",
+     "url": "https://www.axios.com/2026/01/21/davos-2026-ai-trump-canada-greenland-nato-crisis"
+    }
+   ],
+   "footage_ideas": "Search Associated Press's 'LIVE: Trump speaks at World Economic Forum 2026 in Davos (full speech)' and The Wall Street Journal's full-speech upload from Jan 21, 2026; grep subs for 'leading China by a lot', 'won't use force', 'in violation of the law', 'no inflation'. Visuals: wide shot of the Davos stage and audience, Trump at the podium, a graphic overlay of the credit-card Truth Social post with a PolitiFact rating chyron."
+  },
+  {
+   "id": "n2_anniversary_presser",
+   "number": 2,
+   "brief": "Trump marks one year in office with a 104-minute ramble, a book of 'accomplishments' he throws on the ground, and an ICE mugshot slideshow.",
+   "date": "2026-01-20",
+   "facts": "On the one-year anniversary of his second inauguration, Trump held a 104-minute White House press briefing built around a self-declared list of 365 wins. He displayed a thick bound book, saying it contained page after page after page of accomplishments he could stand there and read for a week without finishing, then set it down. He opened the briefing with a slideshow of ICE arrest photos from the Minneapolis raids. Raw Story likened the rambling delivery to listening to an old drunk, and CNN cut away from its live broadcast mid-briefing, with anchor Brianna Keilar calling it pretty winding even by Trumpian standards. PolitiFact's fact-check of the briefing flagged multiple exaggerated claims about his first-year record.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://www.politifact.com/article/2026/jan/20/trump-press-briefing-year-anniversary/"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-marathon-press-briefing-at-one-year-mark-of-his-second-term"
+    },
+    {
+     "outlet": "Raw Story",
+     "url": "https://www.rawstory.com/donald-trump-press-conference/"
+    },
+    {
+     "outlet": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/trump-79-marks-first-year-in-power-with-weird-80-minute-ramble/"
+    }
+   ],
+   "footage_ideas": "Search The Independent's 'IN FULL: Low-energy Trump reels off accomplishments in rambling one-year anniversary address', India Today's 'Here's The Book: Trump Shows Off Book Of His Accomplishments Before Throwing It On The Ground', and KARE 11's ICE-slideshow clip, uploads Jan 20, 2026; grep subs for 'page after page', 'worst of the worst', 'read it for a week'. Visuals: Trump holding up and tossing the book, the ICE mugshot slideshow, reporters' reactions in the briefing room."
+  },
+  {
+   "id": "n1_venezuela_run_it",
+   "number": 1,
+   "brief": "The US captures Venezuela's president overnight, and Trump announces America will just run the country now.",
+   "date": "2026-01-03",
+   "facts": "On January 3, 2026, the US carried out airstrikes on Caracas and announced the capture of Venezuelan President Nicolas Maduro and his wife Cilia Flores, both facing US cocaine-trafficking charges under newly unsealed indictments. At a press conference hours later, Trump said the United States would temporarily take control of the Venezuelan government, telling reporters, we're going to run it, essentially, until we can do a safe, proper and judicious transition, and said the US would sell the country's seized oil. In the same appearance, Trump claimed Maduro had been flooding America with deadly fentanyl -- a claim PolitiFact rated False, since US government data shows the large majority of fentanyl entering the country comes through Mexico, not Venezuela.",
+   "sources": [
+    {
+     "outlet": "NPR",
+     "url": "https://www.npr.org/2026/01/03/g-s1-104346/trump-venezuela-maduro-press-conference"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/1/4/fact-checking-trump-following-us-capture-of-venezuelas-maduro"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/jan/07/donald-trump/maduro-fentanyl-venezuela-mexico-trump/"
+    }
+   ],
+   "footage_ideas": "Search USA TODAY's 'Full Trump press conference on Maduro capture mission, attack on Caracas and vision for Venezuela', Reuters's LIVE press-conference upload, and Guardian News's and Sky News's coverage from Jan 3, 2026; grep subs for 'we're going to run it', 'flooding America', 'safe, proper and judicious transition'. Visuals: the press-conference podium, news b-roll of explosions/aircraft over Caracas, a graphic of Maduro's indictment/booking photo."
+  }
+ ],
+ "story_order": [
+  "n6_mtg_resignation",
+  "n5_minneapolis_paid_agitators",
+  "n4_detroit_gaffe_fraud",
+  "n3_davos_speech",
+  "n2_anniversary_presser",
+  "n1_venezuela_run_it"
+ ],
+ "cold_open_order": [
+  "n1_venezuela_run_it",
+  "n2_anniversary_presser",
+  "n4_detroit_gaffe_fraud",
+  "n6_mtg_resignation",
+  "n3_davos_speech",
+  "n5_minneapolis_paid_agitators"
+ ],
+ "intro": {
+  "text": "January twenty twenty-six. The President captured a country, moaned into a live microphone, and told Davos he's beating China by a lot. We are counting down the six dumbest moments of the month. Buckle up.",
+  "visuals": [
+   "stories/n1_venezuela_run_it/clips/n1_sot_captured.mp4",
+   "stories/n4_detroit_gaffe_fraud/clips/n4_visual_venue.mp4",
+   "stories/n2_anniversary_presser/clips/n2_visual_podium_wide.mp4",
+   "stories/n5_minneapolis_paid_agitators/clips/n5_v_march1.mp4"
+  ]
+ },
+ "outro": {
+  "text": "So that was January. A captured president, a book that nearly took his finger off, a Davos speech full of numbers nobody checked, a Minnesota winter full of, apparently, paid actors, and the President's loudest defender shown the door. If you want the next month, hit subscribe. See you then.",
+  "visuals": [
+   "stories/n6_mtg_resignation/clips/n6_sot_lastday_anchor.mp4",
+   "stories/n5_minneapolis_paid_agitators/clips/n5_v_cold1.mp4",
+   "stories/n3_davos_speech/clips/n3_v_podium1.mp4",
+   "stories/n2_anniversary_presser/clips/n2_visual_mugshot_reveal.mp4",
+   "stories/n1_venezuela_run_it/clips/n1_sot_transition.mp4"
+  ]
+ }
+}

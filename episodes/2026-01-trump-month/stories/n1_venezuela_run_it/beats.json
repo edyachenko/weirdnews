@@ -1,0 +1,72 @@
+{
+  "id": "n1_venezuela_run_it",
+  "number": 1,
+  "headline": "US Captures Maduro, Trump To 'Run It'",
+  "sources": [
+    {"outlet": "NPR", "url": "https://www.npr.org/2026/01/03/g-s1-104346/trump-venezuela-maduro-press-conference"},
+    {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/1/4/fact-checking-trump-following-us-capture-of-venezuelas-maduro"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2026/jan/07/donald-trump/maduro-fentanyl-venezuela-mexico-trump/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "The US bombed Caracas overnight and captured Venezuela's president. Hours later, Trump had a bigger plan than an arrest.",
+      "visuals": ["n1_sot_captured", "n1_sot_darkdeadly"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_captured",
+      "caption": "successfully captured Maduro in the dead of night",
+      "label": "via USA TODAY"
+    },
+    {
+      "type": "narr",
+      "text": "Great heist-movie setup. Terrible way to run a foreign policy briefing.",
+      "visuals": ["n1_sot_darkdeadly"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_darkdeadly",
+      "caption": "It was dark. And it was deadly.",
+      "label": "via USA TODAY"
+    },
+    {
+      "type": "narr",
+      "text": "With Maduro in custody, Trump skipped right past the part where someone else takes over.",
+      "visuals": ["n1_sot_runcountry"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_runcountry",
+      "caption": "So we are going to run the country",
+      "label": "via USA TODAY"
+    },
+    {
+      "type": "narr",
+      "text": "Define transition. Take your time, sir — you've got nothing but a whole country and its oil now.",
+      "visuals": ["n1_sot_transition"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_transition",
+      "caption": "we can do a safe, proper, and judicious transition",
+      "label": "via USA TODAY"
+    },
+    {
+      "type": "narr",
+      "text": "He also repeated a Maduro-fentanyl claim PolitiFact rated false — most fentanyl entering the US comes through Mexico, not Venezuela.",
+      "visuals": ["n1_sot_poison"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_poison",
+      "caption": "flooded our nation with lethal poison",
+      "label": "via USA TODAY"
+    },
+    {
+      "type": "narr",
+      "text": "Recap: we bombed a capital, grabbed a president, and now own the oil business. Cool month.",
+      "visuals": ["n1_sot_captured", "n1_sot_transition"]
+    }
+  ]
+}

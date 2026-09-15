@@ -1,0 +1,72 @@
+{
+  "id": "n6_mtg_resignation",
+  "number": 6,
+  "headline": "Trump Calls Her a Traitor, She Quits",
+  "sources": [
+    {"outlet": "Time", "url": "https://time.com/7336228/marjorie-taylore-greene-resignation-letter-trump/"},
+    {"outlet": "Roll Call", "url": "https://rollcall.com/2026/01/05/marjorie-taylor-greene-resign-congress-trump/"},
+    {"outlet": "ABC News", "url": "https://abcnews.com/Politics/rep-marjorie-taylor-greene-resign-congress-january/story?id=127771912"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Marjorie Taylor Greene spent years as Trump's loudest defender. Then she wouldn't drop the Epstein files.",
+      "visuals": ["n6_sot_lastday_anchor", "n6_sot_wacky_traitor"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_wacky_traitor",
+      "caption": "calling Green wacky and a traitor",
+      "label": "via CBS Philadelphia"
+    },
+    {
+      "type": "narr",
+      "text": "Turns out loyalty has a shelf life, and hers just expired.",
+      "visuals": ["n6_sot_farewell_thankyou"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_stand_with_women",
+      "caption": "I fully stand with women who were raped as teenagers",
+      "label": "via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "Her actual crime? Wanting the files released, like Trump promised voters.",
+      "visuals": ["n6_sot_stand_with_women"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_called_traitor",
+      "caption": "even though the president called me a traitor for standing with those victims",
+      "label": "via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "On January fifth, the fight that started with a tweet ended with an empty seat.",
+      "visuals": ["n6_sot_lastday_anchor", "n6_sot_called_traitor"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_lastday_anchor",
+      "caption": "This is Marjorie Taylor Green's last day in Congress.",
+      "label": "via CBS Chicago"
+    },
+    {
+      "type": "narr",
+      "text": "Before she left, she got one nice moment in.",
+      "visuals": ["n6_sot_farewell_thankyou"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_farewell_thankyou",
+      "caption": "that's thank you for the honor of the lifetime allowing me to serve them in the 14th district",
+      "label": "via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "Trump's review of losing his loudest defender: great news.",
+      "visuals": ["n6_sot_wacky_traitor"]
+    }
+  ]
+}
