@@ -64,6 +64,23 @@ uv run --project ~/pet-projects/weirdnews-mpt/MoneyPrinterTurbo python pipeline/
 - **Pexels/urllib needs an explicit User-Agent** (Cloudflare 403). Keys live in `.env` (see `.env.example`), never print them.
 - **Frozen frames** come from narr beats with too little footage. `verify.py` fails any freeze >1 s outside SOTs.
 - Concatenating independently encoded shots with `-c copy` creates stalled frames. Re-encode at concat.
+- **Audio drifting behind video, worse by the end (fixed 2026-09-15).** Root cause: both
+  concat points (`render_beat.py concat_shots`, `assemble.py concat_and_normalize`) used
+  the ffmpeg concat **demuxer**, which is only reliable for homogeneous-parameter inputs —
+  source clips have heterogeneous native frame rates (29.97/25/30/60fps), and per-splice
+  timing imprecision compounded across ~65-70 beats into ~300ms-2s of drift by the end of
+  a ~380s episode (worst case measured: 2.19s on `2026-09-trump-month`). Fixed by
+  switching both to the concat **filter** (`concat=n=N:v=1:a=1` in `-filter_complex`,
+  `assemble.py` batches ~10 inputs at a time). That alone wasn't enough: even with the
+  filter, a beat's audio (continuous PCM) and video (frame-quantized) can differ by a
+  fraction of a frame, which still compounded across beats — fixed by hard-clamping each
+  input's audio (`atrim`+`apad`) to that input's own `exact_video_duration` (frame
+  count/fps, in `common.py` — NOT `ffprobe_duration`'s container-level `format=duration`,
+  which can include a stray `start_time` offset) before concat. **`pipeline/drift_check.py`**
+  (wired into `verify.py`) cross-correlates each checkpoint beat's own cached audio against
+  the final file to catch this class of bug — the old duration/freeze checks passed on all
+  four buggy episodes. Also needed `setsar=1` per input: sources with mismatched SAR abort
+  the concat filter graph outright (`Failed to configure output pad`).
 - The final concat file used to be huge (~700 MB) from a per-shot noise dither added to defeat freezedetect;
   that dither is removed and `verify.py`'s freeze threshold tightened instead — a passing render is now ~100–150 MB.
   If it balloons again, check for a reintroduced dither before touching concat settings.

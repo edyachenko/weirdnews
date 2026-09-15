@@ -85,6 +85,33 @@ def ffprobe_duration(path):
     return float(p.stdout.strip())
 
 
+def exact_video_duration(path, fps=FPS):
+    """Duration implied by the video stream's own frame count / fps -- the ground truth
+    for what a concat filter's `fps=,setpts=PTS-STARTPTS` reset actually produces on this
+    input, which can differ slightly from the container's own top-level `duration`
+    (format=duration, used by ffprobe_duration): some sources carry a small start_time
+    offset from upstream re-encoding, which format=duration includes but a PTS-reset
+    video stream does not. Used to clamp each input's audio to the SAME length its video
+    will actually occupy after the concat filter, so per-input sub-frame AV mismatches
+    can't accumulate into audio-vs-video drift across dozens of concatenated inputs."""
+    p = run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+             "-show_entries", "stream=nb_frames",
+             "-of", "default=noprint_wrappers=1:nokey=1", path], check=False)
+    v = (p.stdout or "").strip()
+    if v.isdigit():
+        return int(v) / fps
+    # container didn't carry a frame count (rare for our own re-encoded beat files) --
+    # fall back to an exact (slow, decodes the stream) frame count, then to the
+    # format-level duration if even that fails.
+    p2 = run(["ffprobe", "-v", "error", "-count_frames", "-select_streams", "v:0",
+              "-show_entries", "stream=nb_read_frames",
+              "-of", "default=noprint_wrappers=1:nokey=1", path], check=False)
+    v2 = (p2.stdout or "").strip()
+    if v2.isdigit():
+        return int(v2) / fps
+    return ffprobe_duration(path)
+
+
 def ffprobe_dims(path):
     p = run([
         "ffprobe", "-v", "error", "-select_streams", "v:0",

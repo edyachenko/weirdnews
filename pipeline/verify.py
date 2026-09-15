@@ -19,6 +19,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 from common import run, ffprobe_duration, ffprobe_dims, has_audio_stream, load_episode, bumper_slot_names  # noqa: E402
+from drift_check import measure_drift  # noqa: E402
 
 
 def gather_beats(root, order, intro_outro_path, bumpers_path=None):
@@ -251,6 +252,14 @@ def main():
     frame_times = extract_frames(final, items, os.path.expanduser(args.frames_out))
     freeze_report = check_freezes(final, workdir)
 
+    drift_report = {}
+    manifest_path = os.path.join(workdir, "manifest.json") if workdir else None
+    if manifest_path and os.path.exists(manifest_path):
+        try:
+            drift_report = {"drift": measure_drift(manifest_path, final)}
+        except Exception as e:
+            drift_report = {"drift": {"error": str(e)}}
+
     report = {
         "final_duration_s": dur,
         "final_dims": f"{w}x{h}",
@@ -259,6 +268,7 @@ def main():
         "n_random_frames": len(frame_times),
         "sot_beats_total": sum(1 for it in items if it["type"] == "sot"),
         **freeze_report,
+        **drift_report,
     }
     print(json.dumps(report, indent=2))
     with open(os.path.join(os.path.expanduser(args.frames_out), "..", "verify_report.json"), "w") as f:

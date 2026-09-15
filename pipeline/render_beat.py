@@ -157,18 +157,34 @@ def make_shot_with_zoom(src, in_sec, dur, out_path):
 
 
 def concat_shots(shot_paths, out_path):
-    """Re-encode across the join (not -c copy): stream-copying independently-encoded
-    shots through the concat demuxer can duplicate/stall a frame right at the splice
-    (non-monotonic timestamps from mismatched GOPs), which freezedetect then reports as
-    a frozen frame even though nothing in our own code held a static frame there."""
-    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
-        for p in shot_paths:
-            f.write(f"file '{os.path.abspath(p)}'\n")
-        listfile = f.name
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", listfile,
-         "-vf", f"fps={FPS},format=yuv420p", "-c:v", "libx264", "-crf", "18",
-         "-preset", "veryfast", out_path])
-    os.unlink(listfile)
+    """Concat via the ffmpeg concat FILTER (decoded frames, per-input timestamp reset),
+    not the concat demuxer + raw packet continuity: shots here are cut from source clips
+    of heterogeneous native frame rates (29.97/25/30/60fps), and the demuxer's own
+    duration-based timestamp continuity is only reliable for homogeneous inputs -- with
+    mixed-fps shots it can duplicate/stall a frame right at the splice (non-monotonic
+    timestamps from mismatched GOPs), which freezedetect then reports as a frozen frame
+    even though nothing in our own code held a static frame there, and which also
+    silently shifts the visual track's effective duration a few ms per splice -- when
+    ~65-70 of these beats are later concatenated end to end (concat_and_normalize in
+    assemble.py) that per-splice error compounds into a few hundred ms of audio/video
+    drift by the end of a ~380s episode. The filter graph resets PTS on every input
+    before handing it to `concat`, so each shot's frames land at their true fps-30
+    timestamps regardless of source fps."""
+    n = len(shot_paths)
+    cmd = ["ffmpeg", "-y"]
+    for p in shot_paths:
+        cmd += ["-i", p]
+    parts = []
+    labels = []
+    for i in range(n):
+        lbl = f"v{i}"
+        parts.append(f"[{i}:v]fps={FPS},setpts=PTS-STARTPTS,format=yuv420p,setsar=1[{lbl}]")
+        labels.append(f"[{lbl}]")
+    parts.append(f"{''.join(labels)}concat=n={n}:v=1:a=0[outv]")
+    filt = ";".join(parts)
+    cmd += ["-filter_complex", filt, "-map", "[outv]",
+            "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", out_path]
+    run(cmd)
 
 
 def build_visuals_track(visuals, total_dur, tmpdir, extra_pool=None):

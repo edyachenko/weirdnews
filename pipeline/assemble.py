@@ -19,7 +19,7 @@ import sys
 import tempfile
 
 sys.path.insert(0, os.path.dirname(__file__))
-from common import run, ffprobe_duration, load_episode, bumper_slot_names, ROOT  # noqa: E402
+from common import run, ffprobe_duration, exact_video_duration, load_episode, bumper_slot_names, ROOT, FPS  # noqa: E402
 import plates  # noqa: E402
 
 PIPELINE_DIR = os.path.dirname(__file__)
@@ -312,17 +312,82 @@ def build_jobs(root, order, intro_outro_path, workdir, bug_png, bumpers=None, bu
     return jobs, credits
 
 
-def concat_and_normalize(clip_paths, out_path):
-    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
-        for p in clip_paths:
-            f.write(f"file '{os.path.abspath(p)}'\n")
-        listfile = f.name
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", listfile,
-         "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p",
-         "-r", "30", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
-         "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k",
-         out_path])
-    os.unlink(listfile)
+def _concat_filter_batch(paths, out_path, apply_loudnorm=False):
+    """One ffmpeg invocation: concat `paths` via the filter graph (decoded frames, PTS
+    reset per input), never the concat demuxer. Used both for the ~7 intermediate group
+    files and for the final pass over those groups -- see concat_and_normalize for why.
+
+    Each input's audio is hard-clamped (atrim+apad) to that input's OWN ffprobe container
+    duration -- the same duration `concat_and_normalize` sums to compute every beat's
+    expected position on the final timeline. Without this, a beat's audio (continuous PCM,
+    exact-seconds length from TTS/loudnorm) and its video (CFR, frame-quantized length)
+    can differ by a fraction of a frame even after both are PTS-reset to 0 -- per beat that
+    is sub-frame noise, but concatenated across ~70 beats it accumulates into a
+    multi-hundred-ms audio-vs-video walk-off by the end of the episode (this was still
+    happening after the concat-filter switch alone; clamping audio to the video's own
+    reported duration on every single input removes the accumulation at the source)."""
+    n = len(paths)
+    durs = [exact_video_duration(p) for p in paths]
+    cmd = ["ffmpeg", "-y"]
+    for p in paths:
+        cmd += ["-i", p]
+    parts = []
+    labels = []
+    for i in range(n):
+        vlbl, albl = f"v{i}", f"a{i}"
+        d = durs[i]
+        parts.append(f"[{i}:v]fps={FPS},setpts=PTS-STARTPTS,format=yuv420p,setsar=1[{vlbl}]")
+        parts.append(
+            f"[{i}:a]aresample=async=1:first_pts=0,asetpts=PTS-STARTPTS,"
+            f"atrim=0:{d:.6f},apad=whole_dur={d:.6f}[{albl}]"
+        )
+        labels.append(f"[{vlbl}][{albl}]")
+    parts.append(f"{''.join(labels)}concat=n={n}:v=1:a=1[cv][ca]")
+    outv, outa = "[cv]", "[ca]"
+    if apply_loudnorm:
+        parts.append("[ca]loudnorm=I=-16:TP=-1.5:LRA=11[cao]")
+        outa = "[cao]"
+    filt = ";".join(parts)
+    cmd += ["-filter_complex", filt, "-map", outv, "-map", outa,
+            "-r", str(FPS),
+            "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k",
+            out_path]
+    run(cmd)
+
+
+def concat_and_normalize(clip_paths, out_path, batch_size=10):
+    """Concat every beat file (~65-70 for a full episode) into the final episode via the
+    ffmpeg concat FILTER, not the concat demuxer. Each beat file is already normalized to
+    30fps by render_beat.py's own concat_shots, but its source shots were originally cut
+    from clips at heterogeneous native frame rates (29.97/25/30/60fps) -- so each beat's
+    own duration/frame count can carry a tiny (sub-frame) imprecision from ITS internal
+    splice. The concat demuxer stitches by raw packet/duration continuity, which is only
+    exact for homogeneous inputs; across ~70 beats that per-beat imprecision compounded
+    into ~300-400ms of audio-vs-video drift by the end of a ~380s episode (measured on
+    the four shipped episodes -- see CLAUDE.md). The concat filter instead decodes every
+    input and resets PTS to 0 at each splice, so drift from one beat's internal timing
+    cannot carry into the next beat's start time.
+
+    Built in balanced batches (`batch_size` inputs per filter_complex graph, default 10)
+    rather than one ~70-input graph: keeps each ffmpeg invocation's filter graph small and
+    fast, and avoids relying on a single build's ceiling on filter_complex input count.
+    Only the FINAL batch gets the loudnorm pass (matching the original single-pass
+    placement of loudnorm at the very end, not per-beat)."""
+    if len(clip_paths) <= batch_size:
+        _concat_filter_batch(clip_paths, out_path, apply_loudnorm=True)
+        return
+    tmpdir = tempfile.mkdtemp(prefix="concat_batches_")
+    try:
+        groups = [clip_paths[i:i + batch_size] for i in range(0, len(clip_paths), batch_size)]
+        group_outs = []
+        for gi, g in enumerate(groups):
+            gout = os.path.join(tmpdir, f"group_{gi:03d}.mp4")
+            _concat_filter_batch(g, gout, apply_loudnorm=False)
+            group_outs.append(gout)
+        _concat_filter_batch(group_outs, out_path, apply_loudnorm=True)
+    finally:
+        shutil.rmtree(tmpdir, ignore_errors=True)
 
 
 def make_phone_copy(src, out_path, max_mb=29):
