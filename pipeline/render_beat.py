@@ -52,7 +52,16 @@ def uv_python(*args):
 def usable_duration(path, tail_window=4.0):
     """Full source duration, clamped to exclude a trailing frozen tail (freezedetect
     n=0.0005:d=1.0, same threshold verify.py checks). A freeze run that reaches the end
-    of the file (no freeze_end logged) is trimmed off; a mid-clip freeze is left alone."""
+    of the file (no freeze_end logged) is trimmed off; a mid-clip freeze is left alone.
+
+    A clip that is ALSO frozen right from frame 0 (some CNN-style "hold on a static
+    graphic" SOT clips are like this -- e.g. a full-screen tweet screenshot with a
+    ticker cropped out, near-zero motion for their whole length) cannot be trusted just
+    because its first freeze run happens to resolve before the trailing one: that
+    "resolved" prefix is itself static. Cap usable near-zero in that case so a caller
+    that reuses this source as extra-pool b-roll only ever grabs a sliver too short
+    (<1.0s) for freezedetect's d=1.0 to flag, instead of replaying a near-fully-frozen
+    clip as if it were real motion footage."""
     if path in _FREEZE_CACHE:
         return _FREEZE_CACHE[path]
     dur = ffprobe_duration(path)
@@ -67,6 +76,8 @@ def usable_duration(path, tail_window=4.0):
         tail_start = starts[-1]
         if tail_start >= dur - tail_window - 1.0:
             usable = max(tail_start, 0.5)
+    if starts and starts[0] <= 0.05:
+        usable = min(usable, 0.8)
     _FREEZE_CACHE[path] = usable
     return usable
 

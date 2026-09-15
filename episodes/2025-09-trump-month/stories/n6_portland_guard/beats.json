@@ -1,0 +1,61 @@
+{
+  "id": "n6_portland_guard",
+  "number": 6,
+  "headline": "Trump's 'War-Ravaged' Portland Order",
+  "sources": [
+    {"outlet": "Time", "url": "https://time.com/7322038/trump-portland-ice-protests-crime/"},
+    {"outlet": "OPB", "url": "https://www.opb.org/article/2025/09/29/timeline-donald-trump-pressure-portland/"},
+    {"outlet": "NPR", "url": "https://www.npr.org/2025/09/29/nx-s1-5556831/portland-memphis-national-guard-trump-troops"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "On September twenty-seventh, Trump called Portland 'war-ravaged' and ordered up to two hundred National Guard troops in.",
+      "visuals": ["n6_visual_guard_street", "n6_visual_guard_downtown", "n6_visual_guard_courthouse"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_warravaged",
+      "caption": "to protect war ravaged Portland and any of our ICE Facilities",
+      "label": "via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "Portland: known for coffee shops and rain, apparently now also a war zone, per the president.",
+      "visuals": ["n6_visual_guard_downtown", "n6_sot_safecalm"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_fullforce",
+      "caption": "I am also authorizing full force if necessary.",
+      "label": "via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "That order landed while Oregon's governor stood outside, looking distinctly unbesieged.",
+      "visuals": ["n6_visual_guard_street", "n6_sot_notneeded"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_safecalm",
+      "caption": "This city is safe and calm and it is a beautiful day to be here.",
+      "label": "via KATU News"
+    },
+    {
+      "type": "narr",
+      "text": "She wasn't finished making that point.",
+      "visuals": ["n6_visual_guard_downtown"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_notneeded",
+      "caption": "But they are not needed in this city. They are not needed here.",
+      "label": "via KATU News"
+    },
+    {
+      "type": "narr",
+      "text": "Zero troops needed, said the people who actually live there. Oregon and Portland sued, and a judge blocked the deployment.",
+      "visuals": ["n6_visual_guard_courthouse", "n6_visual_guard_street", "n6_visual_guard_downtown"]
+    }
+  ]
+}

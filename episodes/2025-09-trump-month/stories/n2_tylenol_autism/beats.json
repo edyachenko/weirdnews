@@ -1,0 +1,51 @@
+{
+  "id": "n2_tylenol_autism",
+  "number": 2,
+  "headline": "Trump: pregnant women, skip Tylenol",
+  "sources": [
+    {"outlet": "CNN", "url": "https://www.cnn.com/2025/09/22/health/trump-autism-announcement-cause-tylenol"},
+    {"outlet": "ABC News", "url": "https://abcnews.com/US/trump-admin-links-tylenol-pregnancy-increased-risk-autism/story?id=125802080"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2025/sep/23/donald-trump/president-donald-trump-said-theres-no-downside-to/"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2025/sep/26/donald-trump/no-small-children-dont-receive-80-different-vaccin/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "At a White House event with RFK Junior and Dr. Oz, Trump told pregnant women: stop taking Tylenol.",
+      "visuals": ["n2_visual_arrival"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_child",
+      "caption": "You shouldn't give a Tylenol to that child.",
+      "label": "via LiveNOW from FOX"
+    },
+    {
+      "type": "narr",
+      "text": "Acetaminophen has never been proven to cause autism. Doctors call it reckless. Then came the vaccine math.",
+      "visuals": ["n2_sot_child", "n2_visual_arrival"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_vaccines",
+      "caption": "You get a a vat of 80 different vaccines.",
+      "label": "via LiveNOW from FOX"
+    },
+    {
+      "type": "narr",
+      "text": "PolitiFact rated the '80 vaccines' claim False; the real schedule is nowhere close. Back at the mic, more Tylenol.",
+      "visuals": ["n2_sot_vaccines", "n2_visual_arrival"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_nodownside",
+      "caption": "Don't take it. There's there's no downside in not taking it.",
+      "label": "via LiveNOW from FOX"
+    },
+    {
+      "type": "narr",
+      "text": "PolitiFact's verdict: Pants Fire. Doctors say the actual downside is untreated fevers in pregnancy.",
+      "visuals": ["n2_sot_nodownside", "n2_sot_child"]
+    }
+  ]
+}

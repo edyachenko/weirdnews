@@ -1,0 +1,245 @@
+{
+  "window": "2025-09-01 to 2025-09-30",
+  "candidates": [
+    {
+      "id": "un_meltdown",
+      "date": "2025-09-23",
+      "what_happened": "At the 80th UN General Assembly, an escalator carrying Trump and Melania stopped mid-ride and his teleprompter went dark; Trump demanded a 'triple sabotage' investigation. In the speech itself he told world leaders 'your countries are going to hell' over immigration and climate policy, called wind power 'a joke,' and claimed he had 'ended seven unendable wars.'",
+      "quotes": [
+        {"text": "The people that did it should be arrested!", "speaker": "Donald Trump, on the escalator stopping"},
+        {"text": "Your countries are going to hell.", "speaker": "Donald Trump"},
+        {"text": "Those big windmills are so pathetic and so bad, so expensive to operate, and they have to be rebuilt all of the time and they start to rust and rot.", "speaker": "Donald Trump"},
+        {"text": "I have ended seven unendable wars.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.cnbc.com/2025/09/24/trump-sabotage-un-escalator-teleprompter-mic.html",
+        "https://www.cnn.com/2025/09/24/politics/trump-demands-investigation-into-alleged-sabotage-united-nations",
+        "https://www.axios.com/2025/09/23/trump-un-speech-countries-going-hell",
+        "https://politifact.com/factchecks/2025/sep/23/donald-trump/trump-ended-seven-wars-un-general-assembly/"
+      ],
+      "video_candidates": [
+        "COUBREB4Pak|Fox News|Trump has blunt message for UN: 'YOUR COUNTRIES ARE GOING TO HELL'",
+        "vhLeaT8lW_k|CNN-News18|Your Countries Are Going To Hell': Key Takeaways From Trump's UN Speech",
+        "cq7SGUG8ayA|msgpress|Trump's UNGA 2025 Highlights: Viral Teleprompter Glitch & UN Rants!",
+        "iN1zc2I6B9s|The Hill|'Your Countries Are Going To HELL': Trump Picks FIGHT With The U.N."
+      ],
+      "picked": true,
+      "reason": "Single richest event of the month: a real physical mishap (escalator/teleprompter) plus multiple false/absurd on-camera lines in one speech, wide real-outlet video coverage from every angle. Strongest #1 pick."
+    },
+    {
+      "id": "tylenol_autism",
+      "date": "2025-09-21/22",
+      "what_happened": "At a White House press event with RFK Jr. and Dr. Oz, Trump told pregnant women 'don't take' Tylenol/acetaminophen because there's 'no downside' to avoiding it, and separately claimed small children are given '80 different vaccines' -- both rated false/pants-fire by PolitiFact, and contradicted by the drug's manufacturer and mainstream medical guidance.",
+      "quotes": [
+        {"text": "Taking Tylenol is not good. Don't take it.", "speaker": "Donald Trump"},
+        {"text": "Don't take Tylenol. There's no downside... Don't take it if you're pregnant.", "speaker": "Donald Trump"},
+        {"text": "Don't give Tylenol to the baby after the baby's born.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.cnn.com/2025/09/22/health/trump-autism-announcement-cause-tylenol",
+        "https://abcnews.com/US/trump-admin-links-tylenol-pregnancy-increased-risk-autism/story?id=125802080",
+        "https://politifact.com/factchecks/2025/sep/23/donald-trump/president-donald-trump-said-theres-no-downside-to/",
+        "https://politifact.com/factchecks/2025/sep/26/donald-trump/no-small-children-dont-receive-80-different-vaccin/"
+      ],
+      "video_candidates": [
+        "uGmi1mR79Nk|KTVB|Trump's announcement links autism to Tylenol usage, but many doctors and experts disagree",
+        "W8qscelfEBc|Doctor Mike|The Most Unscientific Press Conference...",
+        "P7IwIV7Gv3k|WGN News|Trump admin to make announcement on link between Tylenol use and autism during pregnancy"
+      ],
+      "picked": true,
+      "reason": "Two PolitiFact pearls (pants-fire + false) from the same policy rollout, genuinely dangerous medical misinformation delivered on camera, real-outlet footage of the actual press event confirmed."
+    },
+    {
+      "id": "comey_indictment",
+      "date": "2025-09-25",
+      "what_happened": "A grand jury indicted former FBI Director James Comey on two counts days after Trump publicly pressured DOJ to prosecute him; Trump called Comey 'one of the worst human beings this Country has ever been exposed to' and 'a sick person,' and said from the Oval Office he hopes more political opponents get prosecuted.",
+      "quotes": [
+        {"text": "JUSTICE IN AMERICA! One of the worst human beings this Country has ever been exposed to is James Comey.", "speaker": "Donald Trump (social media post)"},
+        {"text": "I can only say that Comey is a bad person. He's a sick person. I think he's a sick guy, actually, he did terrible things at the FBI.", "speaker": "Donald Trump"},
+        {"text": "He placed a cloud over the entire nation.", "speaker": "Donald Trump, on Comey"}
+      ],
+      "sources": [
+        "https://www.nbcnews.com/politics/justice-department/justice-department-charges-james-comey-lying-congress-rcna233581",
+        "https://www.foxnews.com/politics/trump-reacts-comey-indictment-says-he-placed-cloud-over-entire-nation-crossfire-hurricane",
+        "https://www.pbs.org/newshour/show/after-comey-indictment-trump-says-he-hopes-more-political-opponents-will-face-prosecution"
+      ],
+      "video_candidates": [
+        "OVAb9DKvmek|LiveNOW from FOX|Comey indicted, declares 'I'm Innocent' as Trump reacts",
+        "nm6W8LMb5cY|NBC News|BREAKING: James Comey indicted over seashell photo that officials say threatened Trump",
+        "x-WUIlNKJoU|NBC News|Lawyer: President Trump Feels 'Completely Vindicated' By James Comey's Testimony"
+      ],
+      "picked": true,
+      "reason": "A president publicly celebrating the indictment of a named political opponent days after demanding it -- dark absurdity with clean real-outlet video of both the indictment and Trump's on-camera gloating."
+    },
+    {
+      "id": "quantico_nword",
+      "date": "2025-09-30",
+      "what_happened": "Addressing hundreds of generals and admirals summoned to Quantico, Trump falsely claimed 'you never heard Biden say' the US has the world's strongest military (PolitiFact pants-fire; Biden said it repeatedly), and separately joked that he moved 'a submarine or two' near Russia's coast and calls the word 'nuclear' the 'N-word,' saying 'there are two N-words, and you can't use either of them' -- met with silence from the room.",
+      "quotes": [
+        {"text": "You never heard Biden say that.", "speaker": "Donald Trump, on the US having the world's strongest military"},
+        {"text": "I call it the N word. There are two N words, and you can't use either of them.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.cnn.com/2025/09/30/politics/fact-check-trump-military-speech",
+        "https://www.politifact.com/factchecks/2025/oct/02/donald-trump/biden-never-said-us-strongest-military",
+        "https://www.newsweek.com/trump-says-there-are-two-n-words-and-you-cant-use-either-of-them-10804539"
+      ],
+      "video_candidates": [
+        "ypKUHHBqotE|LiveNOW from FOX|President Trump addresses top military leaders",
+        "DVTyGDTGfLM|PalmBeachPost|Donald Trump says there 'are two n words and you can't use either of them' during speech to military"
+      ],
+      "picked": true,
+      "reason": "A rare unscripted, self-aware joke landing dead silent in front of the entire senior military brass, paired with a PolitiFact pants-fire claim from the same speech; real-outlet video of the exact moment confirmed."
+    },
+    {
+      "id": "kimmel_suspension",
+      "date": "2025-09-17/19",
+      "what_happened": "Hours after FCC chair Brendan Carr threatened ABC over Jimmy Kimmel's Charlie Kirk remarks, ABC suspended 'Jimmy Kimmel Live!' indefinitely; Trump celebrated on Truth Social calling Kimmel a 'sick freak' with 'ZERO talent' and floated pulling network licenses from broadcasters 'against' him.",
+      "quotes": [
+        {"text": "Great News for America: The ratings challenged Jimmy Kimmel Show is CANCELLED.", "speaker": "Donald Trump (Truth Social post)"},
+        {"text": "Congratulations to ABC for finally having the courage to do what had to be done. Kimmel has ZERO talent.", "speaker": "Donald Trump"},
+        {"text": "You can call that free speech or not, he was fired for lack of talent.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://thehill.com/homenews/media/5509204-trump-celebrates-kimmel-suspension/",
+        "https://www.axios.com/2025/09/18/jimmy-kimmel-trump-abc-brendan-carr",
+        "https://www.cnbc.com/2025/09/18/trump-jimmy-kimmel-tv-network-licenses.html"
+      ],
+      "video_candidates": [
+        "23Ei9IPuWys|TODAY|ABC Suspends 'Jimmy Kimmel Live!' Over Charlie Kirk Comments",
+        "bW51q-Zr6_A|Nextway America|ABC Suspends Jimmy Kimmel LIVE After Charlie Kirk Shooting Remarks — Trump Reacts",
+        "fX8nn4faCIs|Entertainment Tonight|Will Trump's FCC Take Away ABC's TV Licenses Over Jimmy Kimmel Feud?"
+      ],
+      "picked": true,
+      "reason": "A sitting president gloating over a comedian's suspension and floating using the FCC to pull broadcast licenses -- a clean free-speech-overreach story with real-outlet video and quotable, petty lines."
+    },
+    {
+      "id": "portland_war_ravaged",
+      "date": "2025-09-27",
+      "what_happened": "Trump posted that he was authorizing troops to protect 'War ravaged Portland' and ICE facilities from 'Antifa, and other domestic terrorists,' ordering up to 200 National Guard members with 'Full Force, if necessary.' Portland's mayor and Oregon's governor called the description flatly false and said zero troops were needed; the state sued and a federal judge blocked the deployment.",
+      "quotes": [
+        {"text": "War ravaged Portland, and any of our ICE Facilities under siege from attack by Antifa, and other domestic terrorists.", "speaker": "Donald Trump (Truth Social post)"},
+        {"text": "We do not need help.", "speaker": "Oregon Gov. Tina Kotek"}
+      ],
+      "sources": [
+        "https://time.com/7322038/trump-portland-ice-protests-crime/",
+        "https://www.opb.org/article/2025/09/29/timeline-donald-trump-pressure-portland/",
+        "https://www.npr.org/2025/09/29/nx-s1-5556831/portland-memphis-national-guard-trump-troops"
+      ],
+      "video_candidates": [
+        "VOdoiXBPqpg|CNN|Trump says he's sending troops to protect 'war ravaged Portland'",
+        "NVzDl2MvX0Y|CBC News|Trump says he's sending the military into 'war ravaged' Portland, Ore.",
+        "aa_CImbyLW4|KATU News|'We do not need help': Oregon Gov. Tina Kotek on Trump's Portland announcement"
+      ],
+      "picked": true,
+      "reason": "A hyperbolic 'war ravaged' description of a mid-size US city used to justify a troop deployment the city's own leaders rejected on camera -- real footage of both the claim and the rebuttal."
+    },
+    {
+      "id": "fbi_agitators",
+      "date": "2025-09-27",
+      "what_happened": "Trump posted that 274 FBI agents were secretly placed in the Jan. 6 crowd and were 'probably acting as agitators and insurrectionists' -- a PolitiFact pants-fire claim contradicted by a DOJ Inspector General review that found no evidence of undercover FBI employees in the crowd.",
+      "quotes": [
+        {"text": "274 FBI Agents into the Crowd just prior to, and during, the January 6th Hoax.", "speaker": "Donald Trump (Truth Social post)"},
+        {"text": "Probably acting as agitators and insurrectionists, but certainly not as 'law enforcement officials.'", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2025/sep/30/donald-trump/FBI-agents-J6-attack-agitators-undercover/",
+        "https://www.forbes.com/sites/tylerroush/2025/09/27/trump-falsely-claims-fbi-agents-acted-as-agitators-and-insurrectionists-on-jan-6/"
+      ],
+      "video_candidates": [
+        "-TNg7x7tcMs|US Briefing Daily|Trump Falsely Alleges FBI Agents Were in Jan. 6 Crowds",
+        "pCIj7J5wNWc|Forbes Breaking News|FBI Director Asked Point Blank If Any Jan. 6 Rioters Were FBI Sources Dressed As Trump Supporters"
+      ],
+      "picked": false,
+      "reason": "PolitiFact's own top pants-fire pearl for the month, but it is a Truth Social post rather than a spoken on-camera moment, and the search turned up only thin, non-major-outlet video of the claim itself (vs. clean footage for the six picks). Cut for weaker video-of-the-moment; also the same week as the picked Portland story, and the episode already has two Truth-Social-post-driven stories (Kimmel, Portland)."
+    },
+    {
+      "id": "chicago_department_of_war",
+      "date": "2025-09-06/08",
+      "what_happened": "Trump shared an AI-generated 'Apocalypse Now'-style image captioned 'Chicago about to find out why it's called the Department of WAR' as Operation Midway Blitz began, then told reporters 'we're not going to war... that's not war, that's common sense.'",
+      "quotes": [
+        {"text": "Chicago about to find out why it's called the Department of WAR.", "speaker": "Donald Trump (social media post)"},
+        {"text": "We're not going to war. We're going to clean up our cities.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://www.wbez.org/immigration/2025/09/30/donald-trump-pete-hegseth-chicago-military-training-ground-national-guard-operation-midway-blitz",
+        "https://www.npr.org/2025/10/09/nx-s1-5566724/chicago-fights-trump-deployment-of-national-guard-troops"
+      ],
+      "video_candidates": [
+        "HVkeAJmraeM|YTN|Trump's \"Apocalypse Now\" AI Image Announces Deployment of Military Troops to Chicago",
+        "xfaV-EbQK5A|US Briefing Daily|Trump's 'WAR' threat against Chicago"
+      ],
+      "picked": false,
+      "reason": "Genuinely absurd (an AI movie-poster meme used as a policy announcement) but it is the same topic as the picked Portland story -- a president threatening 'war' rhetoric against a US city over troop deployment. Cut to avoid a duplicate topic within the episode; Portland has cleaner video and a sharper on-camera rebuttal."
+    },
+    {
+      "id": "nobel_seven_wars",
+      "date": "2025-09-23/10-10",
+      "what_happened": "Trump repeated at the UN and elsewhere that he 'ended seven wars' and deserves the Nobel Peace Prize; only 22% of Americans agreed in polling, and the prize ultimately went to Maria Corina Machado.",
+      "quotes": [
+        {"text": "No president or prime minister has ever done anything close to that.", "speaker": "Donald Trump, on his claimed wars ended"}
+      ],
+      "sources": [
+        "https://www.axios.com/2025/09/24/trump-nobel-peace-prize-un-speech-new-poll",
+        "https://thehill.com/policy/international/5548820-trump-doesnt-get-nobel-peace-prize/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "The 'seven wars' Nobel claim is the same UN General Assembly speech already covered in the picked un_meltdown story, and the same underlying bit ('I solved wars') was already the topic of episode 2025-08's n3_six_wars story. Cut as a duplicate topic both within this episode and against the prior episode."
+    },
+    {
+      "id": "h1b_visa_fee",
+      "date": "2025-09-19",
+      "what_happened": "Trump signed a proclamation imposing a $100,000 fee on new H-1B visa petitions, triggering 24 hours of confusion over whether it applied to visa-holders already abroad before officials clarified it was prospective-only.",
+      "quotes": [],
+      "sources": [
+        "https://www.aljazeera.com/news/2025/9/19/trump-signs-proclamation-creating-100000-application-fee-for-h-1b-visas",
+        "https://www.americanimmigrationcouncil.org/blog/trump-100000-fee-h-1b-visa/"
+      ],
+      "video_candidates": [
+        "PH4ImvvjX3Q|New York Post|Trump CRACKS DOWN on Foreign Workers, Adds $100K Fee to H1-B Visa Apps",
+        "xfP3FZ6DaPo|India Today|Donald Trump Signs Proclamation Imposing $100,000 Annual H-1B Visa Fee"
+      ],
+      "picked": false,
+      "reason": "Real policy chaos (a signature nobody could clearly explain for a day) but no standout absurd Trump quote to build a punchline around, and it's a dry immigration-fee story next to five much funnier picks. Cut for weak comedic hook."
+    },
+    {
+      "id": "no_inflation",
+      "date": "2025-09-19",
+      "what_happened": "Trump claimed the US currently has 'no inflation,' rated False by PolitiFact against the actual Consumer Price Index at the time.",
+      "quotes": [
+        {"text": "We have no inflation.", "speaker": "Donald Trump"}
+      ],
+      "sources": [
+        "https://politifact.com/factchecks/2025/sep/24/donald-trump/no-inflation-consumer-index-prices/"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "A short false economic soundbite with little visual or comedic material of its own; cut in favor of stories with a stronger built-in punchline and richer footage (same reasoning as episode 2025-08's cut mail-in-voting pearl)."
+    },
+    {
+      "id": "epstein_birthday_note",
+      "date": "2025-09-08",
+      "what_happened": "The House Oversight Committee released files including an alleged Trump birthday note to Jeffrey Epstein with lines like 'a pal is a wonderful thing... may every day be another wonderful secret.'",
+      "quotes": [],
+      "sources": [
+        "https://www.cnn.com/2025/09/08/politics/epstein-birthday-book-trump-letter"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "No video of a 'moment' exists -- it's a leaked paper document, and Trump denies writing it, so there's no on-camera Trump event to build a beat around. Also thematically heavier/riskier than the show's usual clown-not-villain tone. Cut for failing the video-of-the-moment requirement."
+    },
+    {
+      "id": "charlie_kirk_response",
+      "date": "2025-09-10/11",
+      "what_happened": "After conservative activist Charlie Kirk was assassinated on September 10, Trump ordered flags lowered and gave remarks blaming 'the radical left.'",
+      "quotes": [],
+      "sources": [
+        "https://apnews.com/article/charlie-kirk-shooting-trump-statement"
+      ],
+      "video_candidates": [],
+      "picked": false,
+      "reason": "A real assassination is not comedic/absurd material for a 'dumbest moments' countdown regardless of footage availability -- cut on tone grounds, not video availability."
+    }
+  ]
+}

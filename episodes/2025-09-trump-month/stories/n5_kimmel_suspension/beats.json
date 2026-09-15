@@ -1,0 +1,61 @@
+{
+  "id": "n5_kimmel_suspension",
+  "number": 5,
+  "headline": "ABC Pulls Kimmel, Trump Cheers",
+  "sources": [
+    {"outlet": "The Hill", "url": "https://thehill.com/homenews/media/5509204-trump-celebrates-kimmel-suspension/"},
+    {"outlet": "Axios", "url": "https://www.axios.com/2025/09/18/jimmy-kimmel-trump-abc-brendan-carr"},
+    {"outlet": "CNBC", "url": "https://www.cnbc.com/2025/09/18/trump-jimmy-kimmel-tv-network-licenses.html"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Hours after the FCC chairman threatened ABC over a Jimmy Kimmel joke about Charlie Kirk, the network suspended him indefinitely.",
+      "visuals": ["n5_visual_leaving"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_open",
+      "caption": "This morning, Jimmy Kimmel off the air.",
+      "label": "via TODAY"
+    },
+    {
+      "type": "narr",
+      "text": "The FCC chairman had already floated using that same government leverage against the network.",
+      "visuals": ["n5_visual_leaving"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_carr",
+      "caption": "Appears to be some of the sickest conduct possible.",
+      "label": "via Associated Press"
+    },
+    {
+      "type": "narr",
+      "text": "Trump could not have been happier, gloating on Truth Social that the ratings-challenged show was finally cancelled.",
+      "visuals": ["n5_visual_leaving"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_today_quote",
+      "caption": "Congratulating ABC for, quote, finally having the courage to do what had to be done.",
+      "label": "via TODAY"
+    },
+    {
+      "type": "narr",
+      "text": "Days later, at a press conference in the UK, a reporter finally asked him about it directly.",
+      "visuals": ["n5_visual_presser"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_cspan",
+      "caption": "You can call that free speech or not. He was fired for lack of talent.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "Free speech, or a president personally lobbying to cancel a comedian, either way, ratings apparently still mattered.",
+      "visuals": ["n5_visual_presser"]
+    }
+  ]
+}

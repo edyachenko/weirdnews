@@ -1,0 +1,61 @@
+{
+  "id": "n4_quantico_nword",
+  "number": 4,
+  "headline": "Trump's Nuclear 'N-word' Joke",
+  "sources": [
+    {"outlet": "CNN", "url": "https://www.cnn.com/2025/09/30/politics/fact-check-trump-military-speech"},
+    {"outlet": "PolitiFact", "url": "https://www.politifact.com/factchecks/2025/oct/02/donald-trump/biden-never-said-us-strongest-military"},
+    {"outlet": "Newsweek", "url": "https://www.newsweek.com/trump-says-there-are-two-n-words-and-you-cant-use-either-of-them-10804539"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "On September 30th, Trump stood before hundreds of real generals and admirals at Quantico and immediately started bragging about the military -- to the people who actually run it.",
+      "visuals": ["n4_visual_generals_wide", "n4_sot_submarine", "n4_sot_nword_setup"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_biden_claim",
+      "caption": "You never heard Biden say that.",
+      "label": "via LiveNOW from FOX"
+    },
+    {
+      "type": "narr",
+      "text": "Wrong. PolitiFact found Biden bragging about the strongest military on record more than a dozen times. Undeterred, Trump moved on to bigger secrets.",
+      "visuals": ["n4_visual_generals_wide", "n4_sot_nword_punch"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_submarine",
+      "caption": "I moved a submarine or two.",
+      "label": "via LiveNOW from FOX"
+    },
+    {
+      "type": "narr",
+      "text": "Then, still riffing on nuclear weapons, he revealed his own private code word for the subject.",
+      "visuals": ["n4_visual_generals_wide"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_nword_setup",
+      "caption": "I call it the N-word.",
+      "label": "via LiveNOW from FOX"
+    },
+    {
+      "type": "narr",
+      "text": "Turns out there's a second one, too.",
+      "visuals": ["n4_visual_generals_wide"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_nword_punch",
+      "caption": "There are two N-words, and you can't use either of them.",
+      "label": "via LiveNOW from FOX"
+    },
+    {
+      "type": "narr",
+      "text": "Four hundred officers. Dead silence. Somewhere in that room, a very confused stenographer just kept typing.",
+      "visuals": ["n4_visual_generals_wide", "n4_sot_biden_claim"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "n3_comey_indictment",
+  "number": 3,
+  "headline": "Comey Indicted On Request",
+  "sources": [
+    {"outlet": "NBC News", "url": "https://www.nbcnews.com/politics/justice-department/justice-department-charges-james-comey-lying-congress-rcna233581"},
+    {"outlet": "Fox News", "url": "https://www.foxnews.com/politics/trump-reacts-comey-indictment-says-he-placed-cloud-over-entire-nation-crossfire-hurricane"},
+    {"outlet": "PBS NewsHour", "url": "https://www.pbs.org/newshour/show/after-comey-indictment-trump-says-he-hopes-more-political-opponents-will-face-prosecution"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Trump spent days publicly demanding Comey's prosecution. On September twenty-fifth, a grand jury delivered exactly that indictment.",
+      "visuals": ["n3_visual_oval", "n3_sot_hope"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_others",
+      "caption": "It's not a list, but I think there'll be others. I mean, they're corrupt.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "A reporter asked flat out whether this was justice or a hit list. Trump didn't exactly deny the hit list part.",
+      "visuals": ["n3_sot_hope", "n3_visual_oval"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_dirtycop",
+      "caption": "He's a dirty cop. He's always been a dirty cop. Everybody knew it.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "That's the sitting president diagnosing corruption from the White House driveway. Comey, for his part, was not having it.",
+      "visuals": ["n3_sot_dirtycop", "n3_visual_oval"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_comey_innocent",
+      "caption": "And I'm innocent. So, let's have a trial.",
+      "label": "via NBC News"
+    },
+    {
+      "type": "narr",
+      "text": "Trump wasn't finished either. Asked who is next, he admitted he hopes there will be more.",
+      "visuals": ["n3_sot_others", "n3_sot_dirtycop"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_hope",
+      "caption": "I hope there are others because you can't let this happen to a country.",
+      "label": "via C-SPAN"
+    }
+  ]
+}

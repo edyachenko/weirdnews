@@ -1,0 +1,186 @@
+{
+ "slug": "2025-09-trump-month",
+ "title": "Trump's Month: September 2025",
+ "period": "2025-09-01..2025-09-30",
+ "voice": {
+  "voice": "en-US-BrianMultilingualNeural",
+  "rate": "-8%",
+  "pitch": "-2Hz"
+ },
+ "stories": [
+  {
+   "id": "n6_portland_guard",
+   "number": 6,
+   "brief": "Trump sends troops to save 'war ravaged' Portland; Oregon's governor says zero troops are needed.",
+   "date": "2025-09-27",
+   "facts": "On September 27, 2025, Trump posted on Truth Social that he was authorizing the deployment of military forces to protect War ravaged Portland, and any of our ICE Facilities under siege from attack by Antifa, and other domestic terrorists, ordering up to 200 Oregon National Guard members and authorizing Full Force, if necessary. Oregon Governor Tina Kotek and Portland Mayor Keith Wilson responded that the number of troops needed in Portland is zero and called the war ravaged description flatly inaccurate. The state of Oregon and the city of Portland sued the administration, and a federal judge issued a temporary restraining order blocking the deployment while the case proceeded.",
+   "sources": [
+    {
+     "outlet": "Time",
+     "url": "https://time.com/7322038/trump-portland-ice-protests-crime/"
+    },
+    {
+     "outlet": "OPB",
+     "url": "https://www.opb.org/article/2025/09/29/timeline-donald-trump-pressure-portland/"
+    },
+    {
+     "outlet": "NPR",
+     "url": "https://www.npr.org/2025/09/29/nx-s1-5556831/portland-memphis-national-guard-trump-troops"
+    }
+   ],
+   "footage_ideas": "Search CNN, CBC News and KATU News uploads from Sep 27-29, 2025; grep subs for 'war ravaged', 'full force', 'we do not need help', 'domestic terrorists'. Visuals: a graphic/read of the Truth Social post, ordinary Portland street scenes contrasted with 'war ravaged' language, Gov. Kotek's on-camera rebuttal (KATU News), National Guard file footage."
+  },
+  {
+   "id": "n5_kimmel_suspension",
+   "number": 5,
+   "brief": "Trump celebrates ABC pulling Jimmy Kimmel off air and floats yanking network licenses.",
+   "date": "2025-09-17/19",
+   "facts": "Hours after FCC chairman Brendan Carr publicly threatened ABC over a Jimmy Kimmel monologue about Charlie Kirk, ABC suspended Jimmy Kimmel Live indefinitely on September 17, 2025. Trump celebrated on Truth Social, writing Great News for America: The ratings challenged Jimmy Kimmel Show is CANCELLED, and Congratulations to ABC for finally having the courage to do what had to be done. Kimmel has ZERO talent. Trump also suggested pulling broadcast licenses from networks he considers against him. At a press conference during his UK state visit, Trump said of the firing, You can call that free speech or not, he was fired for lack of talent. When ABC reinstated Kimmel days later, Trump called the outcome A true bunch of losers.",
+   "sources": [
+    {
+     "outlet": "The Hill",
+     "url": "https://thehill.com/homenews/media/5509204-trump-celebrates-kimmel-suspension/"
+    },
+    {
+     "outlet": "Axios",
+     "url": "https://www.axios.com/2025/09/18/jimmy-kimmel-trump-abc-brendan-carr"
+    },
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2025/09/18/trump-jimmy-kimmel-tv-network-licenses.html"
+    }
+   ],
+   "footage_ideas": "Search TODAY, Entertainment Tonight and CNBC uploads from Sep 17-19, 2025; grep subs for 'zero talent', 'cancelled', 'pull their license', 'lack of talent'. Visuals: ABC/Jimmy Kimmel Live studio exterior or marquee, a graphic of the Truth Social post, FCC chair Brendan Carr soundbite, anchor coverage of the suspension and reinstatement."
+  },
+  {
+   "id": "n4_quantico_nword",
+   "number": 4,
+   "brief": "Trump jokes to hundreds of generals that nuclear is 'the N-word' -- to dead silence.",
+   "date": "2025-09-30",
+   "facts": "On September 30, 2025, Trump addressed hundreds of generals and admirals summoned to Marine Corps Base Quantico by Defense Secretary Pete Hegseth. In the same speech PolitiFact rated pants-fire, Trump claimed you never heard Biden say the US has the strongest military anywhere in the world, even though Biden made that claim on more than a dozen recorded occasions. Trump also told the room he had moved a submarine or two to the coast of Russia, then added that he avoids saying the word nuclear out loud, joking I call it the N word. There are two N words, and you can't use either of them -- a line met with silence from the assembled officers. CNN's review of the speech found numerous other false claims about the military in the same remarks.",
+   "sources": [
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2025/09/30/politics/fact-check-trump-military-speech"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://www.politifact.com/factchecks/2025/oct/02/donald-trump/biden-never-said-us-strongest-military"
+    },
+    {
+     "outlet": "Newsweek",
+     "url": "https://www.newsweek.com/trump-says-there-are-two-n-words-and-you-cant-use-either-of-them-10804539"
+    }
+   ],
+   "footage_ideas": "Search LiveNOW from FOX's full Quantico address (~73 min) and the PalmBeachPost short clip for the exact 'two N words' line; grep subs for 'submarine', 'N word', 'strongest military', 'never heard Biden say'. Visuals: wide shot of the packed auditorium of generals/admirals in dress uniform, Trump at the podium delivering the joke, reaction shots of silent officers."
+  },
+  {
+   "id": "n3_comey_indictment",
+   "number": 3,
+   "brief": "Trump gloats over the indictment of James Comey days after publicly demanding it.",
+   "date": "2025-09-25",
+   "facts": "On September 25, 2025, a grand jury indicted former FBI Director James Comey on two counts related to his 2020 congressional testimony, days after Trump publicly pressured the Justice Department to prosecute him. Trump posted JUSTICE IN AMERICA! One of the worst human beings this Country has ever been exposed to is James Comey, the former Corrupt Head of the FBI. Speaking from the Oval Office, Trump called Comey a bad person, a sick person, adding he did terrible things at the FBI, and said Comey placed a cloud over the entire nation with the Russia investigation. Trump also told reporters he hopes more of his political opponents face prosecution. Comey pleaded not guilty and said publicly, I'm innocent.",
+   "sources": [
+    {
+     "outlet": "NBC News",
+     "url": "https://www.nbcnews.com/politics/justice-department/justice-department-charges-james-comey-lying-congress-rcna233581"
+    },
+    {
+     "outlet": "Fox News",
+     "url": "https://www.foxnews.com/politics/trump-reacts-comey-indictment-says-he-placed-cloud-over-entire-nation-crossfire-hurricane"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/show/after-comey-indictment-trump-says-he-hopes-more-political-opponents-will-face-prosecution"
+    }
+   ],
+   "footage_ideas": "Search LiveNOW from FOX and NBC News uploads from Sep 25, 2025; grep subs for 'justice in america', 'sick person', 'cloud over the entire nation', 'i'm innocent'. Visuals: Trump's Oval Office remarks on the indictment, Comey's own 'I'm innocent' statement outside the courthouse, a graphic of the Truth Social post."
+  },
+  {
+   "id": "n2_tylenol_autism",
+   "number": 2,
+   "brief": "Trump tells pregnant women 'don't take' Tylenol and falsely claims kids get '80 different vaccines.'",
+   "date": "2025-09-21/22",
+   "facts": "On September 22, 2025, flanked by RFK Jr. and Dr. Mehmet Oz at a White House event, Trump told pregnant women Taking Tylenol is not good. Don't take it, and Don't take Tylenol. There's no downside... Don't take it if you're pregnant, and Don't give Tylenol to the baby after the baby's born -- despite decades of research showing no proven causal link between acetaminophen and autism, and the drug's manufacturer Kenvue disputing the claim outright. PolitiFact rated the no downside claim Pants Fire. Days earlier, on September 21, Trump also claimed small children are given 80 different vaccines while pushing changes to the vaccine schedule; PolitiFact rated that claim False, since the actual childhood schedule includes far fewer. Mainstream medical groups said the announcement risked discouraging pregnant women from treating dangerous fevers.",
+   "sources": [
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2025/09/22/health/trump-autism-announcement-cause-tylenol"
+    },
+    {
+     "outlet": "ABC News",
+     "url": "https://abcnews.com/US/trump-admin-links-tylenol-pregnancy-increased-risk-autism/story?id=125802080"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2025/sep/23/donald-trump/president-donald-trump-said-theres-no-downside-to/"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2025/sep/26/donald-trump/no-small-children-dont-receive-80-different-vaccin/"
+    }
+   ],
+   "footage_ideas": "Search KTVB, WGN News and local-affiliate uploads of the White House autism/Tylenol press event from Sep 21-22, 2025; grep subs for 'don't take it', 'no downside', '80 different vaccines', 'tough it out'. Visuals: Trump at the podium flanked by RFK Jr. and Dr. Oz, a Tylenol bottle close-up, chyron graphics with the PolitiFact ratings."
+  },
+  {
+   "id": "n1_un_meltdown",
+   "number": 1,
+   "brief": "Trump's escalator stops, his teleprompter dies, and he tells the UN 'your countries are going to hell.'",
+   "date": "2025-09-23",
+   "facts": "On September 23, 2025, at the 80th UN General Assembly, an escalator carrying Trump and Melania Trump abruptly halted mid-ride; the UN later said a safety sensor likely tripped because a videographer was filming backward on the steps. Trump's teleprompter also went dark as he began his speech. Trump demanded an immediate investigation into what he called triple sabotage, saying The people that did it should be arrested! In the speech itself, Trump told the assembled world leaders Your countries are going to hell over their immigration and climate policies, dismissed wind power as those big windmills are so pathetic and so bad, so expensive to operate, and they have to be rebuilt all of the time and they start to rust and rot, and claimed I have ended seven unendable wars -- a claim PolitiFact rated Mostly False, since several of the listed conflicts were not actively raging or the ceasefires involved other mediators.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2025/09/24/trump-sabotage-un-escalator-teleprompter-mic.html"
+    },
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2025/09/24/politics/trump-demands-investigation-into-alleged-sabotage-united-nations"
+    },
+    {
+     "outlet": "Axios",
+     "url": "https://www.axios.com/2025/09/23/trump-un-speech-countries-going-hell"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2025/sep/23/donald-trump/trump-ended-seven-wars-un-general-assembly/"
+    }
+   ],
+   "footage_ideas": "Search Fox News, CNN-News18, The Hill and msgpress uploads from Sep 23-24, 2025; grep subs for 'going to hell', 'sabotage', 'arrested', 'windmills', 'seven unendable wars'. Visuals: the escalator stopping with Trump/Melania on it, the dark teleprompter moment, wide shot of the General Assembly hall during the 'hell' line, a graphic naming the seven disputed 'ended wars.'"
+  }
+ ],
+ "story_order": [
+  "n6_portland_guard",
+  "n5_kimmel_suspension",
+  "n4_quantico_nword",
+  "n3_comey_indictment",
+  "n2_tylenol_autism",
+  "n1_un_meltdown"
+ ],
+ "cold_open_order": [
+  "n1_un_meltdown",
+  "n4_quantico_nword",
+  "n3_comey_indictment",
+  "n5_kimmel_suspension",
+  "n2_tylenol_autism",
+  "n6_portland_guard"
+ ],
+ "intro": {
+  "text": "September twenty twenty-five. The President broke an escalator, broke a teleprompter, and told the entire United Nations their countries are going to hell. We are counting down the six dumbest moments of the month. Buckle up.",
+  "visuals": [
+   "stories/n1_un_meltdown/clips/n1_visual_escalator.mp4",
+   "stories/n5_kimmel_suspension/clips/n5_visual_presser.mp4",
+   "stories/n6_portland_guard/clips/n6_visual_guard_downtown.mp4",
+   "stories/n2_tylenol_autism/clips/n2_visual_arrival.mp4"
+  ]
+ },
+ "outro": {
+  "text": "So that was September. A fired-off escalator, a canceled comedian, an indicted ex-FBI director, generals sitting in silence over a joke about nuclear weapons, medical advice with no medical backing, and a National Guard deployment nobody in Portland asked for. If you want the next month, hit subscribe. See you then.",
+  "visuals": [
+   "stories/n6_portland_guard/clips/n6_visual_guard_courthouse.mp4",
+   "stories/n2_tylenol_autism/clips/n2_visual_arrival.mp4",
+   "stories/n5_kimmel_suspension/clips/n5_visual_leaving.mp4",
+   "stories/n1_un_meltdown/clips/n1_visual_escalator.mp4"
+  ]
+ }
+}

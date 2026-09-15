@@ -1,0 +1,73 @@
+{
+  "id": "n1_un_meltdown",
+  "number": 1,
+  "headline": "UN Escalator & Teleprompter Chaos",
+  "sources": [
+    {"outlet": "CNBC", "url": "https://www.cnbc.com/2025/09/24/trump-sabotage-un-escalator-teleprompter-mic.html"},
+    {"outlet": "CNN", "url": "https://www.cnn.com/2025/09/24/politics/trump-demands-investigation-into-alleged-sabotage-united-nations"},
+    {"outlet": "Axios", "url": "https://www.axios.com/2025/09/23/trump-un-speech-countries-going-hell"},
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2025/sep/23/donald-trump/trump-ended-seven-wars-un-general-assembly/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "At the UN, Trump and Melania's escalator stopped dead, mid-ride, on live television.",
+      "visuals": ["n1_visual_escalator"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_teleprompter",
+      "caption": "Whoever is operating this teleprompter is in big trouble.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "According to CNBC, the UN says a staffer likely tripped the sensor by accident. Trump smelled sabotage.",
+      "visuals": ["n1_sot_windmills", "n1_sot_hell"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_escalator_recap",
+      "caption": "A bad escalator and a bad teleprompter.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "He still gave the speech, and used it to grade every country on the planet.",
+      "visuals": ["n1_sot_wars"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_hell",
+      "caption": "Your countries are going to hell.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "Axios called it the line of the day. He also used the podium to relitigate windmills, which he apparently really hates.",
+      "visuals": ["n1_visual_escalator", "n1_sot_wars"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_windmills",
+      "caption": "Those big windmills are so pathetic and so bad.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "He also repeated his claim of ending seven, quote, unendable wars. PolitiFact checked the math and rated it Mostly False.",
+      "visuals": ["n1_sot_hell", "n1_sot_escalator_recap"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_wars",
+      "caption": "I have ended seven unendable wars.",
+      "label": "via C-SPAN"
+    },
+    {
+      "type": "narr",
+      "text": "Sabotage claims, an unsolicited lecture, and a peace prize pitch the fact-checkers didn't buy. Efficient afternoon.",
+      "visuals": ["n1_sot_escalator_recap", "n1_visual_escalator"]
+    }
+  ]
+}
