@@ -41,6 +41,12 @@ Read `4_доки/docs/format.md` once.
 - **Every excerpt ≤5.0 s.** Max 6 excerpts per source video.
 - Real footage of the actual event under narration. Stock only as a last resort (≤10%), never while a named person is discussed.
 - Facts attributed to sources, opinions as opinions, jokes landing right after SOTs. Mark the funniest SOT `cold_open_candidate: true`.
+- **≥2 reaction/punch inserts (2-4s each), spread across the story's SOTs.** Default, not optional — see
+  `4_доки/docs/format.md`'s "Reaction beats" section. **Search first** (`ytsearch15:<event> SNL`/`Daily Show`/`reaction`/
+  `meme`/`shorts`, one cheap call) before ever re-downloading and frame-scanning a full source video for a hidden
+  reaction — that's the expensive path and it's usually a dead end. Calibration: match each insert's energy to how
+  absurd that moment actually was — a flat gaffe gets a small or no reaction, not a forced "everyone's losing it" clip.
+  Check EVERY SOT for a plausible insert, not just the `cold_open_candidate` — one insert per story is not enough.
 
 ## Method
 1. Search: `yt-dlp "ytsearch10:<query>" --flat-playlist --print "%(id)s|%(channel)s|%(title)s|%(duration)s|%(upload_date)s"`.

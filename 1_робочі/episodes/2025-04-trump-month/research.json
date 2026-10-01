@@ -1,0 +1,208 @@
+{
+  "period": "2025-04-01..2025-04-30",
+  "note": "REVISED after user rejected the first selection as boring: 'не виглядає байтово і цікаво'. Three of the original six (tariff revenue $2bn/day, gas $1.98/gallon, China 'trillion dollars') were dry numeric fact-check gaffes with no visual punch -- 'he said a wrong number' does not work on screen. The Krebs executive-order signing was dropped for the same reason (a man signing a paper and repeating a claim, no reactive moment). Kept the two stories with real visual/reactive punch (Abrego Garcia tattoo clash, two dolls) and replaced the rest with four stories that have an actual visual gag, reaction shot, or on-camera absurdity: the two previously-discarded-but-viable backups (pope joke, Liberation Day tariff-board reveal) plus two new finds from additional research (Easter Egg Roll autopen rant to confused kids, YMCA dance at the Michigan 100-days rally). Every entry checked for real YouTube/news-channel footage before being considered usable (format.md requires real SOT, no text-only claims).",
+  "candidates": [
+    {
+      "id": "abrego_garcia_tattoo",
+      "date": "2025-04-18/30",
+      "claim": "Trump insists a digitally altered Truth Social photo proves Kilmar Abrego Garcia has 'MS-13' tattooed on his knuckles, clashing on-camera with ABC's Terry Moran when shown the real photo.",
+      "sources": [
+        "https://www.politifact.com/factchecks/2025/apr/30/donald-trump/trump-abrego-garcia-hand-tattoos-abc-news/",
+        "https://www.cnn.com/2025/05/01/politics/abrego-garcias-tattoos-explainer",
+        "https://www.aljazeera.com/amp/news/2025/4/30/does-abrego-garcia-have-ms-13-tattooed-on-his-knuckles-as-trump-claims"
+      ],
+      "video_status": "confirmed - ABC News aired the full Oval Office interview (Apr 29) where Trump and Terry Moran argue over the photo; widely re-clipped by ABC News, Rolling Stone-linked footage, and Forbes; also C-SPAN pool coverage of the Truth Social image reveal.",
+      "verdict": "USE",
+      "rank_signal": "pants-fire (PolitiFact, Apr 29 statement); kept -- user confirmed this is visual, absurd, reactive, already a famous moment"
+    },
+    {
+      "id": "two_dolls_christmas",
+      "date": "2025-04-30",
+      "claim": "In a televised Cabinet meeting, Trump dismisses tariff/trade-war concerns by saying kids might 'have two dolls instead of 30 dolls... and maybe the two dolls will cost a couple of bucks more.'",
+      "sources": [
+        "https://www.washingtonpost.com/video/politics/trump-on-tariffs-children-may-get-two-dolls-instead-of-30/2025/05/02/94e18473-05c2-4d23-bb24-10154d48ed65_video.html",
+        "https://www.axios.com/2025/04/30/trump-china-tariffs-toy-shortage-christmas-2025",
+        "https://newrepublic.com/post/194669/stephen-miller-donald-trump-dolls-prices-tariffs"
+      ],
+      "video_status": "confirmed - WSJ News YouTube upload 'Trump: Maybe the Children Will Have Two Dolls Instead of 30 Dolls', plus Washington Post video and wide cable replay (MSNBC 'Donny Two Dolls').",
+      "verdict": "USE",
+      "rank_signal": "widely covered gaffe; kept -- user confirmed this is visual, absurd, reactive, already a famous moment"
+    },
+    {
+      "id": "ymca_dance_michigan",
+      "date": "2025-04-29",
+      "claim": "Trump closes his 100-days rally in Warren, Michigan by breaking into his signature 'Trump dance' -- arm pumps and shoulder shimmy -- to the Village People's 'YMCA' in front of a roaring crowd.",
+      "sources": [
+        "https://www.c-span.org/clip/campaign/user-clip-trump-dances-to-ymca/4914511",
+        "https://www.youtube.com/watch?v=C7xJJkclKvk",
+        "https://www.rt.com/pop-culture/616546-donald-trump-ymca-dance/"
+      ],
+      "video_status": "confirmed - C-SPAN 'User Clip: Trump Dances to YMCA' from the Apr 29, 2025 rally; separate YouTube upload 'Donald Trump dances to end Michigan rally celebrating 100 days in office'; clipped and shared widely including by the Trump War Room account.",
+      "verdict": "USE (NEW)",
+      "rank_signal": "no PolitiFact rating (not a factual claim) -- included on pure visual/reactive merit per revised brief: absurd, physically comedic, huge crowd reaction, works with sound off"
+    },
+    {
+      "id": "easter_egg_autopen_rant",
+      "date": "2025-04-21",
+      "claim": "At the White House Easter Egg Roll, while coloring eggs with small children, Trump veers into a rant claiming Biden 'had an autopen follow him' because he was 'incapable of signing things' -- one child audibly responds 'What?'",
+      "sources": [
+        "https://www.buzzfeed.com/ravenishak/donald-trump-biden-autopen-easter-egg-roll",
+        "https://www.thedailybeast.com/trump-79-launches-rambling-attack-on-biden-to-confused-kids/",
+        "https://www.aol.com/entertainment/trump-goes-biden-autopen-rant-162310449.html"
+      ],
+      "video_status": "confirmed - White House pool video of the South Lawn event (Apr 21, 2025), re-clipped by multiple outlets specifically for the autopen tangent and the children's confused reactions.",
+      "verdict": "USE (NEW)",
+      "rank_signal": "no PolitiFact rating (a fabricated anecdote, not a numeric claim) -- included on visual/reactive merit: a sitting president randomly lecturing bewildered small children is inherently absurd and has a clean reaction shot"
+    },
+    {
+      "id": "liberation_day_tariff_chart",
+      "date": "2025-04-02",
+      "claim": "Trump unveils a poster-board of 'reciprocal tariffs' by country in the Rose Garden, calling it 'Liberation Day' and 'our declaration of economic independence' -- the board's math was later shown to be a flat formula, not real reciprocal calculations.",
+      "sources": [
+        "https://www.npr.org/2025/04/02/nx-s1-5345802/trump-tariffs-liberation-day",
+        "https://www.cbsnews.com/news/trump-liberation-day-new-tariffs-us/",
+        "https://en.wikipedia.org/wiki/Liberation_Day_tariffs"
+      ],
+      "video_status": "confirmed - the full Rose Garden event was carried live by every major network and is on C-SPAN/YouTube; the poster-board reveal is a distinct, widely re-clipped visual beat within it.",
+      "verdict": "USE (promoted from backup)",
+      "rank_signal": "previously held back for crowding out fact-check density, but re-evaluated: a giant novelty poster board of made-up tariff math held up on an easel in the Rose Garden is exactly the visual gag the format needs"
+    },
+    {
+      "id": "pope_joke",
+      "date": "2025-04-29",
+      "claim": "Boarding Marine One for his 100-days rally, Trump tells reporters 'I'd like to be pope... that would be my number one choice,' days after Pope Francis's death.",
+      "sources": [
+        "https://www.yahoo.com/news/trump-jokes-no-1-choice-213700064.html",
+        "https://www.deccanherald.com/amp/story/world%2Fdonald-trump-jokes-hed-like-to-be-pope-3518066",
+        "https://www.yahoo.com/news/donald-trump-jokes-pope-catholic-160340900.html"
+      ],
+      "video_status": "confirmed - multiple YouTube uploads of the exact tarmac exchange (BBC News, and several US outlets), viral clip.",
+      "verdict": "USE (promoted from backup)",
+      "rank_signal": "previously held back to avoid crowding fact-check density stories; re-evaluated as the weakest but still usable of the six -- real tarmac footage, absurd out-of-context quote, sets up the AI pope image that followed days later"
+    },
+    {
+      "id": "krebs_executive_order",
+      "date": "2025-04-09",
+      "claim": "Signing an executive order to strip Chris Krebs's security clearance and order a DOJ probe, Trump repeats that the 2020 election was 'badly rigged' and calls Krebs a 'wise guy.'",
+      "sources": [
+        "https://www.politifact.com/factchecks/2025/apr/10/donald-trump/chris-krebs-cybersecurity-2020-election/",
+        "https://www.npr.org/2025/04/10/nx-s1-5358427/trump-brings-the-weight-of-the-presidency-on-a-perceived-enemy-and-a-private-american"
+      ],
+      "video_status": "confirmed - C-SPAN clip of the signing remarks exists.",
+      "verdict": "DROPPED (was USE)",
+      "rank_signal": "cut in revision -- consequential policy story, but visually it is just a man signing a paper and repeating a claim; no reaction shot, no absurd visual, doesn't clear the new visual/reactive bar"
+    },
+    {
+      "id": "tariffs_2b_per_day",
+      "date": "2025-04-08",
+      "claim": "At an executive order signing and an NRCC speech, Trump claims the US is 'taking in almost $2 billion a day' from his new tariffs -- actual Treasury daily customs revenue that day was about $192 million.",
+      "sources": [
+        "https://www.politifact.com/factchecks/2025/apr/10/donald-trump/fact-check-trump-said-tariffs-collections-are-almo/"
+      ],
+      "video_status": "confirmed but unused for its visual weakness, not sourcing.",
+      "verdict": "DROPPED (was USE)",
+      "rank_signal": "cut in revision -- a dry numeric fact-check gaffe, 'he said a wrong number,' with no visual punch"
+    },
+    {
+      "id": "gas_198_gallon",
+      "date": "2025-04-22",
+      "claim": "Trump tells reporters at the White House 'we had a couple of states where gasoline was at $1.98 a gallon' -- no state's average was even close; lowest was ~$2.70 (Mississippi/Tennessee).",
+      "sources": [
+        "https://www.politifact.com/factchecks/2025/apr/24/donald-trump/donald-trump-states-gas-prices-gallon/"
+      ],
+      "video_status": "confirmed but unused for its visual weakness, not sourcing.",
+      "verdict": "DROPPED (was USE)",
+      "rank_signal": "cut in revision -- a dry numeric fact-check gaffe, 'he said a wrong number,' with no visual punch"
+    },
+    {
+      "id": "china_1_trillion",
+      "date": "2025-04-09/10",
+      "claim": "At an event and again at the April 10 Cabinet meeting, Trump repeats 'China made $1 trillion off trade with the United States' -- the real 2024 US-China goods deficit was about $295 billion.",
+      "sources": [
+        "https://www.politifact.com/factchecks/2025/apr/11/donald-trump/donald-trump-wrong-china-1-trillion-trade-deficit/"
+      ],
+      "video_status": "confirmed but unused for its visual weakness, not sourcing.",
+      "verdict": "DROPPED (was USE)",
+      "rank_signal": "cut in revision -- a dry numeric fact-check gaffe, 'he said a wrong number,' with no visual punch"
+    },
+    {
+      "id": "ai_pope_image",
+      "date": "2025-05-02/03",
+      "claim": "Trump posts an AI-generated image of himself dressed as the pope; JD Vance defends it.",
+      "sources": [
+        "https://www.cnbc.com/2025/05/03/trump-pope-ai-image.html"
+      ],
+      "video_status": "discarded - the 'moment' is a static AI-generated image on Truth Social, not real footage of an event; violates the real-footage-only rule even though it's arguably April-adjacent, and the date actually falls in May.",
+      "verdict": "DISCARD"
+    },
+    {
+      "id": "abc11_time_interview",
+      "date": "2025-04-22",
+      "claim": "Trump tells Time Magazine he's made '200 deals' on tariffs and negotiations will be 'finished' in 3-4 weeks.",
+      "sources": [
+        "https://time.com/7280129/donald-trump-fact-check-2025-interview/"
+      ],
+      "video_status": "weak - this was a print/phone interview with Time, no camera crew; only stills exist, no usable SOT video of the actual quote.",
+      "verdict": "DISCARD"
+    },
+    {
+      "id": "signalgate_second_chat",
+      "date": "2025-04-20/21",
+      "claim": "Reports emerge that Defense Secretary Hegseth shared Yemen strike details in a second, personal Signal chat with his wife and brother.",
+      "sources": [
+        "https://www.aljazeera.com/news/2025/4/21/uss-hegseth-shared-military-plans-in-second-signal-chat-reports-say"
+      ],
+      "video_status": "weak for this angle - the news itself is about a private chat app, no camera footage of the moment.",
+      "verdict": "DISCARD"
+    },
+    {
+      "id": "student_deportations",
+      "date": "2025-04-17/25",
+      "claim": "Over 1,000 international students had visas revoked/status terminated, several for minor infractions like speeding tickets, before the administration abruptly reversed course April 25.",
+      "sources": [
+        "https://www.cnn.com/2025/04/19/us/visa-revoked-students-trump-ice/index.html"
+      ],
+      "video_status": "weak - a policy/legal story without one clean absurd SOT moment from Trump himself.",
+      "verdict": "DISCARD"
+    },
+    {
+      "id": "china_tariff_meme",
+      "date": "2025-04-09",
+      "claim": "Trump posts a Blues-Brothers-style 'mission from God' meme about tariffs on Truth Social.",
+      "sources": [
+        "https://news.yahoo.com/trump-posts-meme-saying-mission-173604233.html"
+      ],
+      "video_status": "weak - a static meme image posted online, not a filmed moment; no real SOT to cut to.",
+      "verdict": "DISCARD"
+    },
+    {
+      "id": "protester_thought_it_was_a_guy",
+      "date": "2025-04-29",
+      "claim": "At his Michigan 100-days rally, Trump laughs off a protester, joking 'I thought it was a guy.'",
+      "sources": [
+        "https://www.foxnews.com/politics/trump-laughs-off-protester-who-attempted-disrupt-100-days-speech-thought-guy.print"
+      ],
+      "video_status": "plausible - rally is televised, but only one weak source found and the joke reads as a mean-spirited jab at a woman's appearance rather than an absurd factual claim; lower priority.",
+      "verdict": "not selected - kept as backup, thin sourcing"
+    },
+    {
+      "id": "trump_mic_face_hit",
+      "date": "2025-03-14",
+      "claim": "A reporter's boom microphone knocks into Trump's face at a Joint Base Andrews press gaggle; Trump deadpans 'she just became a big story tonight.'",
+      "sources": [
+        "https://www.newsweek.com/donald-trump-hit-face-reporters-mic-2045325",
+        "https://www.tmz.com/2025/03/14/president-trump-hit-face-microphone-media/"
+      ],
+      "video_status": "confirmed - widely clipped by Fox News, TMZ and others; genuinely visual and funny.",
+      "verdict": "DISCARD - wrong month, this happened March 14, 2025, not April"
+    }
+  ],
+  "selected_six": [
+    "pope_joke",
+    "liberation_day_tariff_chart",
+    "easter_egg_autopen_rant",
+    "ymca_dance_michigan",
+    "two_dolls_christmas",
+    "abrego_garcia_tattoo"
+  ]
+}

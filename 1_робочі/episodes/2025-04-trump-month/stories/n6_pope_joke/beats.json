@@ -1,0 +1,45 @@
+{
+  "id": "n6_pope_joke",
+  "number": 6,
+  "headline": "Trump for Pope?",
+  "sources": [
+    {"outlet": "Yahoo News", "url": "https://www.yahoo.com/news/trump-jokes-no-1-choice-213700064.html"},
+    {"outlet": "Deccan Herald", "url": "https://www.deccanherald.com/amp/story/world%2Fdonald-trump-jokes-hed-like-to-be-pope-3518066"},
+    {"outlet": "Yahoo News", "url": "https://www.yahoo.com/news/donald-trump-jokes-pope-catholic-160340900.html"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Eight days after Pope Francis died, reporters caught Trump on his way to Marine One and asked who should get the job next.",
+      "visuals": ["n6_visual_walkup"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_pope_choice",
+      "caption": "I'd like to be pope. That would be my number one choice.",
+      "label": "via AP"
+    },
+    {
+      "type": "narr",
+      "text": "No pretending to think it over — he went straight for the job. Then reporters pushed him for an actual name.",
+      "visuals": ["n6_visual_mics"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_no_preference",
+      "caption": "No, I don't know. I have no preference. I—I must say we have a cardinal that",
+      "label": "via AP"
+    },
+    {
+      "type": "narr",
+      "text": "Turns out he already had a shortlist of exactly one, and he wasn't being subtle about the audition.",
+      "visuals": ["n6_visual_driveway"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_cardinal_ny",
+      "caption": "happens to be out of a place called New York who's very good.",
+      "label": "via AP"
+    }
+  ]
+}

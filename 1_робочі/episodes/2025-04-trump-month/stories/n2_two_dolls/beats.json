@@ -1,0 +1,76 @@
+{
+  "id": "n2_two_dolls",
+  "number": 2,
+  "headline": "Trump: Kids Get Two Dolls, Not 30",
+  "sources": [
+    {
+      "outlet": "Washington Post",
+      "url": "https://www.washingtonpost.com/video/politics/trump-on-tariffs-children-may-get-two-dolls-instead-of-30/2025/05/02/94e18473-05c2-4d23-bb24-10154d48ed65_video.html"
+    },
+    {
+      "outlet": "Axios",
+      "url": "https://www.axios.com/2025/04/30/trump-china-tariffs-toy-shortage-christmas-2025"
+    },
+    {
+      "outlet": "The New Republic",
+      "url": "https://newrepublic.com/post/194669/stephen-miller-donald-trump-dolls-prices-tariffs"
+    }
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "At an April thirtieth Cabinet meeting, Trump brushed off warnings that tariffs would empty store shelves by Christmas.",
+      "visuals": ["n2_sot_cabinet_couple_bucks"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_cabinet_two_dolls",
+      "caption": "Well, maybe the children will have two dolls instead of 30 dolls, you know,",
+      "label": "via The White House"
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_snl_ohhellno",
+      "caption": "which brings me to my new segment, \"Oh, Hell No.\" Oh, hell no!",
+      "label": "via Saturday Night Live"
+    },
+    {
+      "type": "narr",
+      "text": "The kicker: he immediately priced it out for you.",
+      "visuals": ["n2_sot_msnow_donny_two_dolls"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_cabinet_couple_bucks",
+      "caption": "and maybe the two dolls will cost a couple of bucks more than they would normally.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Five days later on Meet the Press, he doubled down, math and all.",
+      "visuals": ["n2_sot_cabinet_two_dolls"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_nbc_11yo_30dolls",
+      "caption": "needs to have 30 dolls. I think they can have three or four dolls.",
+      "label": "via NBC News"
+    },
+    {
+      "type": "narr",
+      "text": "Cable news obliged him with a nickname that stuck.",
+      "visuals": ["n2_sot_cabinet_couple_bucks"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_msnow_donny_two_dolls",
+      "caption": "Only Donny Two Dolls could think like that.",
+      "label": "via MSNBC"
+    },
+    {
+      "type": "narr",
+      "text": "The White House sent Stephen Miller out the next day to defend the math, but checkout aisle prices stayed exactly the same.",
+      "visuals": ["n2_sot_nbc_11yo_30dolls"]
+    }
+  ]
+}

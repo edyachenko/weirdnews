@@ -1,0 +1,76 @@
+{
+  "id": "n3_pope_funeral_nap",
+  "number": 3,
+  "headline": "Trump's Front-Row Funeral Nap (Allegedly)",
+  "sources": [
+    {
+      "outlet": "The Tab",
+      "url": "https://thetab.com/2025/04/28/chewing-gum-and-sleeping-six-ways-donald-trump-broke-rules-at-pope-francis-funeral"
+    },
+    {
+      "outlet": "NewsX",
+      "url": "https://world.newsx.com/world/did-donald-trump-fall-asleep-at-pope-francis-funeral-internet-has-a-field-day-after-photos-go-viral/"
+    },
+    {
+      "outlet": "Snopes",
+      "url": "https://www.snopes.com/fact-check/donald-trump-sleeping-pope-francis-funeral/"
+    }
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Story number three: at Pope Francis's funeral, a photo went viral, and the internet decided the president had dozed off.",
+      "visuals": ["n3_visual_photo_wide", "n3_visual_standing_ceremony"]
+    },
+    {
+      "type": "visual",
+      "clip": "n3_visual_photo_wide",
+      "caption": "Front row, eyes closed, head down -- and the internet ran with it.",
+      "label": "viral photo, via social media"
+    },
+    {
+      "type": "narr",
+      "text": "Trump sat beside Melania and Ukraine's Zelenskyy for the roughly ninety-minute Mass, and this is the frame that broke the internet.",
+      "visuals": ["n3_visual_photo_closeup"]
+    },
+    {
+      "type": "visual",
+      "clip": "n3_visual_photo_closeup",
+      "caption": "Same moment, tighter crop -- this is the shot people couldn't stop reposting.",
+      "label": "viral photo, via social media"
+    },
+    {
+      "type": "narr",
+      "text": "Jimmy Kimmel didn't need convincing either.",
+      "visuals": ["n3_reaction_kimmel_prayer_or_asleep"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_reaction_kimmel_prayer_or_asleep",
+      "caption": "The president either went deep in prayer or deep asleep. I don't know.",
+      "label": "via Jimmy Kimmel Live"
+    },
+    {
+      "type": "narr",
+      "text": "Network pool cameras also caught him chewing gum through the service -- outlets noted it as its own break from Vatican decorum.",
+      "visuals": ["n3_visual_gum_phone"]
+    },
+    {
+      "type": "visual",
+      "clip": "n3_visual_gum_phone",
+      "caption": "Gum, front row, funeral.",
+      "label": "pool footage, via AP"
+    },
+    {
+      "type": "narr",
+      "text": "But here's the catch: Snopes says low-resolution livestream grabs and harsh shadows make it impossible to actually confirm he was asleep, rather than just bowing his head. That didn't slow the pile-on for a second.",
+      "visuals": ["n3_visual_standing_ceremony"]
+    },
+    {
+      "type": "visual",
+      "clip": "n3_visual_standing_ceremony",
+      "caption": "Minutes later, wide awake and upright with the rest of the world leaders.",
+      "label": "pool footage"
+    }
+  ]
+}

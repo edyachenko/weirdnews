@@ -1,0 +1,180 @@
+{
+ "slug": "2025-04-trump-month",
+ "title": "Trump's Month: April 2025",
+ "period": "2025-04-01..2025-04-30",
+ "voice": {
+  "voice": "en-US-BrianMultilingualNeural",
+  "rate": "-8%",
+  "pitch": "-2Hz"
+ },
+ "stories": [
+  {
+   "id": "n6_pope_joke",
+   "number": 6,
+   "brief": "Days after the Pope's death, Trump tells reporters he'd like the job himself.",
+   "date": "2025-04-29",
+   "facts": "On April 29, 2025, boarding Marine One ahead of his 100-days rally in Michigan, Trump was asked by reporters about the upcoming conclave following Pope Francis's death just eight days earlier. I would like to be pope, Trump said. That would be my number one choice. He added that he had a cardinal from New York who's very good as a backup pick. The remark, made barely a week after the pope's funeral, was clipped and replayed across cable news and became the setup for a bigger controversy days later when Trump posted an AI-generated image of himself dressed as the pope, which drew condemnation from Catholic bishops.",
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "url": "https://www.yahoo.com/news/trump-jokes-no-1-choice-213700064.html"
+    },
+    {
+     "outlet": "Deccan Herald",
+     "url": "https://www.deccanherald.com/amp/story/world%2Fdonald-trump-jokes-hed-like-to-be-pope-3518066"
+    },
+    {
+     "outlet": "Yahoo News",
+     "url": "https://www.yahoo.com/news/donald-trump-jokes-pope-catholic-160340900.html"
+    }
+   ],
+   "footage_ideas": "Search YouTube/BBC News uploads of the April 29, 2025 tarmac exchange before Marine One departure; grep subs for 'pope', 'number one choice', 'cardinal from New York'. Visuals: Trump pausing at the helicopter steps to take the question, reporters' mics reaching in, a still of Pope Francis for contrast."
+  },
+  {
+   "id": "n5_liberation_day",
+   "number": 5,
+   "brief": "Trump unveils a giant poster board of made-up tariff math and calls it 'Liberation Day.'",
+   "date": "2025-04-02",
+   "facts": "On April 2, 2025, Trump held a Rose Garden event he branded Liberation Day, declaring April 2, 2025 will forever be remembered as the day American industry was reborn. As cameras rolled, aides wheeled out a giant poster board listing reciprocal tariff rates by country -- China at 34%, the EU at 20%, Taiwan at 32% -- which Trump held up and read from as though unveiling a prize on a game show. Economists quickly showed the reciprocal numbers weren't reciprocal at all: the White House had simply divided each country's trade deficit with the US by its exports, then halved it, producing a formula that had nothing to do with the tariffs those countries actually charge American goods. The poster board became one of the most mocked props of his second term.",
+   "sources": [
+    {
+     "outlet": "NPR",
+     "url": "https://www.npr.org/2025/04/02/nx-s1-5345802/trump-tariffs-liberation-day"
+    },
+    {
+     "outlet": "CBS News",
+     "url": "https://www.cbsnews.com/news/trump-liberation-day-new-tariffs-us/"
+    },
+    {
+     "outlet": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs"
+    }
+   ],
+   "footage_ideas": "Search C-SPAN's full Rose Garden broadcast from April 2, 2025; grep subs for 'reciprocal', 'declaration of economic independence', 'liberation day'. Visuals: the poster board reveal itself (the single best shot), Trump gesturing at the numbers, Cabinet members applauding behind him."
+  },
+  {
+   "id": "n4_easter_autopen",
+   "number": 4,
+   "brief": "Trump interrupts coloring eggs with small children to rant about Biden's autopen.",
+   "date": "2025-04-21",
+   "facts": "At the White House Easter Egg Roll on April 21, 2025, Trump sat down with a group of young children to color eggs, then veered into a tangent about his predecessor. He'd have an autopen follow him, Joe Biden, Trump told the kids. He didn't sign. He was incapable of signing things, so they'd follow him around with a big machine. It was a fabrication -- video of Biden's actual bill signings shows him using a pen himself -- but the moment's real punch was the audience: one visibly confused child audibly asked What? not clear whether he knew who Biden was or what an autopen is. Outlets rounded it up alongside other odd moments from the same event, including a tangent about Melania's documentary and the Iran war.",
+   "sources": [
+    {
+     "outlet": "BuzzFeed",
+     "url": "https://www.buzzfeed.com/ravenishak/donald-trump-biden-autopen-easter-egg-roll"
+    },
+    {
+     "outlet": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/trump-79-launches-rambling-attack-on-biden-to-confused-kids/"
+    },
+    {
+     "outlet": "AOL",
+     "url": "https://www.aol.com/entertainment/trump-goes-biden-autopen-rant-162310449.html"
+    }
+   ],
+   "footage_ideas": "Search White House pool video and news uploads of the April 21, 2025 South Lawn Easter Egg Roll; grep subs for 'autopen', 'incapable of signing', 'big machine'. Visuals: Trump seated with kids at a coloring table, close-up on the confused child's face, cutaway to real B-roll of Biden signing bills by hand for contrast."
+  },
+  {
+   "id": "n3_pope_funeral_nap",
+   "number": 3,
+   "brief": "Photos of Trump with his eyes closed at Pope Francis's funeral go viral, and the internet decides he napped through it.",
+   "date": "2025-04-26",
+   "facts": "At Pope Francis's funeral Mass in St. Peter's Square on April 26, 2025, Trump sat in the front row beside Melania Trump and Ukrainian President Volodymyr Zelenskyy. Screenshots pulled from the livestream, showing Trump with his eyes closed and head tilted during the service, spread rapidly on social media, with users mocking him as having dozed off mid-ceremony and piling on nicknames questioning his stamina and age. Vatican protocol required attendees to sit through a roughly 90-minute Mass in the heat with no breaks, and the moment became one of the most shared images to come out of the funeral -- alongside Trump chewing gum during the service, another break of Vatican decorum outlets noted. Fact-checkers later cautioned that low-resolution livestream screenshots and harsh shadows made it impossible to confirm he was actually asleep rather than bowing his head, but that nuance did little to slow the pile-on once the pictures were out.",
+   "sources": [
+    {
+     "outlet": "The Tab",
+     "url": "https://thetab.com/2025/04/28/chewing-gum-and-sleeping-six-ways-donald-trump-broke-rules-at-pope-francis-funeral"
+    },
+    {
+     "outlet": "NewsX",
+     "url": "https://world.newsx.com/world/did-donald-trump-fall-asleep-at-pope-francis-funeral-internet-has-a-field-day-after-photos-go-viral/"
+    },
+    {
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/donald-trump-sleeping-pope-francis-funeral/"
+    }
+   ],
+   "footage_ideas": "Search Vatican News's own YouTube upload of the full April 26, 2025 funeral Mass broadcast for the wide/cutaway shots of the front row during the homily and readings; grep subs near mentions of the Gospel reading and homily timestamps, or scrub visually since there's no dialogue cue. Visuals: the front-row wide shot with Trump's head tilted and eyes closed, Melania and Zelenskyy seated beside him, a cutaway to the ceremony continuing around him. Also check AP/Reuters funeral pool coverage uploads for a cleaner angle."
+  },
+  {
+   "id": "n2_two_dolls",
+   "number": 2,
+   "brief": "Trump tells America's kids they might get 'two dolls instead of 30' this Christmas because of his trade war.",
+   "date": "2025-04-30",
+   "facts": "At a televised Cabinet meeting on April 30, 2025, Trump waved off concerns about his China tariffs causing shortages by saying maybe the children will have two dolls instead of 30 dolls, you know, and maybe the two dolls will cost a couple of bucks more than they would normally. He later doubled down in an interview, saying an 11-year-old girl doesn't need 30 dolls and could make do with three or four. The remark went viral instantly -- MSNBC's Lawrence O'Donnell dubbed him Donny Two Dolls, the New Yorker's Jane Mayer called it his Marie Antoinette moment, and Deputy Chief of Staff Stephen Miller was sent out the next day to defend it.",
+   "sources": [
+    {
+     "outlet": "Washington Post",
+     "url": "https://www.washingtonpost.com/video/politics/trump-on-tariffs-children-may-get-two-dolls-instead-of-30/2025/05/02/94e18473-05c2-4d23-bb24-10154d48ed65_video.html"
+    },
+    {
+     "outlet": "Axios",
+     "url": "https://www.axios.com/2025/04/30/trump-china-tariffs-toy-shortage-christmas-2025"
+    },
+    {
+     "outlet": "The New Republic",
+     "url": "https://newrepublic.com/post/194669/stephen-miller-donald-trump-dolls-prices-tariffs"
+    }
+   ],
+   "footage_ideas": "Search WSJ News's YouTube upload 'Trump: Maybe the Children Will Have Two Dolls Instead of 30 Dolls' and Washington Post video from the April 30, 2025 Cabinet meeting; grep subs for 'two dolls', 'thirty dolls', 'a couple of bucks more'. Visuals: Trump at the Cabinet table delivering the line, toy-store B-roll, MSNBC's 'Donny Two Dolls' chyron."
+  },
+  {
+   "id": "n1_abrego_garcia_tattoo",
+   "number": 1,
+   "brief": "Trump waves around a doctored photo on live TV insisting a deported man's knuckles literally spell 'MS-13.'",
+   "date": "2025-04-29",
+   "facts": "In an April 29, 2025 Oval Office interview, ABC News' Terry Moran pressed Trump on the wrongful deportation of Kilmar Abrego Garcia to a Salvadoran mega-prison. Trump held up a Truth Social image and insisted Abrego Garcia had MS-13 tattooed on his knuckles as clear as you can be -- not interpreted. But the letters M-S-1-3 do not appear in any other photo of Abrego Garcia's hand, including one Salvadoran officials took days earlier, and MS-13 experts told PolitiFact none of his actual knuckle tattoos are known gang signifiers; CNN and Al Jazeera both traced the digits to having been digitally added. PolitiFact rated the claim Pants Fire. Trump kept insisting on camera that the tattoo was real even as Moran pushed back, producing one of the tensest on-air exchanges of his second term.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://www.politifact.com/factchecks/2025/apr/30/donald-trump/trump-abrego-garcia-hand-tattoos-abc-news/"
+    },
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2025/05/01/politics/abrego-garcias-tattoos-explainer"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/amp/news/2025/4/30/does-abrego-garcia-have-ms-13-tattooed-on-his-knuckles-as-trump-claims"
+    }
+   ],
+   "footage_ideas": "Search ABC News's own upload of the full April 29, 2025 Oval Office interview with Terry Moran, plus re-clips from Rolling Stone-linked coverage and Forbes; grep subs for 'MS-13', 'knuckles', 'not interpreted', 'tattooed'. Visuals: the split-screen of the real vs. doctored photo, Trump holding up the printed image to the camera, Moran's on-camera pushback."
+  }
+ ],
+ "story_order": [
+  "n6_pope_joke",
+  "n5_liberation_day",
+  "n4_easter_autopen",
+  "n3_pope_funeral_nap",
+  "n2_two_dolls",
+  "n1_abrego_garcia_tattoo"
+ ],
+ "cold_open_order": [
+  "n2_two_dolls",
+  "n3_pope_funeral_nap",
+  "n5_liberation_day",
+  "n1_abrego_garcia_tattoo",
+  "n4_easter_autopen",
+  "n6_pope_joke"
+ ],
+ "intro": {
+  "text": "April twenty twenty-five. The President unveiled a poster board of made-up tariff math, lectured confused children about an imaginary machine, appeared to nod off at a pope's funeral, and told American kids to enjoy their two dolls. We are counting down the six dumbest moments of the month. Buckle up.",
+  "visuals": [
+   "stories/n1_abrego_garcia_tattoo/clips/n1_sot_knuckles_claim.mp4",
+   "stories/n2_two_dolls/clips/n2_sot_cabinet_two_dolls.mp4",
+   "stories/n3_pope_funeral_nap/clips/n3_visual_photo_wide.mp4",
+   "stories/n5_liberation_day/clips/n5_sot_poster_reveal.mp4"
+  ]
+ },
+ "outro": {
+  "text": "So that was April. A pope joke a week too soon, a poster board of tariffs that added up to nothing, small children getting a lecture on autopens, a president who may or may not have dozed off at a funeral, two dolls instead of thirty, and a knuckle tattoo that was never really there. If you want the next month, hit subscribe. See you then.",
+  "visuals": [
+   "stories/n6_pope_joke/clips/n6_visual_walkup.mp4",
+   "stories/n5_liberation_day/clips/n5_sot_poster_reveal.mp4",
+   "stories/n4_easter_autopen/clips/n4_visual_confused_kid.mp4",
+   "stories/n3_pope_funeral_nap/clips/n3_visual_photo_wide.mp4",
+   "stories/n2_two_dolls/clips/n2_sot_cabinet_two_dolls.mp4",
+   "stories/n1_abrego_garcia_tattoo/clips/n1_sot_knuckles_claim.mp4"
+  ]
+ }
+}

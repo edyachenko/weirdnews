@@ -1,0 +1,87 @@
+{
+  "id": "n1_abrego_garcia_tattoo",
+  "number": 1,
+  "headline": "Trump's MS-13 Photoshop Meltdown",
+  "sources": [
+    {
+      "outlet": "PolitiFact",
+      "url": "https://www.politifact.com/factchecks/2025/apr/30/donald-trump/trump-abrego-garcia-hand-tattoos-abc-news/"
+    },
+    {
+      "outlet": "CNN",
+      "url": "https://www.cnn.com/2025/05/01/politics/abrego-garcias-tattoos-explainer"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "url": "https://www.aljazeera.com/amp/news/2025/4/30/does-abrego-garcia-have-ms-13-tattooed-on-his-knuckles-as-trump-claims"
+    }
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Our number one story: the president held up a photo and swore it proved a gang tattoo.",
+      "visuals": ["n1_sot_knuckles_claim", "n1_sot_terry_photoshopped_wide"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_knuckles_claim",
+      "caption": "Then they looked, and on his knuckles he had MS-13.",
+      "label": "via ABC News"
+    },
+    {
+      "type": "narr",
+      "text": "ABC's Terry Moran wasn't having it, so Trump doubled down, live, on camera.",
+      "visuals": ["n1_sot_terry_photoshopped_wide", "n1_sot_photoshopped"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_terry_photoshopped_wide",
+      "caption": "Wait a minute. Terry, Terry, Terry, he did not have the letter MS-13.",
+      "label": "via ABC News"
+    },
+    {
+      "type": "narr",
+      "text": "CNN and Al Jazeera later traced those letters to digital editing. PolitiFact rated the whole claim Pants Fire.",
+      "visuals": ["n1_sot_photoshopped", "n1_sot_dont_photoshop"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_photoshopped",
+      "caption": "It says MS13. That was photoshopped.",
+      "label": "via ABC News"
+    },
+    {
+      "type": "narr",
+      "text": "Trump's rebuttal to a photoshop accusation? Wave the printout and demand everyone look at the man's hand.",
+      "visuals": ["n1_sot_dont_photoshop", "n1_sot_show_picture"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_dont_photoshop",
+      "caption": "Don't Photoshop it. Go look at his hand.",
+      "label": "via ABC News"
+    },
+    {
+      "type": "narr",
+      "text": "He even offered Moran a private viewing of the exact photo he needed the world to believe was real.",
+      "visuals": ["n1_sot_show_picture", "n1_sot_knuckles_claim"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_show_picture",
+      "caption": "Do you want me to show you the picture? I saw the picture. We'll disagree.",
+      "label": "via ABC News"
+    },
+    {
+      "type": "narr",
+      "text": "By the end, he wasn't just wrong about a fake tattoo -- he was performing being right.",
+      "visuals": ["n1_sot_terry_photoshopped_wide", "n1_sot_dont_photoshop"]
+    },
+    {
+      "type": "sot",
+      "clip": "n1_sot_clear_not_interpreted",
+      "caption": "No, no, no. He had MS as clear as you can be. Not interpreted.",
+      "label": "via ABC News"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "n5_liberation_day",
+  "number": 5,
+  "headline": "Trump's tariff poster board",
+  "sources": [
+    { "outlet": "NPR", "url": "https://www.npr.org/2025/04/02/nx-s1-5345802/trump-tariffs-liberation-day" },
+    { "outlet": "CBS News", "url": "https://www.cbsnews.com/news/trump-liberation-day-new-tariffs-us/" },
+    { "outlet": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs" },
+    { "outlet": "CNN", "url": "https://www.youtube.com/watch?v=XTwNUl-v57s" }
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "On April 2nd, Trump stood in the Rose Garden and declared tariffs on literally everyone.",
+      "visuals": ["n5_visual_chart_bring", "n5_sot_liberation_day"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_liberation_day",
+      "caption": "This is Liberation Day.",
+      "label": "via FOX 5 Washington DC"
+    },
+    {
+      "type": "narr",
+      "text": "He called it America's economic independence day. What followed was a giant poster board, like a game show host revealing the grand prize.",
+      "visuals": ["n5_visual_chart_bring", "n5_visual_gesture_numbers"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_declaration",
+      "caption": "It's our Declaration of economic independence.",
+      "label": "via FOX 5 Washington DC"
+    },
+    {
+      "type": "sot",
+      "clip": "n5_reax_snl_magda",
+      "caption": "Make America Great Depression again.",
+      "label": "SNL Cold Open, via Saturday Night Live"
+    },
+    {
+      "type": "narr",
+      "text": "According to NPR, the White House divided each country's trade deficit by its exports, then cut that number in half. Economists call it made-up math.",
+      "visuals": ["n5_visual_gesture_numbers", "n5_sot_poster_reveal"]
+    },
+    {
+      "type": "sot",
+      "clip": "n5_sot_poster_reveal",
+      "caption": "So if you look at that, China: first row, China, 67%, that's tariffs.",
+      "label": "via FOX 5 Washington DC"
+    },
+    {
+      "type": "sot",
+      "clip": "n5_reax_economist",
+      "caption": "...with apologies to the speaker, I couldn't really focus.",
+      "label": "Brent Neiman, University of Chicago, via CNN"
+    },
+    {
+      "type": "narr",
+      "text": "Per Wikipedia, that poster became one of the most mocked props of his second term.",
+      "visuals": ["n5_sot_poster_reveal", "n5_visual_chart_bring"]
+    }
+  ]
+}

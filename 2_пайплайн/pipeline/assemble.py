@@ -249,12 +249,15 @@ def build_jobs(root, order, intro_outro_path, workdir, bug_png, bumpers=None, bu
 
         first = True
         for b in beats_doc["beats"]:
-            if b["type"] == "sot":
+            if b["type"] in ("sot", "visual"):
+                # "visual" beats (no dialogue, e.g. a viral photo or silent B-roll shown with
+                # a caption) render exactly like "sot" beats -- render_beat.py's sot mode just
+                # burns a clip+caption+label, it never required spoken audio.
                 path, c = clip_path_from_id(sdir, clip_by_id, b["clip"])
                 job = {
                     "kind": "sot", "clip": path, "caption": b["caption"],
                     "label": b.get("label"), "banner": c.get("banner", "none"),
-                    "out": next_out(f"{sid}_sot"), "bug": bug_png,
+                    "out": next_out(f"{sid}_{b['type']}"), "bug": bug_png,
                 }
                 if c.get("source_url"):
                     credits.append({"section": sid, "channel": c.get("channel", ""), "title": c.get("title", ""), "url": c["source_url"]})

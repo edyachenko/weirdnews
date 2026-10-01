@@ -82,7 +82,9 @@ def gather_beats(root, order, intro_outro_path, bumpers_path=None):
         clips = json.load(open(os.path.join(sdir, "clips.json")))
         clip_by_id = {c["id"]: c for c in clips}
         for b in beats_doc["beats"]:
-            if b["type"] == "sot":
+            if b["type"] in ("sot", "visual"):
+                # "visual" beats (no dialogue, shown with a caption only) are verified the
+                # same way as "sot" beats -- same clip-with-caption rendering, just no speech.
                 c = clip_by_id[b["clip"]]
                 p = c["file"] if os.path.isabs(c["file"]) else os.path.join(sdir, c["file"])
                 handle_sot(sid, b, p, kind=c.get("kind", "sot"),
@@ -131,8 +133,12 @@ def compute_metrics(items):
             if it["kind"] == "stock":
                 stock_total += d
             else:
-                sot_total += d
                 real_total += d
+                # "visual" kind is silent B-roll (no dialogue) rendered via the sot-style
+                # clip+caption path -- it's real footage, but it isn't sound-on-tape, so it
+                # must not inflate sot_pct.
+                if it["kind"] != "visual":
+                    sot_total += d
             if it.get("source_url"):
                 src_counts[it["source_url"]] = src_counts.get(it["source_url"], 0) + 1
             longest_narr_stretch = max(longest_narr_stretch, narr_stretch)

@@ -1,0 +1,62 @@
+{
+  "id": "n3_ymca_dance",
+  "number": 3,
+  "headline": "Trump closes rally with YMCA dance",
+  "sources": [
+    { "outlet": "C-SPAN", "url": "https://www.c-span.org/clip/campaign/user-clip-trump-dances-to-ymca/4914511" },
+    { "outlet": "YouTube / FOX 9 Minneapolis-St. Paul", "url": "https://www.youtube.com/watch?v=C7xJJkclKvk" },
+    { "outlet": "RT", "url": "https://www.rt.com/pop-culture/616546-donald-trump-ymca-dance/" }
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Even after ninety minutes of grievances, Trump still had energy left for one final tradition.",
+      "visuals": ["n3_sot_dance_front", "n3_sot_armpump"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_dance_front",
+      "caption": "(dancing, no spoken words)",
+      "label": "via FOX 9 Minneapolis-St. Paul"
+    },
+    {
+      "type": "narr",
+      "text": "His hundred-days victory lap in Warren, Michigan ended the same way it always does: shoulders swaying, fists pumping, the loudspeakers doing all the work.",
+      "visuals": ["n3_sot_armpump", "n3_sot_crowd"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_armpump",
+      "caption": "(dancing, no spoken words)",
+      "label": "via FOX 9 Minneapolis-St. Paul"
+    },
+    {
+      "type": "narr",
+      "text": "The crowd didn't need convincing. They sang along and threw their own fists in the air right with him.",
+      "visuals": ["n3_sot_crowd"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_crowd",
+      "caption": "(crowd singing along, cheering)",
+      "label": "via FOX 9 Minneapolis-St. Paul"
+    },
+    {
+      "type": "sot",
+      "clip": "n3_reaction_heart_hands",
+      "caption": "(making a heart shape with her hands, no spoken words)",
+      "label": "via FOX 9 Minneapolis-St. Paul"
+    },
+    {
+      "type": "narr",
+      "text": "Then, right on cue, he pointed back at the crowd one last time and vanished behind the curtain, the most reliable part of any Trump rally.",
+      "visuals": ["n3_sot_exit"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_exit",
+      "caption": "(walking off, no spoken words)",
+      "label": "via FOX 9 Minneapolis-St. Paul"
+    }
+  ]
+}

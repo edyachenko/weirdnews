@@ -1,0 +1,50 @@
+{
+  "id": "n4_easter_autopen",
+  "number": 4,
+  "headline": "Trump's Easter autopen rant",
+  "sources": [
+    { "outlet": "BuzzFeed", "url": "https://www.buzzfeed.com/ravenishak/donald-trump-biden-autopen-easter-egg-roll" },
+    { "outlet": "The Daily Beast", "url": "https://www.thedailybeast.com/trump-79-launches-rambling-attack-on-biden-to-confused-kids/" },
+    { "outlet": "AOL", "url": "https://www.aol.com/entertainment/trump-goes-biden-autopen-rant-162310449.html" }
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "At the White House Easter Egg Roll, Trump sat down to color eggs with a bunch of little kids, then used the moment to relitigate Joe Biden's signature.",
+      "visuals": ["n4_visual_kids_table", "n4_visual_confused_kid"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_autopen_fight",
+      "caption": "In a fight, we'd use the auto pen. He had an auto pen follow him around.",
+      "label": "via The Independent"
+    },
+    {
+      "type": "narr",
+      "text": "According to The Daily Beast, he told the kids Biden literally couldn't sign his own name. Real footage of Biden's bill signings shows him doing exactly that, by hand.",
+      "visuals": ["n4_stock_biden_signs"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_autopen_bigmachine",
+      "caption": "They'd follow him around with this big machine, you know what it's called? An auto pen.",
+      "label": "via The Independent"
+    },
+    {
+      "type": "narr",
+      "text": "The autopen conspiracy is his, not the kids'. Not one of them looked old enough to know what a Biden even is, let alone an autopen.",
+      "visuals": ["n4_visual_confused_kid", "n4_visual_kids_table"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_autopen_incapable",
+      "caption": "Joe Biden, he'd sign -- he was incapable of signing his name, so they'd follow him around with a big...",
+      "label": "via Reuters"
+    },
+    {
+      "type": "narr",
+      "text": "BuzzFeed and AOL both rounded this up as one of several odd tangents that day, alongside Melania's documentary and the Iran war. Egg roll, meet fever dream.",
+      "visuals": ["n4_visual_kids_table"]
+    }
+  ]
+}
