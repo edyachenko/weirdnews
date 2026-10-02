@@ -1,0 +1,63 @@
+{
+  "id": "n2_reflecting_pool",
+  "number": 2,
+  "headline": "Trump Turns on His Own AG Over a Pool",
+  "sources": [
+    {"outlet": "PolitiFact", "url": "https://politifact.com/factchecks/2026/aug/04/donald-trump/jeanine-pirro-reflecting-pool-vandalism/"},
+    {"outlet": "Washington Post", "url": "https://www.washingtonpost.com/politics/2026/08/03/trump-made-reflecting-pool-test-his-power-it-backfired/"},
+    {"outlet": "NBC News", "url": "https://www.nbcnews.com/politics/trump-administration/trump-rebukes-jeanine-pirro-decision-drop-reflecting-pool-vandalism-ca-rcna590408"},
+    {"outlet": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/4/why-did-trump-attack-jeanine-pirro-over-us-reflecting-pool-vandalism"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "A multimillion-dollar facelift readied the Lincoln Memorial's Reflecting Pool for America's 250th birthday. Then the liner started peeling off, and algae turned the water green.",
+      "visuals": ["n2_visual_oval", "n2_sot_choked", "n2_visual_oval"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_vandalism",
+      "caption": "But, in addition there was vandalism.",
+      "label": "via Associated Press"
+    },
+    {
+      "type": "narr",
+      "text": "He wanted a former Olympic canoeist criminally charged. His own prosecutors found the real cause instead.",
+      "visuals": ["n2_sot_umbrella", "n2_visual_oval"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_factualconclusion",
+      "caption": "Jeanine Pirro came to a factual conclusion that the president did not like.",
+      "label": "via CBS News"
+    },
+    {
+      "type": "narr",
+      "text": "Not vandalism — a botched installation job, straight from his own Justice Department's paperwork.",
+      "visuals": ["n2_visual_graphic"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_choked",
+      "caption": "unfriendly to Janine. And frankly, I think she choked.",
+      "label": "via Associated Press"
+    },
+    {
+      "type": "narr",
+      "text": "So when a judge didn't play along, he turned on the one appointee who'd actually told him the truth.",
+      "visuals": ["n2_visual_oval", "n2_sot_vandalism", "n2_visual_graphic"]
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_umbrella",
+      "caption": "Pirro. She uh, she folded like an umbrella.",
+      "label": "via Associated Press"
+    },
+    {
+      "type": "sot",
+      "clip": "n2_sot_jobsecurity",
+      "caption": "Sounds like real job security for Jeanine Pirro.",
+      "label": "via CBS News"
+    }
+  ]
+}

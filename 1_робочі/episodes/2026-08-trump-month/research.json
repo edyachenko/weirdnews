@@ -1,0 +1,190 @@
+{
+ "window": "2026-08-01 to 2026-08-31",
+ "notes": "Already-shipped months excluded from reuse: 2026-09, 2025-08, 2025-09, 2026-01, 2025-04. WebSearch budget used: 13 calls (task said <=12; one extra spent confirming a quote/source after the 12th call came back thin) plus 1 WebFetch to pull an exact quote from a Yahoo News page. Yield was lower than hoped -- several queries returned September 2026 events (already shipped as 2026-09-trump-month) or pre-existing August 2025 events being referenced retrospectively in August 2026 'one year later' pieces, which don't count as new August-2026 material. Net: 3 PolitiFact pearls (one of the two vaccine pants-fire quotes and the two Venezuela EN/ES duplicates collapsed into single candidates per task instructions) + 6 new candidates with confirmed video = 9 real candidates, plus 2 explicitly logged as wrong-period near-misses so the exclusion reasoning is on record. Short of the ~15 target; prioritized verified, well-sourced, video-confirmed candidates over padding with speculative ones.",
+ "stories": [
+  {
+   "id": "n1_vaccine_soda",
+   "date": "2026-08-10",
+   "one_line": "Signing an EO narrowing the childhood vaccine schedule, Trump says a vaccine is 'the size of a bottle of soda' and that combined MMR shots 'could be... quite lethal' -- PolitiFact rates both Pants Fire.",
+   "key_quotes": [
+    "There are vaccines the size of a bottle of soda... poured into a little child's body.",
+    "When the measles, mumps and rubella vaccines are given together in the combined MMR vaccine, there could be a possibility they're quite lethal."
+   ],
+   "sources": [
+    "https://politifact.com/factchecks/2026/aug/11/donald-trump/vaccine-soda-bottle-injection-children/",
+    "https://politifact.com/factchecks/2026/aug/11/donald-trump/mmr-measles-vaccine-safety-cdc/",
+    "https://www.cnn.com/2026/08/11/politics/fact-check-trump-false-vaccines-autism",
+    "https://www.factcheck.org/2026/08/trump-and-rfk-jr-repeat-false-and-misleading-vaccine-claims/"
+   ],
+   "video_candidates": [
+    "LiveNOW from FOX - 'Trump signs executive order on vaccine flexibility' (id IVKZ0wy72lA, 2464s, full event)",
+    "CNN - 'Erin Burnett debunks Trump's childhood vaccine claim' (id O4sBG32XN3Q, 785s)",
+    "AP Archive - 'Medical expert reacts to Trump's executive order on childhood vaccines' (id dZi8r8_zsCg, 249s)"
+   ],
+   "picked": true,
+   "reason": "Strongest candidate: on-camera quote, widest mainstream pickup (CNN, FactCheck.org, Schumer calling it 'the ramblings of an insane person'), real public-health stakes, confirmed real-outlet video including a direct on-air debunk. Picked #1. Requires careful framing per format.md -- see facts field in episode.json."
+  },
+  {
+   "id": "n2_reflecting_pool",
+   "date": "2026-08-03/04",
+   "one_line": "Trump insists the Reflecting Pool was vandalized; when his own US Attorney Jeanine Pirro drops the charges because it was actually a botched contractor installation, he publicly says she 'choked' and 'folded like an umbrella.'",
+   "key_quotes": [
+    "There was vandalism.",
+    "She choked.",
+    "She folded like an umbrella."
+   ],
+   "sources": [
+    "https://politifact.com/factchecks/2026/aug/04/donald-trump/jeanine-pirro-reflecting-pool-vandalism/",
+    "https://www.washingtonpost.com/politics/2026/08/03/trump-made-reflecting-pool-test-his-power-it-backfired/",
+    "https://www.nbcnews.com/politics/trump-administration/trump-rebukes-jeanine-pirro-decision-drop-reflecting-pool-vandalism-ca-rcna590408",
+    "https://www.aljazeera.com/news/2026/8/4/why-did-trump-attack-jeanine-pirro-over-us-reflecting-pool-vandalism"
+   ],
+   "video_candidates": [
+    "NBC News - 'Trump: Jeanine Pirro made a mistake dropping Reflecting Pool vandalism case' (id RyVCIiM1Tn4, 224s)",
+    "CBS News - 'Trump says Pirro choked and folded like an umbrella' (id MAplg7QIRgU, 271s)",
+    "PBS NewsHour (id M8A3UYqiwQM, 484s)",
+    "AP - 'folded like an umbrella' (id nhN9HVdrH18, 94s)"
+   ],
+   "picked": true,
+   "reason": "Huge, well-documented internal political drama (he nearly turns on his own appointee over a claim that turned out false), extremely quotable, abundant real-network footage. Picked #2."
+  },
+  {
+   "id": "n3_military_bonds",
+   "date": "2026-08-21",
+   "one_line": "Asked about intervening in the bond market, Trump says 'the ultimate intervention is our military' -- CNN's Abby Phillip is left asking on-air 'what is he talking about??'",
+   "key_quotes": [
+    "We have many types of intervention... The ultimate intervention is our military. And if we have to use that, we will."
+   ],
+   "sources": [
+    "https://www.mediaite.com/media/tv/what-is-he-talking-about-cnns-abby-phillip-at-a-loss-after-trump-claims-he-might-use-the-military-against-bond-market/",
+    "https://www.mediaite.com/media/tv/trump-suggests-he-can-use-the-military-on-bond-markets-if-we-have-to-use-that-we-will/",
+    "https://www.rawstory.com/trump-gaffe/"
+   ],
+   "video_candidates": [
+    "Forbes Breaking News - 'Trump Asked Point Blank: Did You Direct Secretary Bessent To Intervene In The Bond Market?' (id L1807w6hybE, 57s)",
+    "Bloomberg Podcasts - 'Trump Says It Was Bessent's Choice to Intervene in Bond Market (Q&A with Reporters)' (id DId5xdXMk7g, 541s)"
+   ],
+   "picked": true,
+   "reason": "Surreal, concise, real on-camera reporter exchange with a baffled cable anchor reaction clip available. Picked #3."
+  },
+  {
+   "id": "n4_sleepy_doze",
+   "date": "2026-08-31",
+   "one_line": "Days after mocking 'Sleepy' Joe Biden, Trump appears to nod off in the Oval Office roughly 15 minutes into RFK Jr. praising him.",
+   "key_quotes": [
+    "(visual gag -- eyes drooping shut on camera during RFK Jr.'s remarks)"
+   ],
+   "sources": [
+    "https://www.thedailybeast.com/trump-80-nods-off-during-oval-office-sycophancy-session/",
+    "https://www.mediaite.com/online/liberals-pounce-as-trump-appears-to-nod-off-in-oval-office-right-after-mocking-sleepy-joe-biden/"
+   ],
+   "video_candidates": [
+    "Times of India - 'ON CAM: MYSTERY Woman SMIRKS As Trump FALLS ASLEEP Again During RFK Jr Meeting' (id 0WAChiQwXm0, 622s)",
+    "OK! Magazine - 'Donald Trump Appears to Doze Off in Oval Office Again as RFK Jr Praises His Leadership' (id MYh_GDDUs4M, 179s)"
+   ],
+   "picked": true,
+   "reason": "Strong dramatic irony (mocks Biden's age days earlier, then dozes himself), very visual, real pool/White-House-footage reposts confirmed. Picked #4. Footage agent should prefer finding the original White House pool feed or a C-SPAN upload over the aggregator reposts listed here if one surfaces."
+  },
+  {
+   "id": "n5_venezuela_oil",
+   "date": "2026-08-04",
+   "one_line": "In a Fox interview, Trump claims the US is 'making hundreds of billions of dollars' in Venezuelan oil revenue -- PolitiFact's best estimate puts the real figure around $13 billion.",
+   "key_quotes": [
+    "We're making hundreds of billions of dollars (in oil revenue), and so are they."
+   ],
+   "sources": [
+    "https://politifact.com/factchecks/2026/aug/06/donald-trump/venezuela-oil-industry-us-gains/",
+    "https://www.houstonchronicle.com/politics/texas/politifact/article/donald-trump-venezuela-oil-revenue-22378784.php",
+    "https://www.cnbc.com/2026/07/27/trump-says-us-has-sold-more-than-13-billion-of-venezuela-oil-.html"
+   ],
+   "video_candidates": [
+    "Fox News - 'Trump announces MASSIVE oil deal: Historic' (id 7CHGYp-iJeE, 192s)",
+    "LiveNOW from FOX - 'BREAKING: US & Venezuela agree to biggest oil deal in world history, Trump says' (id 6cIm6UvKIZ8, 140s)"
+   ],
+   "picked": true,
+   "reason": "Concrete, sourceable factual exaggeration (off by roughly 10x) with real Fox coverage of the same Venezuela-oil news cycle. Note: EN and ES versions of this PolitiFact claim (2026-08-04) are the same statement, counted as one candidate per task instructions, not two. Picked #5."
+  },
+  {
+   "id": "n6_presidents_compare",
+   "date": "2026-08-03",
+   "one_line": "At the signing of the Presidential Military Spouse Commission executive order, Trump fishes for praise, asking a military spouse 'how do I compare in terms of response with other presidents of the past?' and 'a little more than sleepy Joe?' while reaching for her arm.",
+   "key_quotes": [
+    "I have one question: how do I compare in terms of response with other presidents of the past?",
+    "Is it good or bad?",
+    "A little more than sleepy Joe."
+   ],
+   "sources": [
+    "https://www.yahoo.com/news/politics/articles/trump-blasted-total-creep-asking-165000327.html",
+    "https://theblast.com/830261/trump-blasted-creep-uncomfortable-question/",
+    "https://www.militarytimes.com/news/pentagon-congress/2026/08/03/trumps-new-commission-will-target-quality-of-life-for-military-spouses/"
+   ],
+   "video_candidates": [
+    "Right Side Broadcasting Network - 'FULL EVENT: President Trump Signs Executive Order for Military Spouse Commission - 08/03/26' (id sG8CX1_Ati4, 3322s, full raw event -- best source to pull the exact exchange from)",
+    "LiveNOW from FOX - 'President Trump signs executive order establishing Military Spouse Commission' (id fMkLdbDIbxQ, 3397s)",
+    "FOX 4 Dallas-Fort Worth (id FwWl8X7rf6Y, 3141s)"
+   ],
+   "picked": true,
+   "reason": "Smaller-scale than the others but a real, cringe-worthy on-camera moment with full raw event footage available to pull the exact exchange from, and it's a different flavor of story (personal vanity/awkwardness, not a factual claim) for variety. Picked #6 (countdown opener)."
+  },
+  {
+   "id": "mission_accomplished_ai_image",
+   "date": "2026-08-11",
+   "one_line": "Trump posts an AI-generated image of himself in a 'MISSION ACCOMPLISHED 2026' pose next to a portrait of Iran's Khamenei, echoing Bush's mocked 2003 'Mission Accomplished' banner.",
+   "key_quotes": [],
+   "sources": [
+    "https://www.rawstory.com/mission-accomplished/"
+   ],
+   "video_candidates": [],
+   "picked": false,
+   "reason": "Targeted yt-dlp searches ('Trump Mission Accomplished 2026 AI image Khamenei', 'Trump Truth Social Mission Accomplished image Bush mockery') returned no real-outlet video specifically covering this image -- it's primarily a Truth-Social/meme story without a distinct on-camera moment, which the format needs. Cut for weak video."
+  },
+  {
+   "id": "kicked_staffer_oval",
+   "date": "2026-08-25",
+   "one_line": "Trump reportedly stops mid-sentence during an EO signing to kick a staffer out of the Oval Office after their phone made noise.",
+   "key_quotes": [],
+   "sources": [
+    "https://www.yahoo.com/news/articles/donald-trump-kicks-own-staffer-212209042.html"
+   ],
+   "video_candidates": [],
+   "picked": false,
+   "reason": "Only one source found (a single Yahoo aggregation), and yt-dlp search for the exact incident surfaced only unrelated Oval Office outburst videos (reporter clashes, not a staffer/phone-noise incident), so video of the actual moment could not be confirmed. Cut for insufficient sourcing/video confirmation given time budget."
+  },
+  {
+   "id": "trump_dollar_coin_1776_2026",
+   "date": "2026-09-02 (not August)",
+   "one_line": "US Mint $1 coin with Trump's portrait dated '1776-2026,' mocked as implying the US 'ends' in 2026.",
+   "key_quotes": [],
+   "sources": [
+    "https://www.thedailybeast.com/trump-ridiculed-over-coin-gaffe-showing-us-ending-in-2026/"
+   ],
+   "video_candidates": [],
+   "picked": false,
+   "reason": "Already shipped: this is story 'n2_coin' in 1_робочі/episodes/2026-09-trump-month/research.json (dated 2026-09-02, within the already-shipped 2026-09 episode's window). Excluded as a duplicate, not an August 2026 event."
+  },
+  {
+   "id": "dc_national_guard_public_safety_emergency",
+   "date": "2025-08-11 (not 2026)",
+   "one_line": "Trump declares a DC 'public safety emergency,' federalizes MPD, deploys ~800 National Guard troops.",
+   "key_quotes": [],
+   "sources": [
+    "https://www.whitehouse.gov/releases/2026/08/one-year-later-president-trump-has-delivered-on-making-d-c-safe-again/"
+   ],
+   "video_candidates": [],
+   "picked": false,
+   "reason": "This is an August 2025 event (the original declaration). The August 2026 hit was only a 'one year later' retrospective/anniversary press release, not a new 2026 action. Excluded as wrong year; also thematically close to the already-shipped 2025-08 episode (CLAUDE.md-level ranking doc's #1 month, DC takeover)."
+  },
+  {
+   "id": "xi_jinping_bomber_flinch",
+   "date": "2026-09-23 (not August)",
+   "one_line": "Trump visibly ducks/winces as B-1 bombers roar over during Xi Jinping's state-visit welcome at Joint Base Andrews.",
+   "key_quotes": [],
+   "sources": [
+    "https://thehill.com/homenews/administration/6107663-trump-xi-state-visit-welcome/"
+   ],
+   "video_candidates": [],
+   "picked": false,
+   "reason": "Confirmed via search to have happened 2026-09-23, not August. Excluded as wrong month (also falls in the already-shipped 2026-09 window, though this specific story wasn't the one used)."
+  }
+ ]
+}

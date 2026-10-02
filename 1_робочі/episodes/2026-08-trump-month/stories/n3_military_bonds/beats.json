@@ -1,0 +1,73 @@
+{
+  "id": "n3_military_bonds",
+  "number": 3,
+  "headline": "Trump: military fixes bonds",
+  "sources": [
+    {"outlet": "Mediaite", "url": "https://www.mediaite.com/media/tv/what-is-he-talking-about-cnns-abby-phillip-at-a-loss-after-trump-claims-he-might-use-the-military-against-bond-market/"},
+    {"outlet": "Mediaite", "url": "https://www.mediaite.com/media/tv/trump-suggests-he-can-use-the-military-on-bond-markets-if-we-have-to-use-that-we-will/"},
+    {"outlet": "Raw Story", "url": "https://www.rawstory.com/trump-gaffe/"},
+    {"outlet": "CNN NewsNight transcript (transcripts.cnn.com, aired 2026-08-21)", "url": "https://transcripts.cnn.com/show/cnap/date/2026-08-21/segment/01"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Bond yields have been climbing all month, so Treasury Secretary Scott Bessent just doubled down on buying bonds back to calm the market.",
+      "visuals": ["n3_visual_tarmac"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_notatall",
+      "caption": "No, not at all, no.",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "Fair enough, Trump said -- Bessent's just very good at this. A follow-up question pushed further.",
+      "visuals": ["n3_visual_tarmac"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_reporterq",
+      "caption": "Have you talked to him about another type of intervention? Is that something he will be doing?",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "Trump didn't even blink.",
+      "visuals": ["n3_visual_tarmac"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_manytypes",
+      "caption": "We have many types of intervention. That's one.",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "And then he kept going.",
+      "visuals": ["n3_visual_tarmac"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_ultimate",
+      "caption": "The ultimate intervention is our military.",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "Nobody appears to have told the actual Pentagon about this plan.",
+      "visuals": ["n3_visual_military_stock"]
+    },
+    {
+      "type": "sot",
+      "clip": "n3_sot_ifwehaveto",
+      "caption": "And if we have to use that, we will.",
+      "label": "via Forbes Breaking News"
+    },
+    {
+      "type": "narr",
+      "text": "Wall Street was left trying to figure out what that even meant. CNN's Abby Phillip wasn't buying it either, telling viewers flatly: what is he talking about?",
+      "visuals": ["n3_visual_trading_stock", "n3_visual_tarmac"]
+    }
+  ]
+}

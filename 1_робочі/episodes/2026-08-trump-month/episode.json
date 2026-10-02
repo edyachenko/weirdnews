@@ -1,0 +1,184 @@
+{
+ "slug": "2026-08-trump-month",
+ "title": "Trump's Month: August 2026",
+ "period": "2026-08-01..2026-08-31",
+ "voice": {
+  "voice": "en-US-BrianMultilingualNeural",
+  "rate": "-8%",
+  "pitch": "-2Hz"
+ },
+ "stories": [
+  {
+   "id": "n6_presidents_compare",
+   "number": 6,
+   "brief": "Signing the Military Spouse Commission order, Trump fishes a military spouse for praise comparing him to past presidents.",
+   "date": "2026-08-03",
+   "facts": "On August 3, 2026, at an Oval Office ceremony where Trump signed an executive order creating the Presidential Military Spouse Commission, he paused the signing to turn to one of the military spouses standing behind him and ask, I have one question: how do I compare in terms of response with other presidents of the past? She answered No comparison, sir. He pressed further -- Is it good or bad? We do okay? -- and then needled his predecessor directly: A little more than sleepy Joe? She replied 100%, appearing to chuckle uncomfortably; observers also noted Trump reaching toward her arm during the exchange, and commentary piled on calling the moment a total creep question that put her on the spot in front of cameras at an event meant to honor military families, not flatter the president.",
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-blasted-total-creep-asking-165000327.html"
+    },
+    {
+     "outlet": "The Blast",
+     "url": "https://theblast.com/830261/trump-blasted-creep-uncomfortable-question/"
+    },
+    {
+     "outlet": "Military Times",
+     "url": "https://www.militarytimes.com/news/pentagon-congress/2026/08/03/trumps-new-commission-will-target-quality-of-life-for-military-spouses/"
+    }
+   ],
+   "footage_ideas": "Pull from Right Side Broadcasting Network's full raw upload of the August 3, 2026 signing event (~55 min) or LiveNOW from FOX's coverage; grep subs/scrub for 'how do I compare', 'sleepy Joe', 'no comparison sir'. Visuals: Trump at the Resolute Desk turning to the spouse behind him, her uncomfortable smile/laugh, the EO itself being signed, a cutaway to the room of military families."
+  },
+  {
+   "id": "n5_venezuela_oil",
+   "number": 5,
+   "brief": "Trump claims the US is making 'hundreds of billions' from Venezuelan oil -- the real number is about a tenth of that.",
+   "date": "2026-08-04",
+   "facts": "In a Fox News interview on August 4, 2026, touting his administration's new oil arrangement with Venezuela following Maduro's ouster, Trump said: In Venezuela, we're making hundreds of billions of dollars (in oil revenue), and so are they. PolitiFact rated the claim False: the best published estimates, including figures cited by the US Treasury and reported by multiple outlets, put total Venezuelan oil revenue connected to the deal at roughly 13 billion dollars since the US took over oversight of the industry -- Trump's figure overstates it by somewhere around tenfold, and exceeds Venezuela's entire GDP several times over. Congressional Democrats, including Rep. Robert Garcia, separately opened an investigation into how that oil revenue was actually being managed.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/aug/06/donald-trump/venezuela-oil-industry-us-gains/"
+    },
+    {
+     "outlet": "Houston Chronicle / PolitiFact",
+     "url": "https://www.houstonchronicle.com/politics/texas/politifact/article/donald-trump-venezuela-oil-revenue-22378784.php"
+    },
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/07/27/trump-says-us-has-sold-more-than-13-billion-of-venezuela-oil-.html"
+    }
+   ],
+   "footage_ideas": "Search Fox News's own upload of the August 4, 2026 interview and LiveNOW from FOX's 'biggest oil deal in world history' coverage; grep subs for 'hundreds of billions', 'Venezuela', 'oil revenue'. Visuals: Trump mid-interview delivering the line, a graphic/chyron of oil barrels or a Venezuela map, cutaway to the real ~13 billion dollar figure for contrast."
+  },
+  {
+   "id": "n4_sleepy_doze",
+   "number": 4,
+   "brief": "Days after mocking 'Sleepy' Joe Biden, Trump appears to nod off in the Oval Office while RFK Jr. praises him.",
+   "date": "2026-08-31",
+   "facts": "On August 31, 2026, during an hour-long White House event, Health Secretary Robert F. Kennedy Jr. began heaping praise on Trump roughly 15 minutes in -- and cameras caught Trump's eyes drooping shut, his head tilting, in what multiple outlets described as him appearing to doze off on camera. The moment drew heavy mockery because it came just days after Trump had publicly mocked his 83-year-old predecessor as Sleepy Joe Biden over Biden's own age and stamina. Critics seized on the contrast, with commentary calling it an awkwardly timed self-own.",
+   "sources": [
+    {
+     "outlet": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/trump-80-nods-off-during-oval-office-sycophancy-session/"
+    },
+    {
+     "outlet": "Mediaite",
+     "url": "https://www.mediaite.com/online/liberals-pounce-as-trump-appears-to-nod-off-in-oval-office-right-after-mocking-sleepy-joe-biden/"
+    }
+   ],
+   "footage_ideas": "Search for the original White House pool footage or C-SPAN upload of the August 31, 2026 Oval Office event with RFK Jr. first; fall back to real-outlet reposts (Times of India, OK! Magazine) if no primary pool feed surfaces. Grep for RFK Jr.'s praise lines as the audio cue just before the visual gag. Visuals: the slow head-tilt/eyes-closing moment itself (the single best shot), RFK Jr. mid-praise, a quick cutaway to Trump's earlier 'Sleepy Joe' jab for contrast if that clip is findable."
+  },
+  {
+   "id": "n3_military_bonds",
+   "number": 3,
+   "brief": "Asked about the bond market, Trump says the 'ultimate intervention is our military' -- CNN's anchor has no idea what he means.",
+   "date": "2026-08-21",
+   "facts": "On August 21, 2026, taking questions from reporters about Treasury Secretary Scott Bessent's move to more than double federal bond buybacks amid rising yields, Trump was asked whether he had directed Bessent to intervene in the bond market. Not at all, no, Trump said -- but when a reporter followed up about another type of intervention, he answered: We have many types of intervention... The ultimate intervention is our military. And if we have to use that, we will. No established mechanism exists for military action to affect bond yields, and the remark left financial commentators baffled. That night on CNN NewsNight, anchor Abby Phillip aired the clip and was visibly at a loss, asking on air: He's going to sic the military on the bond market. What is he talking about??",
+   "sources": [
+    {
+     "outlet": "Mediaite",
+     "url": "https://www.mediaite.com/media/tv/what-is-he-talking-about-cnns-abby-phillip-at-a-loss-after-trump-claims-he-might-use-the-military-against-bond-market/"
+    },
+    {
+     "outlet": "Mediaite",
+     "url": "https://www.mediaite.com/media/tv/trump-suggests-he-can-use-the-military-on-bond-markets-if-we-have-to-use-that-we-will/"
+    },
+    {
+     "outlet": "Raw Story",
+     "url": "https://www.rawstory.com/trump-gaffe/"
+    }
+   ],
+   "footage_ideas": "Search Forbes Breaking News's 'Did You Direct Secretary Bessent To Intervene In The Bond Market?' clip and Bloomberg Podcasts' Q&A-with-reporters upload from August 21, 2026; grep subs for 'ultimate intervention', 'our military'. Also search CNN NewsNight / Abby Phillip uploads for the baffled reaction cut. Visuals: Trump at the press gaggle delivering the military-intervention line, Abby Phillip's reaction on CNN as a reaction beat."
+  },
+  {
+   "id": "n2_reflecting_pool",
+   "number": 2,
+   "brief": "Trump insists the Reflecting Pool was vandalized; when his own US Attorney drops the charges, he publicly says she 'choked.'",
+   "date": "2026-08-03",
+   "facts": "Following a multimillion-dollar refurbishment of the Lincoln Memorial Reflecting Pool ahead of the nation's 250th anniversary, parts of the pool's lining were seen peeling and floating on the surface, and algae turned the water green. Trump insisted this was vandalism -- There was vandalism, he said -- and pushed for criminal charges against a former Olympic canoeist, David Hearn, accused of damaging the lining. But prosecutors, including Trump's own US Attorney for DC, Jeanine Pirro, found new information showing the rips and tears were actually caused by a contractor's botched installation, not vandalism, and on August 3, 2026, Pirro's office dropped the charges. Trump publicly rebuked his own appointee over it, saying on camera that she had choked under pressure from a judge and folded like an umbrella, and threatened to fire her, before backing off at a tense White House meeting the next day. PolitiFact rated his original vandalism claim False.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/aug/04/donald-trump/jeanine-pirro-reflecting-pool-vandalism/"
+    },
+    {
+     "outlet": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/08/03/trump-made-reflecting-pool-test-his-power-it-backfired/"
+    },
+    {
+     "outlet": "NBC News",
+     "url": "https://www.nbcnews.com/politics/trump-administration/trump-rebukes-jeanine-pirro-decision-drop-reflecting-pool-vandalism-ca-rcna590408"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/8/4/why-did-trump-attack-jeanine-pirro-over-us-reflecting-pool-vandalism"
+    }
+   ],
+   "footage_ideas": "Search NBC News ('Trump: Jeanine Pirro made a mistake...'), CBS News ('choked and folded like an umbrella'), PBS NewsHour, and AP uploads from August 3-4, 2026; grep subs for 'choked', 'folded like an umbrella', 'vandalism'. Visuals: Trump at a press gaggle delivering the 'folded like an umbrella' line, B-roll of the actual Reflecting Pool with its peeling lining, a still/graphic of Pirro for contrast."
+  },
+  {
+   "id": "n1_vaccine_soda",
+   "number": 1,
+   "brief": "Trump claims a vaccine is 'the size of a bottle of soda' and that combined MMR shots could be 'quite lethal' -- both rated Pants Fire.",
+   "date": "2026-08-10",
+   "facts": "On August 10, 2026, signing an executive order that narrowed the CDC's recommended childhood vaccine schedule from 18 diseases down to 11, Trump told reporters: There are vaccines the size of a bottle of soda... poured into a little child's body. In the same remarks, he also said that when the measles, mumps and rubella vaccines are given together as the combined MMR shot, there could be a possibility they're quite lethal. PolitiFact rated both claims Pants Fire. A standard single-serving soda bottle holds about 591 milliliters; an actual pediatric vaccine dose is roughly 0.5 to 1 milliliter, meaning it would take somewhere around 600 to 1,200 separate injections to fill one soda bottle -- Trump's claim overstated the real volume by about three orders of magnitude. The MMR vaccine has decades of safety data behind it and CDC records show no lethality risk from the combined shot; measles, mumps and rubella themselves are the diseases capable of killing or permanently injuring unvaccinated children. Senate Democratic leader Chuck Schumer called the remarks the ramblings of an insane person. NARRATION NOTE: the script must attribute both claims directly to Trump by name and immediately state the real CDC/pediatric-dose figures and MMR safety record in the same breath as the claim -- never repeat the soda-bottle size or the lethal-MMR line without the correction attached in that beat, and the host narration must stick to quoting Trump and citing the real medical facts/sources, not state or imply a medical diagnosis of Trump himself.",
+   "sources": [
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/aug/11/donald-trump/vaccine-soda-bottle-injection-children/"
+    },
+    {
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/aug/11/donald-trump/mmr-measles-vaccine-safety-cdc/"
+    },
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2026/08/11/politics/fact-check-trump-false-vaccines-autism"
+    },
+    {
+     "outlet": "FactCheck.org",
+     "url": "https://www.factcheck.org/2026/08/trump-and-rfk-jr-repeat-false-and-misleading-vaccine-claims/"
+    }
+   ],
+   "footage_ideas": "Search LiveNOW from FOX's full upload of the August 10, 2026 executive-order signing and CNN's Erin Burnett debunk segment; grep subs for 'bottle of soda', 'poured into', 'quite lethal'. Visuals: Trump at the signing delivering the soda-bottle line, a real syringe/vial next to a soda bottle for visual scale (if any outlet's graphic exists) or Erin Burnett's on-air debunk graphic, AP Archive's medical-expert reaction clip as a cutaway."
+  }
+ ],
+ "story_order": [
+  "n6_presidents_compare",
+  "n5_venezuela_oil",
+  "n4_sleepy_doze",
+  "n3_military_bonds",
+  "n2_reflecting_pool",
+  "n1_vaccine_soda"
+ ],
+ "cold_open_order": [
+  "n2_reflecting_pool",
+  "n6_presidents_compare",
+  "n3_military_bonds",
+  "n1_vaccine_soda",
+  "n5_venezuela_oil",
+  "n4_sleepy_doze"
+ ],
+ "intro": {
+  "text": "August twenty twenty-six. The President compared a vaccine to a soda bottle, picked a public fight with his own prosecutor over a pool that was never vandalized, threatened to send the military after the bond market, dozed off minutes after mocking Sleepy Joe, and fished for compliments from a military spouse he'd just met. We are counting down the six dumbest moments of the month. Buckle up.",
+  "visuals": [
+   "stories/n1_vaccine_soda/clips/n1_sot_soda.mp4",
+   "stories/n2_reflecting_pool/clips/n2_sot_umbrella.mp4",
+   "stories/n3_military_bonds/clips/n3_sot_ultimate.mp4",
+   "stories/n4_sleepy_doze/clips/n4_visual_doze_closeup.mp4"
+  ]
+ },
+ "outro": {
+  "text": "So that was August. A vaccine the size of a soda bottle, a reflecting pool that was never vandalized, a bond market threatened with the military, a nap that undercut his own Sleepy Joe joke, hundreds of billions of oil dollars that don't exist, and a military spouse put on the spot for a compliment. If you want the next month, hit subscribe. See you then.",
+  "visuals": [
+   "stories/n6_presidents_compare/clips/n6_sot_compare.mp4",
+   "stories/n5_venezuela_oil/clips/n5_sot_flynn2.mp4",
+   "stories/n4_sleepy_doze/clips/n4_visual_doze_closeup.mp4",
+   "stories/n3_military_bonds/clips/n3_sot_ultimate.mp4",
+   "stories/n2_reflecting_pool/clips/n2_sot_umbrella.mp4",
+   "stories/n1_vaccine_soda/clips/n1_sot_soda.mp4"
+  ]
+ }
+}

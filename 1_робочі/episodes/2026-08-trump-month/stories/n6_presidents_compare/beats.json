@@ -1,0 +1,61 @@
+{
+  "id": "n6_presidents_compare",
+  "number": 6,
+  "headline": "Trump grades himself, live",
+  "sources": [
+    {"outlet": "Yahoo News", "url": "https://www.yahoo.com/news/politics/articles/trump-blasted-total-creep-asking-165000327.html"},
+    {"outlet": "The Blast", "url": "https://theblast.com/830261/trump-blasted-creep-uncomfortable-question/"},
+    {"outlet": "Military Times", "url": "https://www.militarytimes.com/news/pentagon-congress/2026/08/03/trumps-new-commission-will-target-quality-of-life-for-military-spouses/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Trump signed an order creating a commission for military spouses. Then, mid-signing, he decided it was really about him.",
+      "visuals": ["n6_vis_reaction1"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_compare",
+      "caption": "I have one question: how do I compare in terms of response with other presidents of the past?",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Bold question to ask the one person in the room standing behind you with no exit.",
+      "visuals": ["n6_vis_reaction1"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_nocomparison",
+      "caption": "No comparison, sir.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Diplomatic. Almost too diplomatic -- so naturally, he asked again.",
+      "visuals": ["n6_vis_reaction1"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_goodbad",
+      "caption": "Is it good or bad? -- No, it's good. Actually, it's very good.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Still not specific enough. He had one particular predecessor in mind.",
+      "visuals": ["n6_vis_reaction2"]
+    },
+    {
+      "type": "sot",
+      "clip": "n6_sot_sleepyjoe",
+      "caption": "A little more than sleepy Joe? -- 100%.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "According to Yahoo News and The Blast, observers called it a total creep question -- put to a military spouse, at an event meant to honor her, not grade him.",
+      "visuals": ["n6_vis_reaction2"]
+    }
+  ]
+}

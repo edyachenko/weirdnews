@@ -1,0 +1,49 @@
+{
+  "id": "n4_sleepy_doze",
+  "number": 4,
+  "headline": "Trump Dozes Off After Own Jab",
+  "sources": [
+    {"outlet": "The Daily Beast", "url": "https://www.thedailybeast.com/trump-80-nods-off-during-oval-office-sycophancy-session/"},
+    {"outlet": "Mediaite", "url": "https://www.mediaite.com/online/liberals-pounce-as-trump-appears-to-nod-off-in-oval-office-right-after-mocking-sleepy-joe-biden/"}
+  ],
+  "beats": [
+    {
+      "type": "narr",
+      "text": "Just days after mocking eighty-three-year-old Joe Biden as 'Sleepy Joe' over his age and stamina, Trump starred in his own Oval Office nap during a drug-pricing victory lap.",
+      "visuals": ["n4_visual_doze_closeup", "n4_sot_rfk_leadership", "n4_sot_howard_thanks", "n4_sot_trump_recover"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_rfk_leadership",
+      "caption": "Thank you very much, President Trump, for your leadership.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Health Secretary Robert F. Kennedy Jr. kept piling on the praise. About fifteen minutes in, cameras caught the eighty-year-old president's eyes drooping shut.",
+      "visuals": ["n4_visual_doze_closeup", "n4_sot_trump_recover", "n4_sot_rfk_leadership"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_howard_thanks",
+      "caption": "And, uh, it's all thanks to you, because nobody thought that this was possible.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Multiple outlets clocked his eyes shut for more than twenty seconds, head tilted, before he straightened up just in time to take credit.",
+      "visuals": ["n4_visual_doze_closeup", "n4_sot_howard_thanks", "n4_sot_rfk_leadership"]
+    },
+    {
+      "type": "sot",
+      "clip": "n4_sot_trump_recover",
+      "caption": "Thank you, Howard. And you know, just uh, the enthusiasm, you know, you hear these three guys. I hear them all the time.",
+      "label": "via The White House"
+    },
+    {
+      "type": "narr",
+      "text": "Sleepy Joe who?",
+      "visuals": ["n4_visual_doze_closeup"]
+    }
+  ]
+}
