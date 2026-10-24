@@ -67,6 +67,13 @@ def main():
     os.makedirs(workdir, exist_ok=True)
     os.makedirs(TTS_CACHE_DIR, exist_ok=True)
 
+    # brand/rendered/ is gitignored, so a fresh clone has clips.json but no rendered bumpers
+    brand_dir = os.path.dirname(BUMPERS_JSON)
+    if not os.path.exists(BUMPERS_JSON) or any(
+            not os.path.exists(os.path.join(brand_dir, b["file"]))
+            for b in json.load(open(BUMPERS_JSON))):
+        run(uv_python(os.path.join(PIPELINE_DIR, "build_brand_bumpers.py")))
+
     # 1) title card + intro/outro beats (deterministic given the story pool; cheap, no
     #    network/downloads -- safe to always regenerate)
     title_png = os.path.join(workdir, "title.png")

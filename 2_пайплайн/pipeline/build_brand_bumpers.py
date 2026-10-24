@@ -56,14 +56,14 @@ def main():
     for slot, src in zip(SLOTS, pick(sources, rng)):
         dst = os.path.join(OUT, f"{slot}.mp4")
         render(src, dst, bug_png)
-        clips.append({"id": slot, "file": dst, "kind": "bumper", "duration": ffprobe_duration(dst),
+        clips.append({"id": slot, "file": os.path.relpath(dst, BRAND), "kind": "bumper", "duration": ffprobe_duration(dst),
                       "source": os.path.basename(src), "channel": "", "title": "", "source_url": ""})
         print(f"{slot}: {os.path.basename(src)}")
     biden = os.path.join(BRAND, "biden_end.mp4")
     if os.path.exists(biden):
         dst = os.path.join(OUT, "biden_end.mp4")
         render(biden, dst, bug_png)
-        clips.append({"id": "biden_end", "file": dst, "kind": "bumper", "duration": ffprobe_duration(dst),
+        clips.append({"id": "biden_end", "file": os.path.relpath(dst, BRAND), "kind": "bumper", "duration": ffprobe_duration(dst),
                       "source": "biden_end.mp4", "channel": "AFGuidesHD", "title": "Joe Biden ending scene",
                       "source_url": "https://youtu.be/Dn6wCLRVCNo"})
         print("biden_end: biden_end.mp4")

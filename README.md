@@ -8,13 +8,25 @@ Repo layout is 4 top-level groups — see `CLAUDE.md`'s Layout section for the f
 `3_продакшн/` (finished, ready to upload), `1_робочі/` (per-episode working data + render
 cache), `2_пайплайн/` (render code + brand assets), `4_доки/` (rules, docs, channel identity).
 
-## Setup
+## Setup (fresh clone on a new machine/account)
 
 ```bash
+git clone git@github.com:edyachenko/weirdnews.git && cd weirdnews
 2_пайплайн/scripts/setup.sh    # brew ffmpeg/yt-dlp/uv, clones MoneyPrinterTurbo, creates .env
 ```
 
 Fill in `.env` (`PEXELS_API_KEY`, `GEMINI_API_KEY`) — see `.env.example`. Never commit `.env`.
+macOS only (Homebrew). MoneyPrinterTurbo is cloned to `~/pet-projects/weirdnews-mpt/` (override with
+`WEIRDNEWS_MPT_DIR`); it's used only for its edge-tts venv and fonts.
+
+**What a clone does not contain** (all git-ignored, so copy them over separately if you want them):
+
+- `3_продакшн/*/video.mp4` — the finished renders (100–150 MB each). Everything else for each episode
+  (`thumbnail.jpg`, `seo.md`, `credits.txt`) is in git.
+- `1_робочі/episodes/*/stories/*/clips/` — downloaded footage. Reproducible from each story's `clips.json`
+  (source URL + in/out timestamps), but a re-render needs them back on disk.
+- `2_пайплайн/brand/rendered/` — the brand bumpers. Rebuilt automatically by `run_all.py` on first render
+  (note: that re-rolls the random transition order).
 
 ## Render an episode
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # One-time setup on a fresh machine (macOS): tools, the vendored MoneyPrinterTurbo venv, .env.
 set -euo pipefail
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/../.."
 
 brew list ffmpeg >/dev/null 2>&1 || brew install ffmpeg
 brew list yt-dlp >/dev/null 2>&1 || brew install yt-dlp
